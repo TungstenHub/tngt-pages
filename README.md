@@ -1,3 +1,3 @@
 # tngt-pages
 
-Math pages used in [Tungsteno](http://tungsteno.io/)
+Math pages in [Tungsteno](http://tungsteno.io/)
