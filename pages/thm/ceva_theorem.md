@@ -4,9 +4,9 @@ $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=1$$
 
 {{ d3js | ceva_theorem }}
 
-===
++++
 Proof
-===
++++
 
 Suppose that the three segments are concurrent in a point $O$
 
@@ -20,4 +20,4 @@ Applying the same arguments to the other sides, it turns out that
 
 $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=\dfrac{OCA}{OBC}\dfrac{OAB}{OCA}\dfrac{OBC}{OCA}=1$$
 
-===
++++
