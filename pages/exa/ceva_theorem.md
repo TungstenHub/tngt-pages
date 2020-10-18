@@ -62,6 +62,8 @@ $$ DC = \dfrac{a^2 + b^2 - c^2}{2a} $$
 $$ CE = \dfrac{b^2 + a^2 - c^2}{2b} $$
 $$ EA = \dfrac{b^2 + c^2 - a^2}{2b} $$
 
+and finally
+
 $$
 \dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA} = 
 \dfrac{\frac{c^2 + b^2 - a^2}{2c}}{\frac{c^2 + a^2 - b^2}{2c}}
