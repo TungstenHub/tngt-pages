@@ -2,6 +2,8 @@ Let's see some checks / applications of Ceva's Theorem
 
 ---
 
+[{centroid}]
+
 **Centroid**
 
 This case is very easy: each median in the triangle cuts the opposite side by half. This way,
@@ -15,6 +17,8 @@ and thus
 $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=1\times 1\times 1=1$$
 
 ---
+
+[{incenter}]
 
 **Incenter**
 
@@ -31,6 +35,8 @@ and we have
 $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=\dfrac{AC}{CB}\dfrac{BA}{AC}\dfrac{CB}{BA}=1$$
 
 ---
+
+[{orthocenter}]
 
 **Orthocenter**
 

@@ -1,3 +1,5 @@
+[{trivial_representation}]
+
 First example: the **trivial representation**
 
 $$\rho: G \ll \GL(V)$$
@@ -12,6 +14,8 @@ $$gv = v \qquad \forall g\,\forall v$$
 Not very interesting, but worth mentioning 
 
 ---
+
+[{zn_plane_rotations}]
 
 Another useful representation is seeing $\Z_n$ as rotations in the plane (as if it was $\R^2$ instead of $\C^2$)
 
@@ -38,6 +42,8 @@ $$
 And one would argue that these representations should be, in some sense, _equal_
 
 ---
+
+[{sn_permutation_basis}]
 
 Permutation groups $S_n$ act nicely on spaces of dimension $n$ by permuting base vectors
 
