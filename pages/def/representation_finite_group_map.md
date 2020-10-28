@@ -16,4 +16,4 @@ commutes for every $g\in G$ ($\phi$ is said to be _$G$-linear_)
 
 ---
 
-If $\phi: V \ll W$ is an isomorphism, then we say we have an **isomorphism of representations**; it's the proper concept to state that two representations are “the same” but from different points of view
+If $\phi: V \ll W$ is an isomorphism, then we say we have an **isomorphism of representations**; it's the proper concept to state that two representations are "the same" but from different points of view

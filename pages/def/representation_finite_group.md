@@ -11,7 +11,7 @@ Such representation $\rho$ gives $V$ the structure of a $G$-module, in the sense
 $$ G\times V \ll V $$
 $$ (g,v) \maps gv \equiv \rho(g)(v) $$
 
-It's as if more and more elements of $G$ make the vectors “spin”
+It's as if more and more elements of $G$ make the vectors "spin"
 
 $$ v \xr{g_1} g_1v \xr{g_2} g_2g_1v \xr{g_3} g_3g_2g_1v \xr{g_4} \qquad\cdots$$
 
