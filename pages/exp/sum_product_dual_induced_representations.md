@@ -81,3 +81,26 @@ $$
 $$
 $$v_1 \vee \cdots \vee v_k \maps gv_1 \vee \cdots \vee gv_k$$
 $$v_1 \wedge \cdots \wedge v_k \maps gv_1 \wedge \cdots \wedge gv_k$$
+
+---
+
+[{dual_representation}]
+
+Representations also reach dual spaces: given
+
+$$\rho: G \ll \GL(V)$$
+
+it is induced 
+
+$$\rho^*: G \ll \GL(V^*)$$
+$$\rho^*(g) = \rho(g^{-1})^*: V^* \ll V^*$$
+
+Taking the inverse of $g$ is needed for the product in $G$ to be respected
+
+$$\rho^*(g_1 g_2) = \rho((g_1 g_2)^{-1})^* = \rho(g_2^{-1}g_1^{-1})^* = [\rho(g_2^{-1})\rho(g_1^{-1})]^* = \rho(g_1^{-1})^*\rho(g_2^{-1})^* = \rho^*(g_1)\rho^*(g_2)$$
+
+It also makes sense in order to be compatible with the natural pairing $\langle\quad,\quad\rangle: V^*\times V \ll \C$
+
+$$\langle \rho^*(g)v^*,\rho(g)v\rangle = \langle \rho(g^{-1})^*v^*,\rho(g)v\rangle = \langle v^*,\rho(g^{-1})\rho(g)v\rangle = \langle v^*,\rho(g^{-1}g)v\rangle = \langle v^*,v\rangle$$
+
+That is: the elements of $G$ make $V$ spin, and they also make the elements of $V^*$ spin, in such a way that the natural pairing works well 
