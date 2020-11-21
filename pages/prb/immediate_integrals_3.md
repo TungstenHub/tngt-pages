@@ -54,7 +54,8 @@ Solution
 $$<<< 
 \int \dfrac{e^{2x}+e^{-2x}}{e^x}\dd x \\
 \qquad = \int \left(e^x+e^{-3x}\right)\dd x \\
-\qquad = \hl{e^x-\dfrac{e^{-3x}}{3}+k}$$
+\qquad = \hl{e^x-\dfrac{e^{-3x}}{3}+k}
+$$
 
 +++
 
