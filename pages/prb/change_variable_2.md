@@ -30,7 +30,7 @@ Solution
 +++
 
 $$<<<  
-\dfrac{\ln(x^4)}{x}\dd x
+\int \dfrac{\ln(x^4)}{x}\dd x
 \\ \qquad 
 = 4\int \dfrac{\ln x}{x}\dd x
 \oveq{ t=\ln x\\ \d t=\frac{1}{x}\dd x }
