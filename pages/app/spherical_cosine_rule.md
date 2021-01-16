@@ -1,0 +1,1 @@
+{{ threejs | spherical_cosine_rule }}
