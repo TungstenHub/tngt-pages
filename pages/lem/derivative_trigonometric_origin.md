@@ -11,6 +11,6 @@ If we take an angle $h$, the quantities $\dfrac{\sin h}{h}$ and $\dfrac{1-\cos h
 
 When $h\longrightarrow 0$, green and blue curves tend to be equal in length, whereas the red one is much smaller than the blue one with a ratio that tends to zero. So we have
 
-$$<<< \dfrac{\sin h}{h}\longrightarrow 1 \qquad \dfrac{\cos h -1}{h}=-\dfrac{1-\cos h}{h}\longrightarrow 0 $$
+$$ \dfrac{\sin h}{h}\longrightarrow 1 \qquad \dfrac{\cos h -1}{h}=-\dfrac{1-\cos h}{h}\longrightarrow 0 $$
 
 +++
