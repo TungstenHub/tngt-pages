@@ -9,4 +9,4 @@ For instance, $S_n$ has the _sign representation_
 $$\rho: S_n \ll \C$$
 $$\sigma \maps \sgn(\sigma)\in\{+1, -1\}$$
 
-Cool, isn't it? WHich other representations of degree 1 can we find?
+Cool, isn't it? Which other representations of degree 1 can we find?
