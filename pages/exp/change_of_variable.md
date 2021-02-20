@@ -6,7 +6,7 @@ is always solved as
 
 $$\int f(g(x))g'(x)\dd x=F(g(x))+k$$
 
-It is very useful to denote this trick with a *change of variable*: let
+It is very useful to denote this trick with a _change of variable_: let
 
 $$t=g(x)$$
 
