@@ -2,7 +2,7 @@ Integration may be thought as the inverse problem of differentiation: instead of
 
 $$(\sqrt{e^x+1})'=\dfrac{1}{2\sqrt{e^x+1}}e^x=\dfrac{e^x}{2\sqrt{e^x+1}}$$
 
-we're looking for *a function whose derivative is the function given*:
+we're looking for _a function whose derivative is the function given_:
 
 $$\int\sqrt{1+e^x}\dd x=2\sqrt{1+e^x}+\ln(\sqrt{1+e^x}-1)-\ln(\sqrt{1+e^x}+1) + k$$
 
@@ -28,7 +28,7 @@ is the **indefinite integral** of
 
 $$\sqrt{e^x+1}$$
 
-But how on earth could we compute this humongous function? Well, that's a crucial difference between differentiation and integration: to differentiate, one has to follow a set of rules, whereas to integrate, *there is no set of rules that work for every function*. One can only have a set of tricks that may work, and we'll study these rules through the chapter
+But how on earth could we compute this humongous function? Well, that's a crucial difference between differentiation and integration: to differentiate, one has to follow a set of rules, whereas to integrate, _there is no set of rules that work for every function_. One can only have a set of tricks that may work, and we'll study these rules through the chapter
 
 Why the $k$? The derivative of a function is always unique, but this is not the case with integration:
 
@@ -36,7 +36,7 @@ $$((x+3)^2)'=2(x+3)=2x+6$$
 $$(x^2+6x)'=2x+6$$
 $$(x+3)^2\neq x^2+6x$$
 
-Instead it is *unique up to a constant*, because if two functions have the same derivative, its difference has to be a constant
+Instead it is _unique up to a constant_, because if two functions have the same derivative, its difference has to be a constant
 
 $$(x+3)^2-(x^2+6x)=9$$
 
@@ -52,4 +52,4 @@ so we always include this constant $k$ symbolically
 
 $$\int f(x)\dd x=F(x)+k$$
 
-and thus the integral is called *indefinite*. And why all this funny stuff of $\displaystyle\int$ and $\d x$? We'll talk about it when we study definite integrals in the next chapter.
+and thus the integral is called _indefinite_. And why all this funny stuff of $\displaystyle\int$ and $\d x$? We'll talk about it when we study definite integrals in the next chapter.

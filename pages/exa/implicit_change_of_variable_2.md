@@ -15,7 +15,7 @@ And $\dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)=\dfrac{1}{1+\cos
 
 $$\int\dfrac{1}{1+\cos x}\dd x=\int\d t=t+k=\tan\left(\dfrac{x}{2}\right)+k$$
 
-which essentially is the same as above. But: would the integrand be slightly different, the change of variable could not have been applied. Instead, an implicit change of variable $h(t)=x$ is *always* appliable - we'll stress this subtlety later. For now, we take the form
+which essentially is the same as above. But: would the integrand be slightly different, the change of variable could not have been applied. Instead, an implicit change of variable $h(t)=x$ is _always_ appliable - we'll stress this subtlety later. For now, we take the form
 
 $$2\tan^{-1}t =x$$
 $$\dfrac{2}{1+t^2}\dd t = \d x$$

@@ -2,7 +2,7 @@ Differentiation behaves well with respect to sums and products with numbers
 
 $$(aF(x)+bG(x))'=aF'(x)+bG'(x)$$
 
-(we say it is *linear*). So integration behaves the same way: if
+(we say it is _linear_). So integration behaves the same way: if
 
 $$\int f(x)\dd x=F(x)+k$$
 $$\int g(x)\dd x=G(x)+k$$

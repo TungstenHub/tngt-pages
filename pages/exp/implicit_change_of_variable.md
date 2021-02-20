@@ -3,7 +3,7 @@ The usual [change of variable technique](exp | change_of_variable) takes the for
 $$t=g(x)$$
 $$\d t = g'(x)\dd x$$
 
-However, sometimes it is useful to relate the new variable and the old one *implicitely*:
+However, sometimes it is useful to relate the new variable and the old one _implicitely_:
 
 $$h(t)=g(x)$$
 $$h'(t)\dd t = g'(x)\dd x$$
