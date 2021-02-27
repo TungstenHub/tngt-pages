@@ -1,0 +1,1 @@
+{{ sage | dragon_curve }}
