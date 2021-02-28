@@ -1,0 +1,1 @@
+{{ sage | cosine_rule_triangle_constructor }}

@@ -1,0 +1,1 @@
+{{ sage | moore_penrose_inverse }}
