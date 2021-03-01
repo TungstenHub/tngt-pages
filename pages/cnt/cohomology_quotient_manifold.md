@@ -1,0 +1,1 @@
+For this theorem, it is crucial that the group $G$ is finite, and this cannot be relaxed. Think for instance in $\S^1=\R/\Z$ or $\T^2=\R^2/\Z\times\Z$: the cohomology of order 1 or 2 of $\R$ or $\R^2$ is trivial, but not that of $\S^1$ or $\T^2$
