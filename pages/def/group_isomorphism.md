@@ -1,0 +1,1 @@
+Two groups $G$ and $G'$ are **isomorphic** if there is a bijection $\varphi$ from $G$ to $G'$ which satisfies $\varphi(x)=\varphi(y)$ for all $x$, $y\in G$. The function $\varphi$ is called an **isomorphism** between $G$ and $G'$

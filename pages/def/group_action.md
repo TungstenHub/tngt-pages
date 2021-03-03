@@ -1,0 +1,1 @@
+An action of a group $G$ on a set $X$ is a homomorphism from $G$ to $S_X$
