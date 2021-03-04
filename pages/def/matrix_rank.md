@@ -1,0 +1,1 @@
+The **rank** of a matrix $A$, denoted $\mathrm{rk}(A)$, is the number of nonzero rows of its row canonical form
