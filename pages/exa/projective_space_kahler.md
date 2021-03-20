@@ -6,11 +6,11 @@ where every other coefficients of the metric follows:
 
 $$h_{jk}=2\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)=2\dfrac{\partial }{\partial z_j}\left(\dfrac{z_k}{1+|z|^2}\right)=2\dfrac{\delta_{jk}(1+|z|^2)-\bar{z}_j z_k}{(1+|z|^2)^2}$$
 
-$$\tilde{h}=2\sum_{jk}\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)\dz_j\otimes\d\bar{z}_k$$
+$$\tilde{h}=2\sum_{jk}\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)\d z_j\otimes\d\bar{z}_k$$
 
-$$g=\sum_{jk}\left(\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)\dz_j\otimes\d\bar{z}_k+\dfrac{\partial ^2}{\partial \bar{z}_j\partial z_k}\log(1+|z|^2)\d\bar{z}_j\otimes\dz_k\right)$$
+$$g=\sum_{jk}\left(\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)\d z_j\otimes\d\bar{z}_k+\dfrac{\partial ^2}{\partial \bar{z}_j\partial z_k}\log(1+|z|^2)\d\bar{z}_j\otimes\d z_k\right)$$
 
-$$\omega=\ii\sum_{jk}\left(\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)\dz_j\otimes\d\bar{z}_k-\dfrac{\partial ^2}{\partial \bar{z}_j\partial z_k}\log(1+|z|^2)\d\bar{z}_j\otimes\dz_k\right)=\ii\partial\bar{\partial}\log(1+|z|^2)$$
+$$\omega=\ii\sum_{jk}\left(\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)\d z_j\otimes\d\bar{z}_k-\dfrac{\partial ^2}{\partial \bar{z}_j\partial z_k}\log(1+|z|^2)\d\bar{z}_j\otimes\d z_k\right)=\ii\partial\bar{\partial}\log(1+|z|^2)$$
 
 To compute the Christoffel symbols and other curvature coefficients may be very difficult, so we'll try an indirect approach. Instead of deriving directly, we'll compute the determinant of the metric.
 
