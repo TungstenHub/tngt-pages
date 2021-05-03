@@ -1,0 +1,1 @@
+{{ image | cumulative_hierarchy }}
