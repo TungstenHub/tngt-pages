@@ -1,0 +1,1 @@
+{{ tileturn | AAAC_EEAC_EDCC_EDDD__AAAA_CCCC_DDDD_EEEE min = 14 sol = 37554446667799 }}
