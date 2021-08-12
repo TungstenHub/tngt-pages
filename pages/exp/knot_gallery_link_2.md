@@ -1,1 +1,14 @@
-{{ threejs | knot_gallery_link_2 width = 1920 }}
+{{ threejs | knots/k2_2_1  stack = 4 aspect = 100 }}
+{{ threejs | knots/k4_2_1  stack = 4 aspect = 100 }}
+{{ threejs | knots/k5_2_1  stack = 4 aspect = 100 }}
+{{ threejs | knots/k6_2_1  stack = 4 aspect = 100 }}
+{{ threejs | knots/k6_2_2  stack = 4 aspect = 100 }}
+{{ threejs | knots/k6_2_3  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_1  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_2  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_3  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_4  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_5  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_6  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_7  stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_2_8  stack = 4 aspect = 100 }}
