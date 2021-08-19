@@ -60,7 +60,7 @@ And in general the angles of a plane $k$-gon add to $(k-2)\pi$. But spherical po
 The angles of a spherical $k$-gon do _not_ add to $(k-2)\pi$. They add _more_. But how much more? It seems that bigger polygons are allowed to exceed much more the plane measure, doesn't it? But that's rather vague, and maths aren't vague; they are extremely precise and beautiful, like in the following amazing theorem: 
 
 >>>
-**Girard's Theorem:** The area of a spherical triangle with angles $\alpha$, $\beta$ and $\gamma$ is $\alpha + \beta + \gamma - \pi$, that is, it's angle excess. 
+**Girard's Theorem:** The area of a spherical triangle with angles $\alpha$, $\beta$ and $\gamma$ is $\alpha + \beta + \gamma - \pi$, that is, its angle excess. 
 <<<
 
 {{ threejs | girard_theorem }}
