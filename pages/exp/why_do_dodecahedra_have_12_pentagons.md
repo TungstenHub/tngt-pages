@@ -17,11 +17,11 @@ Here's your favorite dodecahedron, with exactly 12 pentagons.
 
 We all know that dodecahedra have 12 pentagons, but one could ask _why_. Why 12, and not 11 or 13? Can we arrange something similar with only 9 pentagons? We may try, but there seems to be no other way to create such regular solid.
 
-Imagine you're given a bunch of pentagons and someone asks you to assemble them so that in each corner three pentagons meet. Since the angles of a pentagon ($108^\circ = \frac{3\pi}{5}$) do not cover a third of a full $2\pi$ angle ($120^\circ = \frac{2\pi}{3}$), it becomes necessary to bring the pentagons into space and the construction progressively encloses a certain spherical region. And it is with the twelfth pentagon that the polyhedron is completely closed. 
+Imagine you're given a bunch of pentagons and someone asks you to assemble them so that in each corner three pentagons meet. Since the angle of a pentagon ($108^\circ = \frac{3\pi}{5}$) is less than a third of a full $2\pi$ angle ($120^\circ = \frac{2\pi}{3}$), it becomes necessary to bring the pentagons into space and the construction progressively encloses a certain spherical region. And it is with the twelfth pentagon that the polyhedron is completely closed. 
 
 But for a mathematical mind, this means that the number 12 should be somehow _derivable_ from the initial information of pentagons, meeting three at each vertex. Had you ever thought about this? No? Really?
 
-It is clear that the defect of angle is the responsible for the rounding. If we could somehow _measure_ this rounding, i.e. how much of the sphere is covered in our pentagon folding, we would be able to guess how many pentagons are needed to cover all the sphere.
+The mismatch of angles (i.e. $108^\circ$ vs $120^\circ$) is responsible for the rounding. If we could somehow _measure_ this rounding, i.e. how much of the sphere is covered in our pentagon folding, we would be able to guess how many pentagons are needed to cover all the sphere.
 
 {{ image | dodec_sphere_rounding }}
 
@@ -266,8 +266,9 @@ This article makes uses of several great visualization tools that I would like t
 <ul>
   <li>3D applets use [**three.js**]( https://threejs.org/ ), a WebGL-based 3D computer graphics library.</li>
   <li>Plane geometry applets use [**D3.js**]( https://d3js.org/ ), an interactive data visualization library.</li>
-  <li>Pictures are made with [IPE Drawing Editor](https://ipe.otfried.org/).</li>
-  <li>There is no [Manim]( https://www.manim.community/ ) video in this article, but you can see the [resolution of the reduced cubic equation]( exp | reduced_cubic_equation_resolution ) instead ::wink::</li>
+  <li>Pictures are made with [**IPE Drawing Editor**](https://ipe.otfried.org/).</li>
 </ul>
+
+(There is no [**Manim**]( https://www.manim.community/ ) video in this article, but you can see the [resolution of the reduced cubic equation]( exp | reduced_cubic_equation_resolution ) instead ::wink::)
 
 The source code for this article and its applets is available on [GitHub/TungstenHub](https://github.com/TungstenHub).
