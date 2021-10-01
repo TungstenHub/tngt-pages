@@ -50,5 +50,5 @@ Two more notes:
 
 <ol>
 <li>If we switch the orientation of $M$ (positive basis becoming negative and viceversa), all the integrals get multiplied by $-1$</li>
-<li>If $f:M\longrightarrow N$ is a positively oriented diffeomorphism, then $ \int_N\alpha=\int_M f^*\alpha$ para todo $\alpha\in\Omega^n_c(N)$</li>
+<li>If $f:M\longrightarrow N$ is a positively oriented diffeomorphism, then $ \int_N\alpha=\int_M f^*\alpha$ for all $\alpha\in\Omega^n_c(N)$</li>
 </ol>
