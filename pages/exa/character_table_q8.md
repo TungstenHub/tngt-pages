@@ -1,4 +1,4 @@
-**Quaternion group $Q_4$**
+**Quaternion group $Q_8$**
 
 <table>
   <thead>
