@@ -109,9 +109,9 @@ where $\zeta = \omega_5$
 where $\zeta = \omega_7$
 
 ---
-[{d2n1}]
+[{d2m1}]
 
-**Dihedral group $D_{2n+1}$**
+**Dihedral group $D_{2m+1}$**
 
 <table>
   <thead>
@@ -121,8 +121,8 @@ where $\zeta = \omega_7$
       <td c>$\{\tau,\tau^{-1}\}\,[2]$</td>
       <td c>$\{\tau^2,\tau^{-2}\}\,[2]$</td>
       <td c>$\cdots$</td>
-      <td c>$\{\tau^n,\tau^{-n}\}\,[2]$</td>
-      <td c>$\sigma\,[2n+1]$</td>
+      <td c>$\{\tau^m,\tau^{-m}\}\,[2]$</td>
+      <td c>$\sigma\,[2m+1]$</td>
     </tr>
   </thead>
   <tbody>
@@ -150,7 +150,7 @@ where $\zeta = \omega_7$
       <td c>$\zeta + \zeta^{-1}$</td>
       <td c>$\zeta^2 + \zeta^{-2}$</td>
       <td c>$\cdots$</td>
-      <td c>$\zeta^n + \zeta^{-n}$</td>
+      <td c>$\zeta^m + \zeta^{-m}$</td>
       <td c>$0$</td>
     </tr>
     <tr>
@@ -159,7 +159,7 @@ where $\zeta = \omega_7$
       <td c>$\zeta^2 + \zeta^{-2}$</td>
       <td c>$\zeta^4 + \zeta^{-4}$</td>
       <td c>$\cdots$</td>
-      <td c>$\zeta^{2n} + \zeta^{-2n}$</td>
+      <td c>$\zeta^{2m} + \zeta^{-2m}$</td>
       <td c>$0$</td>
     </tr>
     <tr>
@@ -172,15 +172,15 @@ where $\zeta = \omega_7$
       <td c>$\vdots$</td>
     </tr>
     <tr>
-      <td>$V_n$</td>
+      <td>$V_m$</td>
       <td c>$2$</td>
-      <td c>$\zeta^n + \zeta^{-n}$</td>
-      <td c>$\zeta^{2n} + \zeta^{-2n}$</td>
+      <td c>$\zeta^m + \zeta^{-m}$</td>
+      <td c>$\zeta^{2m} + \zeta^{-2m}$</td>
       <td c>$\cdots$</td>
-      <td c>$\zeta^{n^2} + \zeta^{-n^2}$</td>
+      <td c>$\zeta^{m^2} + \zeta^{-m^2}$</td>
       <td c>$0$</td>
     </tr>
   </tbody>
 </table>
 
-where $\zeta = \omega_{2n+1}$ is the first $(2n+1)$-th root of unity
+where $\zeta = \omega_{2m+1}$ is the first $(2m+1)$-th root of unity

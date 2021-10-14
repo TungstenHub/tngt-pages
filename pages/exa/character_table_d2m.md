@@ -133,9 +133,9 @@
 </table>
 
 ---
-[{d2n}]
+[{d2m}]
 
-**Dihedral group $D_{2n}$**
+**Dihedral group $D_{2m}$**
 
 <table>
   <thead>
@@ -145,10 +145,10 @@
       <td c>$\{\tau,\tau^{-1}\}\,[2]$</td>
       <td c>$\{\tau^2,\tau^{-2}\}\,[2]$</td>
       <td c>$\cdots$</td>
-      <td c>$\{\tau^{n-1},\tau^{-(n-1)}\}\,[2]$</td>
-      <td c>$\tau^n = \tau^{-n}\,[1]$</td>
-      <td c>$\sigma\,[n]$</td>
-      <td c>$\tau\sigma\,[n]$</td>
+      <td c>$\{\tau^{m-1},\tau^{-(m-1)}\}\,[2]$</td>
+      <td c>$\tau^m = \tau^{-m}\,[1]$</td>
+      <td c>$\sigma\,[m]$</td>
+      <td c>$\tau\sigma\,[m]$</td>
     </tr>
   </thead>
   <tbody>
@@ -180,8 +180,8 @@
       <td c>$-1$</td>
       <td c>$1$</td>
       <td c>$\cdots$</td>
-      <td c>$(-1)^{n-1}$</td>
-      <td c>$(-1)^n$</td>
+      <td c>$(-1)^{m-1}$</td>
+      <td c>$(-1)^m$</td>
       <td c>$1$</td>
       <td c>$-1$</td>
     </tr>
@@ -191,8 +191,8 @@
       <td c>$-1$</td>
       <td c>$1$</td>
       <td c>$\cdots$</td>
-      <td c>$(-1)^{n-1}$</td>
-      <td c>$(-1)^n$</td>
+      <td c>$(-1)^{m-1}$</td>
+      <td c>$(-1)^m$</td>
       <td c>$-1$</td>
       <td c>$1$</td>
     </tr>
@@ -202,7 +202,7 @@
       <td c>$\zeta + \zeta^{-1}$</td>
       <td c>$\zeta^2 + \zeta^{-2}$</td>
       <td c>$\cdots$</td>
-      <td c>$\zeta^{n-1} + \zeta^{-(n-1)}$</td>
+      <td c>$\zeta^{m-1} + \zeta^{-(m-1)}$</td>
       <td c>$-2$</td>
       <td c>$0$</td>
       <td c>$0$</td>
@@ -213,7 +213,7 @@
       <td c>$\zeta^2 + \zeta^{-2}$</td>
       <td c>$\zeta^4 + \zeta^{-4}$</td>
       <td c>$\cdots$</td>
-      <td c>$\zeta^{2(n-1)} + \zeta^{-2(n-1)}$</td>
+      <td c>$\zeta^{2(m-1)} + \zeta^{-2(m-1)}$</td>
       <td c>$2$</td>
       <td c>$0$</td>
       <td c>$0$</td>
@@ -230,17 +230,17 @@
       <td c>$\vdots$</td>
     </tr>
     <tr>
-      <td>$V_{n-1}$</td>
+      <td>$V_{m-1}$</td>
       <td c>$2$</td>
-      <td c>$\zeta^{n-1} + \zeta^{-(n-1)}$</td>
-      <td c>$\zeta^{2(n-1)} + \zeta^{-2(n-1)}$</td>
+      <td c>$\zeta^{m-1} + \zeta^{-(m-1)}$</td>
+      <td c>$\zeta^{2(m-1)} + \zeta^{-2(m-1)}$</td>
       <td c>$\cdots$</td>
-      <td c>$\zeta^{(n-1)^2} + \zeta^{-(n-1)^2}$</td>
-      <td c>$2\times(-1)^{n-1}$</td>
+      <td c>$\zeta^{(m-1)^2} + \zeta^{-(m-1)^2}$</td>
+      <td c>$2\times(-1)^{m-1}$</td>
       <td c>$0$</td>
       <td c>$0$</td>
     </tr>
   </tbody>
 </table>
 
-where $\zeta = \omega_{2n}$ is the first $2n$-th root of unity
+where $\zeta = \omega_{2m}$ is the first $2m$-th root of unity
