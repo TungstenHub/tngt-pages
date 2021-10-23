@@ -1,1 +1,1 @@
-{{ sage | cosine_rule_triangle_constructor }}
+{{ d3js | cosine_rule }}
