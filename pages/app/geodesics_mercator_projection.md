@@ -1,1 +1,1 @@
-{{ d3js | geodesics_mercator_projection aspect = 77.5 }}
+{{ d3js | geodesics_mercator_projection aspect = 77 }}

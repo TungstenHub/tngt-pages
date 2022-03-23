@@ -1,1 +1,1 @@
-{{ d3js | parallel_transport_mercator_projection aspect = 77.5 }}
+{{ d3js | parallel_transport_mercator_projection aspect = 77 }}
