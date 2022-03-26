@@ -1,0 +1,1 @@
+{{ sage | cosine_function }}
