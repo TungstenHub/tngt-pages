@@ -1,4 +1,4 @@
-**Symmetric group $S_3$**
+**Grupo simétrico $S_3$**
 
 <table>
   <thead>
