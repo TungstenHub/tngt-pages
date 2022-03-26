@@ -1,0 +1,1 @@
+For any sets $A$, $B$ and $C$, if $A\subseteq B \subseteq C$ and $A\approx C$, then $A\approx B\approx C$

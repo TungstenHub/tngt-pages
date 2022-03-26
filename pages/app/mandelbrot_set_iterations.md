@@ -1,0 +1,1 @@
+{{ d3js | mandelbrot_set_iterations aspect = 75 }}

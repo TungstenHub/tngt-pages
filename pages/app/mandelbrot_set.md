@@ -1,0 +1,1 @@
+{{ sage | mandelbrot_set }}

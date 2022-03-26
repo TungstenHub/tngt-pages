@@ -1,0 +1,1 @@
+A **well-order** $R$ in a set $A$ is a linear orden in $A$ which moreover satisfies the following property: each non-empty subset of $A$ has a minimal element in the sense of $<_{R}$. We say that $\langle A, <_{R}\rangle$ is a **well-ordered set**

@@ -1,0 +1,1 @@
+The even permutations in $S_n$ form a subgroup of order $n!/2$ called the **alternating group $A_n$** of degree $n$

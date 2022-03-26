@@ -1,0 +1,14 @@
+{{ threejs | knots/k6_3_1   stack = 4 aspect = 100 }}
+{{ threejs | knots/k6_3_2   stack = 4 aspect = 100 }}
+{{ threejs | knots/k6_3_3   stack = 4 aspect = 100 }}
+{{ threejs | knots/k7_3_1   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_1   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_2   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_3   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_4   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_5   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_6   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_7   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_8   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_9   stack = 4 aspect = 100 }}
+{{ threejs | knots/k8_3_10  stack = 4 aspect = 100 }}
