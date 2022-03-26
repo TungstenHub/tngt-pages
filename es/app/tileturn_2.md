@@ -1,0 +1,1 @@
+{{ tileturn | AEDC_CDEA_DCAE_EACD__DCAE_EACD_AEDC_CDEA min = 8 sol = 11339977 }}

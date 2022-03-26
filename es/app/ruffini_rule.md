@@ -1,0 +1,1 @@
+{{ sage | ruffini_rule }}

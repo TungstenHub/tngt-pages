@@ -1,0 +1,1 @@
+{{ sage | sine_function }}

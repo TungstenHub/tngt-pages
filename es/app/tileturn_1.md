@@ -1,0 +1,1 @@
+{{ tileturn | FCFC_CFCF_FCFC_CFCF__FFFF_FFFF_CCCC_CCCC min = 10 sol = 2833449966 }}
