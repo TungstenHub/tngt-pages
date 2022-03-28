@@ -1,0 +1,1 @@
+A **subgroup** of a group $G$ is a subset of $G$ which itself forms a group under the multiplication of $G$
