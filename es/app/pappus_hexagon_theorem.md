@@ -1,3 +1,3 @@
-Given one set of collinear points $A$, $B$, $C$, and another set of collinear points $D$, $E$, $F$, then the intersection points $X$, $Y$, $Z$ of line pairs $AE$ and $DB$, $AF$ and $DC$, $BF$ and $EC$ are collinear, lying on the Pappus line. 
+Dado un conjunto de puntos colineales $A$, $B$, $C$, y otro conjunto de puntos colineales $D$, $E$, $F$, entonces los puntos de intersección $X$, $Y$, $Z$ de los pares de rectas $AE$ y $DB$, $AF$ y $DC$, $BF$ y $EC$ son colineales, yaciendo en la recta de Pappus. 
 
 {{ d3js | pappus_theorem }}

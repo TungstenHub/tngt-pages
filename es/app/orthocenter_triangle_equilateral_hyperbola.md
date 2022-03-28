@@ -1,3 +1,3 @@
-The orthocenter of a triangle inscribed in an equilateral hyperbola (i.e. with perpendicular axis) lies in the hyperbola too
+El ortocentro de un triángulo inscrito en una hipérbola equilátera (es decir, con ejes perpendiculares) también yace en la hipérbola
 
 {{ d3js | orthocenter_triangle_equilateral_hyperbola }}
