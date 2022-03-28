@@ -1,3 +1,3 @@
-Two vertices of a rigid triangle in a plane slide along two arms of an angle of the plane; what locus does the third vertex describe?
+Dos vértices de un triángulo rígido se desplazan por los dos brazos de un ángulo en el plano; ¿qué lugar geométrico describe el tercer vértice?
 
 {{ d3js | van_schooten_locus_problem }}

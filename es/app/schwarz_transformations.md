@@ -1,4 +1,4 @@
-Schwarz transformations are biholomorphic functions $f:D\longrightarrow D$ of the type
+Las transformaciones de Schwarz son funciones biholomorfas $f:D\longrightarrow D$ del tipo
 
 $$z\longmapsto \dfrac{z+a}{1+\bar{a}z}$$
 

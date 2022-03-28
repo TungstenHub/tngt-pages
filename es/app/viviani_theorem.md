@@ -1,3 +1,3 @@
-The sum of the distances from any interior point to the sides of an equilateral triangle equals the length of the triangle's altitude
+La suma de las distancias desde cualquier punto interior de un triángulo equilátero hasta los lados es igual a la altura del triángulo
 
 {{ d3js | viviani_theorem }}
