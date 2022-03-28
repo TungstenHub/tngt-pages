@@ -1,1 +1,1 @@
-For any sets $A$, $B$ and $C$, if $A\subseteq B \subseteq C$ and $A\approx C$, then $A\approx B\approx C$
+Para cualesquiera conjuntos $A$, $B$ y $C$, si $A\subseteq B \subseteq C$ y $A\approx C$, entonces $A\approx B\approx C$

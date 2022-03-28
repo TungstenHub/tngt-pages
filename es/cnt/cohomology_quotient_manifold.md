@@ -1,1 +1,1 @@
-For this theorem, it is crucial that the group $G$ is finite, and this cannot be relaxed. Think for instance in $\S^1=\R/\Z$ or $\T^2=\R^2/\Z\times\Z$: the cohomology of order 1 or 2 of $\R$ or $\R^2$ is trivial, but not that of $\S^1$ or $\T^2$
+Para este teorema, es crucial que el grupo $G$ sea finito, y esto no se puede relajar. Piensa por ejemplo en $\S^1=\R/\Z$ o $\T^2=\R^2/\Z\times\Z$: la cohomología de orden 1 o 2 de $\R$ o $\R^2$ es trivial, pero no la de $\S^1$ o $\T^2$

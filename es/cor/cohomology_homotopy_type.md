@@ -1,14 +1,14 @@
-Two manifolds $M$ and $N$ with the same homotopy type have the same de Rham cohomology
+Dos variedades $M$ y $N$ con el mismo tipo de homotopía tienen la misma cohomología de De Rham
 
 +++
-Proof
+Demostración
 +++
 
-A homotopy relation ($M\sim N$) is a pair of maps $f:M\longrightarrow N$, $g:N\longrightarrow M$ with $g\circ f\sim \text{id}_M$, $f\circ g\sim \text{id}_N$. In this setting
+Una relación de homotopía ($M\sim N$) es un par de aplicaciones $f:M\longrightarrow N$, $g:N\longrightarrow M$ con $g\circ f\sim \text{id}_M$, $f\circ g\sim \text{id}_N$. En este contexto
 
 $$H^\ast(M)\xrightarrow{g^\ast}H^\ast(N)$$
 $$H^\ast(M)\xleftarrow{f^\ast}H^\ast(N)$$
 
-are inverse isomorphisms
+son isomorfismos inversos
 
 +++

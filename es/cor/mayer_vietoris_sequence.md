@@ -1,15 +1,15 @@
-The complex
+El complejo
 
 $$
 \cdots\xrightarrow{}H^k(M)\xrightarrow{i^*}H^k(U)\times H^k(V)\xrightarrow{j^*}H^k(U\cap V) \xrightarrow{\mathrm{d}^\ast}H^{k+1}(M)\xrightarrow{i^*}\cdots
 $$
 
-is an exact sequence
+es una secuencia exacta
 
 +++
-Proof
+Demostración
 +++
 
-Just apply the [Connecting Homomorphism Theorem]( thm | connecting_homomorphism ) to the Mayer-Vietoris short exact sequence of complexes
+Basta aplicar el [Teorema del Homomorfismo de Conexión]( thm | connecting_homomorphism ) a la secuencia exacta corta de complejos de Mayer-Vietoris
 
 +++
