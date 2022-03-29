@@ -1,3 +1,3 @@
-**Axiom of Empty Set (AEm)**
+**Axioma del Conjunto Vacío (AEm)**
 
 $$\exists x\forall y \neg(y\in x)$$

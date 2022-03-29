@@ -1,1 +1,1 @@
-The even permutations in $S_n$ form a subgroup of order $n!/2$ called the **alternating group $A_n$** of degree $n$
+Las permutaciones pares en $S_n$ forman un subgrupo de orden $n!/2$ llamado **grupo alternado $A_n$** de grado $n$

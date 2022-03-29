@@ -1,4 +1,4 @@
-**Axiom of Infinity (AIn)**
+**Axioma del Infinito (AIn)**
 
 $$\exists y(\exists z(z \in y \wedge \forall t\neg (t \in z)) \wedge \forall x(x \in y \longrightarrow \exists u(u \in y \wedge \forall v(v \in u \longleftrightarrow v = x \vee v \in x)))$$
 

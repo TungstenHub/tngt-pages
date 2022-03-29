@@ -1,4 +1,4 @@
-For the sake of commodity, from now on each linear system will have an **associated matrix**. For now, we may think a matrix as a box of numbers; it has of course a deep meaning that will be studied later
+Por comodidad, de ahora en adelante cada sistema lineal tendrá una **matriz asociada**. Por ahora, podemos pensar en una matriz como si fuera un cajón de números; por supuesto, tiene un significado más profundo que estudiaremos más tarde
 
 $$
 \left\{
@@ -17,7 +17,7 @@ a_{m1} & a_{m2} & \cdots  & a_{mn} & b_m \\
 \end{array}\right)
 $$ 
 
-and it is denoted $(A|b)$. For instance,
+y se denota $(A|b)$. Por ejemplo,
 
 $$
 \left\{
