@@ -4,7 +4,7 @@ $$C_\ast=\{\cdots \xrightarrow{} C_{k+1}\xrightarrow{\partial_{k+1}}C_k \xrighta
 
 is a chain of abelian groups $C_k$ and homomorphisms $\partial_k$ such that $\partial_k\circ\partial_{k+1}=0$ for all $k$, that is, $\text{im }\partial_{k+1}\subset \text{ker }\partial_k$
 
-Associated with the complex $C_\ast$ we define the **cohomology groups**
+Associated with the complex $C_\ast$ we define the **homology groups**
 
 $$H_k(C_\ast)=\dfrac{\text{ker }\partial_k}{\text{im }\partial_{k+1}}$$
 

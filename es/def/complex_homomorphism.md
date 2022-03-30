@@ -1,4 +1,4 @@
-A **complex homomorphism** $f:A_\ast\longrightarrow B_\ast$ is a family of maps $f_k:A_k\longrightarrow B_k$ such that $\partial^B_k\circ f_k=f_{k-1}\circ\partial^A_k$, that is, the diagram
+Un **homomorfismo de complejos** $f:A_\ast\longrightarrow B_\ast$ es una familia de aplicaciones $f_k:A_k\longrightarrow B_k$ tal que $\partial^B_k\circ f_k=f_{k-1}\circ\partial^A_k$, es decir, el diagrama
 
 $$
 \begin{CD}
@@ -8,19 +8,19 @@ $$
 \end{CD}
 $$
 
-is commutative
+es conmutativo
 
-In this case, $f:A_\ast\longrightarrow B_\ast$ induces 
+En este caso, $f:A_\ast\longrightarrow B_\ast$ induce 
 
 $$f_k:H_k(A_\ast)\longrightarrow H_k(B_\ast)$$
 
-linear maps, defined by $f_k[\alpha]=[f_k(\alpha)]$. The requirement $\partial^B_k\circ f_k=f_{k-1}\circ\partial^A_k$ ensures that the operation is well-defined
+aplicaciones lineales, definidas por $f_k[\alpha]=[f_k(\alpha)]$. El requisito $\partial^B_k\circ f_k=f_{k-1}\circ\partial^A_k$ asegura que la operación está bien definida
 
 ---
 
-[Cohomological version]
+[Versión cohomológica]
 
-A **complex homomorphism** $f:A^\ast\longrightarrow B^\ast$ is a family of maps $f^k:A^k\longrightarrow B^k$ such that $\mathrm{d}_B^k\circ f^k=f^{k+1}\circ\mathrm{d}_A^k$, that is, the diagram
+Un **homomorfismo de complejos** $f:A^\ast\longrightarrow B^\ast$ es una familia de aplicaciones $f^k:A^k\longrightarrow B^k$ tal que $\mathrm{d}_B^k\circ f^k=f^{k+1}\circ\mathrm{d}_A^k$, es decir, el diagrama
 
 $$
 \begin{CD}
@@ -30,10 +30,10 @@ $$
 \end{CD}
 $$
 
-is commutative
+es conmutativo
 
-In this case, $f:A^\ast\longrightarrow B^\ast$ induces 
+En este caso, $f:A^\ast\longrightarrow B^\ast$ induce 
 
 $$f^k:H^k(A^\ast)\longrightarrow H^k(B^\ast)$$
 
-linear maps, defined by $f^k[\alpha]=[f^k(\alpha)]$. The requirement $\mathrm{d}_B^k\circ f^k=f^{k+1}\circ\mathrm{d}_A^k$ ensures that the operation is well-defined
+aplicaciones lineales, definidas por $f^k[\alpha]=[f^k(\alpha)]$. El requisito $\mathrm{d}_B^k\circ f^k=f^{k+1}\circ\mathrm{d}_A^k$ asegura que la operación está bien definida

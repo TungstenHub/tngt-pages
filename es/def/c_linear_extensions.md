@@ -1,4 +1,4 @@
-$\tilde{h}$, $g$ and $\omega$ may be $\mathbb{C}$-linearly extended to $TM_\mathbb{C}\times TM_\mathbb{C}\longrightarrow\mathbb{C}$:
+$\tilde{h}$, $g$ y $\omega$ se pueden extender $\mathbb{C}$-linealmente a $TM_\mathbb{C}\times TM_\mathbb{C}\longrightarrow\mathbb{C}$:
 
 $$
 \begin{array}{rcl}
@@ -41,9 +41,9 @@ g & = & \alpha_{jk}\mathrm{d} x^j\otimes\mathrm{d} x^k+\beta_{jk}\mathrm{d} x^j\
 \end{array}
 $$
 
-and again $\tilde{h}=g-\mathrm{i}\omega$, yet now it makes no sense to say that $g=\text{Re}(\tilde{h})$, $\omega=-\text{Im}(\tilde{h})$ ($g$ and $\omega$ are complex-valued). Moreover, it must be remarked that seeing the complex extension of $\tilde{h}$ as $\tilde{h}:T^{1,0}M\times T^{0,1}M\longrightarrow\mathbb{C}$, then $\tilde{h}=h\circ(\text{id}\times c)$ (it's like adjusting $h$ for it to be $\mathbb{C}$-linear and also tensor).
+y de nuevo $\tilde{h}=g-\mathrm{i}\omega$, aunque ahora ya no tiene sentido decir que $g=\text{Re}(\tilde{h})$, $\omega=-\text{Im}(\tilde{h})$ ($g$ y $\omega$ tienen valores complejos). Además, se debe remarcar que viendo la extensión compleja de $\tilde{h}$ como $\tilde{h}:T^{1,0}M\times T^{0,1}M\longrightarrow\mathbb{C}$, entonces $\tilde{h}=h\circ(\text{id}\times c)$ (es como ajustar $h$ para que sea $\mathbb{C}$-lineal y además un tensor).
 
-We note also that 
+Vemos además que
 
 $$
 \begin{array}{rcl}
@@ -52,4 +52,4 @@ $$
 \end{array}
 $$
 
-so $\omega$ is a (1,1)-form
+con lo que $\omega$ es una (1,1)-forma

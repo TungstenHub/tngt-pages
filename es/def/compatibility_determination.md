@@ -1,13 +1,13 @@
-According to its set of solutions, a system of linear equations is classified as
+Según su conjunto de soluciones, un sistema de ecuaciones lineales se clasifica como
 
 <ul>
-  <li>**Incompatible** if there are no solutions</li>
+  <li>**Incompatible** si no hay soluciones</li>
   <li>
-    **Compatible** if there is at least one solution
+    **Compatible** si hay al menos una solución
     
     <ul>
-      <li>**Compatible and Determinate** if there exists exactly one solution</li>
-      <li>**Compatible and Indeterminate** if there is more than one solution</li>
+      <li>**Compatible y Determinado** si existe exactamente una solución</li>
+      <li>**Compatible e Indeterminado** si hay más de una solución</li>
     </ul>
   </li>
 </ul>

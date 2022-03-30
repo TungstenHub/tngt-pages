@@ -10,4 +10,4 @@ and to the **cohomology groups with compact support**
 
 $$H^k_c(M)=\dfrac{\text{ker }\mathrm{d}^k}{\text{im }\mathrm{d}^{k-1}}=\dfrac{Z^k_c(M)}{B^k_c(M)}$$
 
-If $M$ is a compact, all forms have compact support, $\Omega^k_c(M)=\Omega^k(M)$, and both cohomology groups coincide
+If $M$ is compact, all forms have compact support, $\Omega^k_c(M)=\Omega^k(M)$, and both cohomology groups coincide

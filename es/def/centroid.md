@@ -1,7 +1,7 @@
-A **median** is the segment joining a vertex of a triangle to the midpoint of the opposing side
+Una **mediana** es el segmento que une un vértice de un triángulo con el punto medio del lado opuesto
 
-The **centroid** of a triangle is the intersection of the three medians of the triangle
+El **baricentro** de un triángulo es la intersección de las tres medianas del triángulo
 
 {{ image | def_centroid }}
 
-Why do the three medians intersect at a single point? This needs some proof; we'll come back with Ceva's Theorem
+¿Por qué las tres medianas intersecan en un solo punto? Esto necesita una demostración; volveremos a ello con el Teorema de Ceva

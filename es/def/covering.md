@@ -1,10 +1,10 @@
-A **covering** is a continuous map $\varpi:X'\to X$ between two topological spaces such that
+Un **recubrimiento** es una aplicación continua $\varpi:X'\to X$ entre dos espacios topológicos tal que
 
 <ol>
-  <li>$\varpi$ is surjective</li>
-  <li>for all $p\in X$, there exists a neighborhood $U$ such that $\varpi^{-1}(U)=\bigsqcup_{i\in I} V_i$, with $V_i\subset X'$ open and $\varpi|_{V_i}: V_i \to U$ homeomorphism $\forall i\in I$</li>
+  <li>$\varpi$ es sobreyectiva</li>
+  <li>para todo $p\in X$, existe un entorno $U$ tal que $\varpi^{-1}(U)=\bigsqcup_{i\in I} V_i$, con $V_i\subset X'$ abierto y $\varpi|_{V_i}: V_i \to U$ homeomorfismo $\forall i\in I$</li>
 </ol>
 
 ---
 
-The neighborhoods $U$ for which the second condition holds are said to be _trivializing neighborhoods_, stressing that the restriction of $\varpi$ to the preimage of $U$ is just a lot of 'copies' of $U$ being projected on it
+Los entornos $U$ para los que se cumple la segunda condición son llamados _entornos trivializantes_, remarcando que la restricción de $\varpi$ a la preimagen de $U$ es simplemente un montón de 'copias' de $U$ que son proyectadas en él

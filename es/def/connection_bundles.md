@@ -1,8 +1,8 @@
-A question that arises when dealing with vector bundles is that of the _parallel transport_. Just like happens in [Riemannian geometry]( def | affine_connection ), there is no canonical way to move vectors along the manifold, but this requires an additional structure, a _connection_. But the more direct way to describe it is by a function that, given a direction and a field along this direction, points out the (infinitesimal) deviation with respect to the parallel transport.
+Una cuestión que surge al trabajar con fibrados vectoriales es el del _transporte paralelo_. Justo como ocurre en la [geometría riemanniana]( def | affine_connection ), no hay un modo canónico de desplazar vectores a lo largo de la variedad, sino que esto requiere una estructura adicional, una _conexión_. Pero la manera más directa de describirla es mediante una función que, dada una dirección y un campo sobre esa dirección, indique la desviación (infinitesimal) respecto al transporte paralelo.
 
 ---
 
-A **connection $\nabla$ in a vector bundle $E$** is a map $\nabla:\chi(M)\times \Gamma(E)\longrightarrow \Gamma(E)$ satisfying ($\nabla_X\sigma=\nabla(X,\sigma)$)
+Una **conexión $\nabla$ en un fibrado vectorial $E$** es una aplicación $\nabla:\chi(M)\times \Gamma(E)\longrightarrow \Gamma(E)$ satisfaciendo ($\nabla_X\sigma=\nabla(X,\sigma)$)
 
 <ol>
 <li>$\nabla_{X+Y}\sigma=\nabla_X\sigma+\nabla_Y\sigma$</li>
