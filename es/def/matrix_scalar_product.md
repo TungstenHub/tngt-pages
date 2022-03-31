@@ -1,4 +1,4 @@
-Given a matrix $A=(a_{ij})_{ij}\in \mathcal{M}_{m\times n}(\K)$ and a scalar $\alpha\in\K$, we define their product as the $m \times n$ matrix
+Dada una matriz $A=(a_{ij})_{ij}\in \mathcal{M}_{m\times n}(\K)$ y un escalar $\alpha\in\K$, definimos su producto como la matriz $m \times n$
 
 $$
 \alpha A=A\alpha = (\alpha a_{ij})_{ij} = 

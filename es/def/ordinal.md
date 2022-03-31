@@ -1,16 +1,16 @@
-A set $A$ is well-ordered with respect to the membership relation if the membership relation $\in_A$ over $A$,
+Un conjunto $A$ está bien ordenado con respecto a la relación de pertenencia si la relación de pertenencia $\in_A$ sobre $A$,
 
 $$\in_A=\{\langle a,b\rangle\in A\times A\vert a\in b\}$$
 
-is a (strict) well-order in $A$, that is, for any $a$, $b$, $c\in A$,
+es un buen orden (estricto) sobre $A$, es decir, para todos $a$, $b$, $c\in A$,
 
 <ol>
 <li>$a\not\in a$</li>
-<li>if $a\in b$ and $b\in c$, then $a\in c$</li>
-<li>$a\in b$ or $b\in a$ or $a=b$</li>
-<li>each non-empty subset $B$ in $A$ has an element $d$ such that $d\in b$ for any $b\in B$ different from $d$</li>
+<li>si $a\in b$ y $b\in c$, entonces $a\in c$</li>
+<li>$a\in b$ o $b\in a$ o $a=b$</li>
+<li>cada subconjunto no vacío $B$ en $A$ tiene un elemento $d$ tal que $d\in b$ para todo $b\in B$ distinto de $d$</li>
 </ol>
 
 ---
 
-A set $A$ is an **ordinal (number)** if it is transitive and well-ordered with respect to the relation of set membership $\in_A$
+Un conjunto $A$ es un **(número) ordinal** si es transitivo y bien ordenado con respecto a la relación de pertenencia $\in_A$

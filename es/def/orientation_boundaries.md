@@ -1,3 +1,3 @@
-The orientation of an oriented manifold does not induce an orientation in submanifolds in a canonical way. However, when an oriented manifold has boundary, the orientation induces another orientation in the boundary: **a basis in the boundary is positively oriented** if, when adding an outgoing vector as first vector, the resulting base is positively oriented in the initial manifold. The following picture explains the process:
+La orientación de una variedad orientada no induce una orientación sobre subvariedades de un modo canónico. Sin embargo, cuando la variedad orientada tiene borde, la orientación induce otra orientación en el borde: **una base en el borde está positivamente orientada** si, al añadir un vector saliente como primer vector, la base resultante está positivamente orientada en la variedad inicial. El siguiente dibujo explica el proceso:
 
 {{ image | orientation_boundaries }}

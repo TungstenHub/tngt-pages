@@ -1,9 +1,9 @@
-A **subrepresentation** of a representation of $G$ in $V$ is a vector subspace
+Una **subrepresentación** de una representación de $G$ en $V$ es un subespacio vectorial
 
 $$W\subset V$$
 
-that is invariant under the transformations of $G$, thus having 
+que es invariante bajo transformaciones de $G$, teniendo por tanto 
 
 $$\rho|_W: G \ll \GL(W)$$
 
-A representation $V$ is called **irreducible** if there is no proper nonzero invariant subspace $W$ of $V$
+Una representación $V$ se llama **irreducible** si no tiene ningún subespacio invariante propio (no nulo) $W$

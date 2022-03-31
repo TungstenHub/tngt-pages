@@ -1,4 +1,4 @@
-Given a field $\K$ (generally $\R$ or $\C$), a **matrix** of order $m\times n$ with coefficients in $\K$ is a "box" 
+Dado un cuerpo $\K$ (generalmente $\R$ o $\C$), una **matriz** de orden $m\times n$ con coeficientes en $\K$ es una "caja" 
 
 $$
 A =
@@ -10,8 +10,8 @@ a_{m1} & a_{m2} & \cdots  & a_{mn}\\
 \end{array}\right)
 $$
 
-made up by $mn$ elements of $\K$ arranged in $m$ rows and $n$ columns. We denote by $a_{ij}$ the element positioned in the row $i$ and column $j$. It is also used the notation
+hecha de $mn$ elementos de $\K$ organizados en $m$ filas y $n$ columnas. Denotamos por $a_{ij}$ el elemento sobre la fila $i$ y columna $j$. También se usa la notación
 
 $$A=(a_{ij})_{ij}$$
 
-which means _in the row $i$ and column $j$ one finds the number $a_{ij}$_
+que significa _en la fila $i$ y columna $j$ se encuentra el número $a_{ij}$_

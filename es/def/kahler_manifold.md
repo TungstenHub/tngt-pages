@@ -1,6 +1,6 @@
-In a Riemannian manifold there is a canonical connection, the Levi-Civita connection, which imposes compatibility with respect to the metric and symmetry. If the Riemannian metric comes from a Hermitian metric on a complex manifold, we would also like some compatibility with respect to the complex structure. More concretely, we're looking for a connection $\nabla$ that is compatible with the Riemannian metric ($\nabla g=0$) and with the Hermitian metric ($\nabla \tilde{h}=0$), which necessarily implies $\nabla\omega=0$.
+En una variedad riemanniana hay una conexión canónica, la conexión de Levi-Civita, que impone una compatibilidad con respecto a la métrica y a la simetría. Si la métrica riemanniana viene de una métrica hermítica en una variedad compleja, nos gustaría también cierta compatibilidad con respecto a la estructura compleja. Más concretamente, buscamos una conexión $\nabla$ que sea compatible con la métrica riemanniana ($\nabla g=0$) y con la métrica hermítica ($\nabla \tilde{h}=0$), lo que necesariamente implica $\nabla\omega=0$.
 
-However, since $\omega(u,v)=g(Ju,v)$, the following relation holds:
+Sin embargo, como $\omega(u,v)=g(Ju,v)$, se cumple la siguiente relación:
 
 $$
 \begin{array}{rcl}
@@ -11,7 +11,7 @@ $$
 \end{array}
 $$
 
-and this relation implies that for a Hermitian manifold $(M,J,h)$ the following are equivalent
+y esta relación implica que para una variedad hermítica $(M,J,h)$ son equivalentes
 
 <ol>
 <li>$\nabla J=0$</li>
@@ -19,4 +19,4 @@ and this relation implies that for a Hermitian manifold $(M,J,h)$ the following 
 <li>$\mathrm{d} \omega=0$</li>
 </ol>
 
-A **Kähler manifold** is a Hermitian manifold satisfying the equivalent statements above, and in this case the Levi-Civita connection is compatible with the Hermitian metric.
+Una **variedad de Kähler** es una variedad hermítica satisfaciendo las condiciones equivalentes anteriores, en cuyo caso la conexión de Levi-Civita es compatible con la métrica hermítica.

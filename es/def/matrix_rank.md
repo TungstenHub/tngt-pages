@@ -1,1 +1,1 @@
-The **rank** of a matrix $A$, denoted $\mathrm{rk}(A)$, is the number of nonzero rows of its row canonical form
+El **rango** de una matriz $A$, denotado por $\mathrm{rk}(A)$, es el número de filas no nulas de su forma canónica por filas
