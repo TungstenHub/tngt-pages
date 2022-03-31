@@ -1,7 +1,7 @@
-A **group** is a set $G$ together with a multiplication on $G$ which satisfies three axioms:
+Un **grupo** es un conjunto $G$ junto con una multiplicación en $G$ que satisface tres axiomas:
 
 <ul>
-  <li>**Associativity:** The multiplication is associative, that is to say $(xy)z=x(yz)$ for any three (not necessarily distinct) elements from $G$</li>
-  <li>**Identity Element:** There is an element $e$ in $G$, called an identity element, such that $xe=x=ex$ for every $x$ in $G$</li>
-  <li>**Inverse Element:** Each element $x$ of $G$ has an inverse $x^{-1}$ which belongs to the set $G$ and satisfies $x^{-1}x=e=xx^{-1}$</li>
+  <li>**Asociatividad:** La multiplicación es asociativa, es decir, $(xy)z=x(yz)$ para cualesquiera tres elementos de $G$ (no necesariamente distintos)</li>
+  <li>**Elemento Neutro:** Hay un elemento $e$ en $G$, llamado elemento neutro, tal que  $xe=x=ex$ para cada $x$ en $G$</li>
+  <li>**Elemento Inverso:** Cada elemento $x$ de $G$ tiene un inverso $x^{-1}$ que pertenece al conjunto $G$ y satisface $x^{-1}x=e=xx^{-1}$</li>
 </ul>

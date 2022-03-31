@@ -1,27 +1,27 @@
-A complex $C_\ast$ is said to be an **exact sequence** if 
+Un complejo $C_\ast$ es una **secuencia exacta** si 
 
 $$\text{im }\partial_{k+1}= \text{ker }\partial_k$$
 
-for all $k$
+para todo $k$
 
-An exact sequence of the type 
+Una secuencia exacta del tipo 
 
 $$0\xrightarrow{} A\xrightarrow{f}B\xrightarrow{g}C\xrightarrow{} 0$$
 
-is called **short exact sequence**
+se llama **secuencia exacta corta**
 
 ---
 
-[Cohomological version]
+[Versión cohomológica]
 
-A complex $C^\ast$ is said to be an **exact sequence** if 
+Un complejo $C^\ast$ es una **secuencia exacta** si 
 
 $$\text{im }\mathrm{d}^{k-1}= \text{ker }\mathrm{d}^k$$
 
-for all $k$
+para todo $k$
 
-An exact sequence of the type 
+Una secuencia exacta del tipo 
 
 $$0\xrightarrow{} A\xrightarrow{f}B\xrightarrow{g}C\xrightarrow{} 0$$
 
-is called **short exact sequence**
+se llama **secuencia exacta corta**

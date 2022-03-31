@@ -1,1 +1,1 @@
-An action of a group $G$ on a set $X$ is a homomorphism from $G$ to $S_X$
+Un acción de un grupo $G$ en un conjunto $X$ es un homomorfismo de $G$ a $S_X$

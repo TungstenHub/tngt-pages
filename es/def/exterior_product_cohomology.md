@@ -1,39 +1,39 @@
-The **exterior product $\wedge$** is inherited in cohomology: 
+El **producto exterior $\wedge$** se hereda en cohomología: 
 
 $$\wedge:H^k(M)\times H^l(M)\longrightarrow H^{k+l}(M)$$
 $$[\alpha]\wedge[\beta]=[\alpha\wedge\beta]$$
 
-For $\wedge$ to be well-defined, we have to check two properties: 
+Para que $\wedge$ esté bien definido, hay que comprobar dos propiedades: 
 
 <ol>
   <li>
-  If $\alpha$ and $\beta$ are closed, $\alpha\wedge\beta$ is also closed: 
+  Si $\alpha$ y $\beta$ son cerradas, $\alpha\wedge\beta$ también es cerrada: 
   
   $$\mathrm{d} \alpha=0,\,\mathrm{d} \beta=0\Longrightarrow\mathrm{d}(\alpha\wedge\beta)=\mathrm{d} \alpha\wedge\beta+(-1)^k\alpha\wedge\mathrm{d}\beta=0$$ 
   
-  Therefore, 
+  Por lo tanto, 
 
   $$\wedge:\Omega^k(M)\times \Omega^l(M)\longrightarrow \Omega^{k+l}(M)$$
   
-  induces 
+  induce 
   
   $$\wedge:Z^k(M)\times Z^l(M)\longrightarrow Z^{k+l}(M)$$
   
-  and also 
+  y también 
   
   $$\wedge:Z^k(M)\times Z^l(M)\longrightarrow \left[Z^{k+l}(M)/B^{k+l}(M)=H^{k+l}(M)\right]$$
   </li>
 
   <li>
-  If moreover $\alpha$ or $\beta$ is exact, $\alpha\wedge\beta$ is also exact: 
+  Si además $\alpha$ o $\beta$ es exacta, $\alpha\wedge\beta$ también es exacta: 
   
   $$\alpha=\mathrm{d} \gamma\Longrightarrow\alpha\wedge\beta=\mathrm{d}\gamma\wedge\beta=\mathrm{d}(\gamma\wedge\beta)-(-1)^{k-1} \gamma\wedge\mathrm{d}\beta=\mathrm{d}(\gamma\wedge\beta)$$
 
-  Therefore, 
+  De este modo, 
 
   $$\wedge:Z^k(M)\times Z^l(M)\longrightarrow \left[Z^{k+l}(M)/B^{k+l}(M)=H^{k+l}(M)\right]$$
   
-  induces 
+  induce 
   
   $$\wedge:\left[Z^k(M)/B^k(M)=H^k(M)\right]\times \left[Z^l(M)/B^l(M)=H^l(M)\right]\longrightarrow \left[Z^{k+l}(M)/B^{k+l}(M)=H^{k+l}(M)\right]$$
   </li>

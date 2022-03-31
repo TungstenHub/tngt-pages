@@ -1,4 +1,4 @@
-Two systems of linear equations are said to be **equivalent** when they have exactly the same solutions. For instance 
+Dos sistemas de ecuaciones lineales son **equivalentes** si tienen exactamente las mismas soluciones. Por ejemplo 
 
 $$
 \left\{
@@ -16,7 +16,7 @@ x_1 & -2x_2 & + x_3 & = & 7\\
 \end{array}\right.
 $$
 
-are equivalent, because we have just swapped the two first rows, and the requirements to fulfill are the same. On the other hand, 
+son equivalentes, porque simplemente hemos intercambiado las dos primeras filas, y los requisitos a cumplir son los mismos. Por otro lado, 
 
 $$
 \left\{
@@ -34,6 +34,6 @@ x &  &  & = & 2\\
 \end{array}\right.
 $$
 
-are equivalent too (and thus both systems have only one solution $(x=2,y=8,z=21)$), but this is not so obvious for the naked eye
+también son equivalentes (y por tanto ambos sistemas tienen una sola solución $(x=2,y=8,z=21)$), pero esto no es tan obvio a simple vista
 
-Our strategy to solve systems of linear equations will be to get simpler and simpler equivalent systems, until we reach a system whose solutions are straightforward to find
+Nuestra estrategia para resolver sistemas lineales será obtener sistemas equivalentes cada vez más simples, hasta que lleguemos a un sistema cuyas soluciones se puedan encontrar directamente

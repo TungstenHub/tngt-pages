@@ -1,1 +1,1 @@
-Two groups $G$ and $G'$ are **isomorphic** if there is a bijection $\varphi$ from $G$ to $G'$ which satisfies $\varphi(x)=\varphi(y)$ for all $x$, $y\in G$. The function $\varphi$ is called an **isomorphism** between $G$ and $G'$
+Dos grupos $G$ y $G'$ son **isomorfos** si hay una biyección $\varphi$ de $G$ a $G'$ que satisface $\varphi(x)=\varphi(y)$ para todos $x$, $y\in G$. La función $\varphi$ es un **isomorfismo** entre $G$ y $G'$
