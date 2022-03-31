@@ -1,5 +1,5 @@
-Two matrices are said to be **(row) equivalent** if one matrix may be transformed into the other one by a sequence of elementary operations
+Dos matrices son **equivalentes (por filas)** si una matriz se puede transformar en la otra mediante una secuencia de operaciones elementales
 
 ---
 
-We have said that two systems of equations are equivalent if they have the same set of solutions, and that two matrices are (row) equivalent if they may be connected through a sequence of elementary operations. These two concepts seem to be related - to what extent?
+Hemos dicho que dos sistemas de ecuaciones son equivalentes si tienen el mismo conjunto de soluciones, y que dos matrices son equivalentes (por filas) si se pueden conectar con una secuencia de operaciones elementales. Estos conceptos parecen relacionados - ¿hasta qué punto?

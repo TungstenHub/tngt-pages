@@ -1,1 +1,1 @@
-We say that **an integer $a$ divides another integer $b$**, written $a\vert b$, if there exists some $c\in\mathbb{Z}$ such that $b=ac$. If so, we will say that $a$ is a **divisor** of $b$
+Decimos que **un entero $a$ divide a otro entero $b$**, escrito $a\vert b$, si existe algún $c\in\mathbb{Z}$ tal que $b=ac$. En este caso, decimos que $a$ es un **divisor** de $b$

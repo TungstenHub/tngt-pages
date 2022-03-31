@@ -1,13 +1,13 @@
-We have said that we would like to perform elementary operations in our matrix to get simpler ones. But what does _simpler_ mean? Which is the ideal situation we should pursue?
+Hemos dicho que nos gustaría efectuar operaciones elementales en nuestra matriz para obtener otras más simples. ¿Pero qué significa _más simple_? ¿Cuál es la situación ideal que deberíamos perseguir?
 
 ---
 
-A matrix is said to be in **row echelon form** if 
+Una matriz está en **forma escalonada por filas** si
 
 <ul>
-<li>All zero rows (rows containing only $0$) are below the nonzero ones</li>
-<li>The first nonzero coefficient in a nonzero row (called _leading coefficient_ or _pivot_) is $1$</li>
-<li>Each pivot is strictly to the right of the pivot of the row above it</li>
+<li>Todas las filas nulas (filas que sólo tienen $0$) están por debajo de las no nulas</li>
+<li>El primer coeficiente no nulo de una fila no nula (llamado _coeficiente principal_ o _pivote_) es $1$</li>
+<li>Cada pivote está estrictamente a la derecha del pivote de la fila superior</li>
 </ul>
 
 $$
@@ -23,10 +23,10 @@ $$
 \right)
 $$
 
-A matrix is said to be in **reduced row echelon form** if moreover
+Una matriz está en **forma escalonada reducida por filas** si además
 
 <ul>
-<li>All coefficients above a pivot are $0$</li>
+<li>Todos los coeficientes por encima de un pivote son $0$</li>
 </ul>
 
 $$

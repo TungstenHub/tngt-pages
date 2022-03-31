@@ -8,4 +8,4 @@ A **norm** on $X$ is a map $\| . \| : X \rightarrow [0, \infty)$ that satisfies 
 <li> $\|x+y \| \leq  \|x\| + \|y\| $ for all $x,y \in X$
 </ol>
 
-A **normed space** is a pair ($X, \| .\|$), where $X$ is a vector space and $\| . \|$ is a norm on $X$.
+A **normed space** is a pair $(X, \| .\|)$, where $X$ is a vector space and $\| . \|$ is a norm on $X$.

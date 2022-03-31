@@ -1,11 +1,11 @@
-Let $X$ be a vector space over a field $\K$.
+Sea $X$ un espacio vectorial sobre un cuerpo $\K$.
 
-A **norm** on $X$ is a map $\| . \| : X \rightarrow [0, \infty)$ that satisfies the following properties: 
+Una **norma** en $X$ es una aplicación $\| . \| : X \rightarrow [0, \infty)$ que satisface las siguientes propiedades: 
 
 <ol>
-<li> $ \| x \|=0 $ if and only if $x=0$  </li>
-<li> $ \| \lambda x \| = |\lambda| \|x \| $ for all $x \in X$ and $ \lambda \in \K$ 
-<li> $\|x+y \| \leq  \|x\| + \|y\| $ for all $x,y \in X$
+<li> $ \| x \|=0 $ si y sólo si $x=0$  </li>
+<li> $ \| \lambda x \| = |\lambda| \|x \| $ para todo $x \in X$ y $ \lambda \in \K$ 
+<li> $\|x+y \| \leq  \|x\| + \|y\| $ para todos $x,y \in X$
 </ol>
 
-A **normed space** is a pair ($X, \| .\|$), where $X$ is a vector space and $\| . \|$ is a norm on $X$.
+Un **espacio normado** es un par $(X, \| .\|)$, donde $X$ es un espacio vectorial y $\| . \|$ es una norma en $X$.
