@@ -1,21 +1,21 @@
-Sometimes a space $X$ is mapped over another space $Y$ by two maps that are different, but that are in some way compatible, in the sense that "one map may be continuously deformed to match the another map"
+A veces un espacio $X$ se aplica sobre otro espacio $Y$ por dos aplicaciones que son diferentes, pero que en cierto modo son compatibles, en el sentido de que "una aplicación se puede deformar continuamente hasta coincidir con la otra aplicación"
 
 {{ image | homotopic_maps }}
 
-How to formally describe this property?
+¿Cómo describir formalmente esta propiedad?
 
 ---
 
-Let $X$, $Y$ be two topological spaces, $f$ and $g:X\longrightarrow Y$ two maps. We say that $f$ and $g$ are **homotopic maps** if there exists $H:X\times [0,1]\longrightarrow Y$ such that $H(x,0)=f(x)$, $H(x,1)=g(x)$, for all $x\in X$.
+Sean $X$, $Y$ dos espacios topológicos, $f$ y $g:X\longrightarrow Y$ dos aplicaciones. Decimos que $f$ y $g$ son **aplicaciones homótopas** si existe $H:X\times [0,1]\longrightarrow Y$ tal que $H(x,0)=f(x)$, $H(x,1)=g(x)$, para todo $x\in X$.
 
-We denote $f\sim g$ (or $f\sim_H g$ if $H$ is wanted to be explicit). $H$ is called the _homotopy_ (between $f$ and $g$).
+Se denota por $f\sim g$ (o $f\sim_H g$ si se quiere poner $H$ explícitamente). $H$ es la _homotopía_ (entre $f$ y $g$).
 
 ---
 
-It also may happen that we want to describe the previous phenomenon but stresssing at the same time that the image of some subset of $X$ remains the same all over the deformation
+Puede ocurrir también que queramos describir el proceso anterior pero remarcando al mismo tiempo que la imagen de algún subconjunto de $X$ permanece quieta durante la deformación
 
 {{ image | homotopic_maps_relative }}
 
 ---
 
-Let $A\subset X$, $f$, $g:X\longrightarrow Y$ with $f\vert_A=g\vert_A$. We say that $f$ and $g$ are **homotopic maps relative to $A$** if there exists $H:X\times [0,1]\longrightarrow Y$ such that $H(x,0)=f(x)$, $H(x,1)=g(x)$, for all $x\in X$, and $H(a,s)=f(a)=g(a)$, for all $a\in A$, $s\in [0,1]$. It is denoted $f\sim g (A)$.
+Sean $A\subset X$, $f$, $g:X\longrightarrow Y$ con $f\vert_A=g\vert_A$. Decimos que $f$ y $g$ son **aplicaciones homótopas relativo a $A$** si existe $H:X\times [0,1]\longrightarrow Y$ tal que $H(x,0)=f(x)$, $H(x,1)=g(x)$, para todo $x\in X$, y $H(a,s)=f(a)=g(a)$, para todos $a\in A$, $s\in [0,1]$. Se denota por $f\sim g (A)$.

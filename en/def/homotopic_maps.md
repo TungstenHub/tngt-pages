@@ -12,7 +12,7 @@ We denote $f\sim g$ (or $f\sim_H g$ if $H$ is wanted to be explicit). $H$ is cal
 
 ---
 
-It also may happen that we want to describe the previous phenomenon but stresssing at the same time that the image of some subset of $X$ remains the same all over the deformation
+It also may happen that we want to describe the previous phenomenon but stressing at the same time that the image of some subset of $X$ remains the same all over the deformation
 
 {{ image | homotopic_maps_relative }}
 

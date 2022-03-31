@@ -1,4 +1,4 @@
-The identity matrix of order $m$ is defined as the matrix $I_m\in\mathcal{M}_{m\times m}(\K)$ having ones in the main diagonal and zeros elsewhere
+La matriz identidad de orden $m$ se define como la matriz $I_m\in\mathcal{M}_{m\times m}(\K)$ que tiene unos en la diagonal principal y ceros en el resto de entradas
 
 $$
 I_m =
@@ -10,7 +10,7 @@ I_m =
 \end{array}\right)
 $$
 
-It may also be written as $I_m=(\delta_{ij})_{ij}$, where 
+También se puede escribir como $I_m=(\delta_{ij})_{ij}$, donde 
 
 $$
 \delta_{ij}=
@@ -21,4 +21,4 @@ $$
 \end{array}\right.
 $$
 
-is known as _Kronecker's delta_
+es la _delta de Kronecker_
