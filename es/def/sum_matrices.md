@@ -1,4 +1,4 @@
-Given two matrices of equal order $m\times n$, $A=(a_{ij})_{ij}$ and $B=(b_{ij})_{ij}$, we define its sum as another matrix of order $m\times n$ given by 
+Dadas dos matrices de igual orden $m\times n$, $A=(a_{ij})_{ij}$ y $B=(b_{ij})_{ij}$, definimos su suma como otra matriz de orden $m\times n$ dada por
 
 $$
 A+B = (a_{ij}+b_{ij})_{ij} = 
@@ -10,4 +10,4 @@ a_{m1}+b_{m1} & a_{m2}+b_{m2} & \cdots  & a_{mn}+b_{mn}\\
 \end{array}\right)
 $$
 
-whose coefficients are the corresponding sum of the elements of $A$ and $B$. This is why the sum is only defined for matrices of the same order
+cuyos coeficientes con las sumas correspondientes de los elementos de $A$ y $B$. Es por eso que la suma sólo está definida para matrices del mismo orden

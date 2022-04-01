@@ -1,7 +1,7 @@
-The set $S_n$ of all permutations  
+El conjunto $S_n$ de todas las permutaciones  
 
 $$\alpha:\{1,...,n\}\longrightarrow\{1,...,n\}$$
 
-is a group under composition of functions; it is the **symmetric group of order $n$**
+es un grupo bajo la composición de funciones; es el **grupo simétrico de orden $n$**
 
-(In general, for any given set $X$, $S_X$ is the group of permutations $\alpha: X\longrightarrow X$)
+(En general, para cualquier conjunto $X$, $S_X$ es el grupo de permutaciones $\alpha: X\longrightarrow X$)

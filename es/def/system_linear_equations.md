@@ -1,10 +1,10 @@
-Let $\K$ be a field (in general $\R$ or $\C$). A **linear equation** with coefficients in $\K$ is an expression of the form
+Sea $\K$ un cuerpo (en general $\R$ o $\C$). Una **ecuación lineal** con coeficientes en $\K$ es una expresión de la forma
 
 $$a_1x_1+\cdots+a_nx_n=b$$
 
-where $a_i$ and $b$ are known numbers in $\K$ (**coefficients** and **independent term**), and $x_i$ are the **unknowns**, for which some values in $\K$ satisfy the equation (**solutions**) and others don't
+donde $a_i$ y $b$ son números conocidos en $\K$ (**coeficientes** y **término independiente**), y las $x_i$ son las **incógnitas**, para las cuales algunos valores en $\K$ satisfacen la ecuación (**soluciones**) y otros no
 
-We may impose the fulfillment of not just one, but many (say $m$) linear equations: this is a **system of linear equations**
+Podemos pedir el cumplimiento de no sólo una, sino varias (digamos $m$) ecuaciones lineales: es un **sistema de ecuaciones lineales**
 
 $$
 \left\{
@@ -16,4 +16,4 @@ a_{m1}x_1 & + & a_{m2}x_2 & + & \cdots & + & a_{mn}x_n & = & b_m\\
 \end{array}\right.
 $$
 
-whose solutions are the values $x_i$ that satisfy the $m$ equations simultaneously
+cuyas soluciones son los valores $x_i$ que satisfacen las $m$ ecuaciones simultáneamente
