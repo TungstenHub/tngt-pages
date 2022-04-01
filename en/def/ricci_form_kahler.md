@@ -2,7 +2,7 @@ From the Ricci tensor we define the **Ricci form**:
 
 $$\rho(u,v)=R(Ju,v)$$
 
-that is an anti-symmetric 2-form locally described by
+It is anti-symmetric, and thus a 2-form, locally described by
 
 $$\rho_{j\bar{k}}=\rho(\partial_{j},\partial_{\overline{k}})=R(\mathrm{i}\partial_{j},\partial_{\overline{k}})=\mathrm{i} R_{j\bar{k}}$$
 

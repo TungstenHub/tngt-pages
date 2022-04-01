@@ -1,1 +1,1 @@
-A **subgroup** of a group $G$ is a subset of $G$ which itself forms a group under the multiplication of $G$
+Un **subgrupo** de un grupo $G$ es un subconjunto de $G$ que en sí mismo forma un grupo bajo la multiplicación de $G$

@@ -1,8 +1,8 @@
-A **map** $\phi$ between two representations $V$ and $W$ of $G$ is a vector space map
+Una **aplicación** $\phi$ entre dos representaciones $V$ y $W$ de $G$ es una aplicación entre espacios vectoriales
 
 $$\phi: V \ll W$$
 
-such that
+tal que
 
 $$
 \begin{CD}
@@ -12,8 +12,8 @@ V @>{\phi}>> W       \\
 \end{CD}
 $$
 
-commutes for every $g\in G$ ($\phi$ is said to be _$G$-linear_)
+conmuta para cada $g\in G$ ($\phi$ se dice _$G$-lineal_)
 
 ---
 
-If $\phi: V \ll W$ is an isomorphism, then we say we have an **isomorphism of representations**; it's the proper concept to state that two representations are "the same" but from different points of view
+Si $\phi: V \ll W$ es un isomorfismo, entonces decimos que tenemos un **isomorfismo de representaciones**; es el concepto apropiado para decir que dos representaciones son "la misma" pero desde distintos puntos de vista

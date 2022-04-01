@@ -1,17 +1,17 @@
-Let $A$ and $B$ be two matrices with the following shapes:
+Sean $A$ y $B$ dos matrices de los siguientes tamaños:
 
-$$A=(a_{ik})_{ik}\in\mathcal{M}_{m\times p}(\mathbb{K})\qquad\text{(\(m\) rows and \(p\) columns)}$$
-$$B=(b_{kj})_{kj}\in\mathcal{M}_{p\times n}(\mathbb{K})\qquad\text{(\(p\) rows and \(n\) columns)}$$
+$$A=(a_{ik})_{ik}\in\mathcal{M}_{m\times p}(\mathbb{K})\qquad\text{(\(m\) filas y \(p\) columnas)}$$
+$$B=(b_{kj})_{kj}\in\mathcal{M}_{p\times n}(\mathbb{K})\qquad\text{(\(p\) filas y \(n\) columnas)}$$
 
-We define their product as a matrix
+Definimos su producto como la matriz
 
-$$C=(c_{ij})_{ij}\in\mathcal{M}_{m\times n}(\mathbb{K})\qquad\text{(\(m\) rows and \(n\) columns)}$$
+$$C=(c_{ij})_{ij}\in\mathcal{M}_{m\times n}(\mathbb{K})\qquad\text{(\(m\) filas y \(n\) columnas)}$$
 
-where
+donde
 
 $$c_{ij}=\sum_{k=1}^p a_{ik}b_{kj}=a_{i1}b_{1j}+a_{i2}b_{2j}+\cdots+a_{ip}b_{pj}$$
 
-So the product of matrices is not defined for every pair of matrices - only when the shapes match as follows
+Así que el producto de matrices no está definido para cualquier par de matrices - sólo para aquéllas en que las dimensiones coinciden como sigue
 
 $$
 \begin{array}{ccccc}
