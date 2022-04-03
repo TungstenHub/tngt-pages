@@ -1,4 +1,4 @@
-The **sphere** is one of the first surfaces: the set of points in the tridimensional space whose distance to the origin is one
+La **esfera** es una de las primeras superficies: el conjunto de puntos en el espacio tridimensional que distan una unidad del origen
 
 $$\S^2=\{(x,y,z)\in \R^3 \, | \,x^2+y^2+z^2=1\}$$
 

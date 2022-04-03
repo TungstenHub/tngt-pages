@@ -1,4 +1,4 @@
-We all know what are surfaces. But have you ever thought how many there are and how are shaped?
+Todos sabemos lo que son las superficies. ¿Pero te has parado alguna vez a pensar cuántas hay y qué formas tienen?
 
 {{ image | sphere_manifold width = 480 }}
 

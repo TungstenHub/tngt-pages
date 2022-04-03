@@ -1,10 +1,10 @@
-To describe the topology of a quotient space $X/\sim=\bar X$ from the sole definition may be challenging. That's why the we talk about **quotient maps**, which is a concept that will help us handle quotient topologies more easily
+Describir la topología de un espacio cociente $X/\sim=\bar X$ puede ser difícil a partir de la definición. Por ello se introduce el **cociente topológico**, que es un concepto que nos ayudará a tratar mejor la topología cociente
 
-A map $q:X\longrightarrow X’$ is a quotient map when $X’$ has the same topology than when identifying the elements in $X$ that have the same image. This way, if we have a candidate to topology of $X/\sim=\bar X$ (for instance we want to check that $\bar X\simeq X’$), all we need is
+Una aplicación $q:X\longrightarrow X'$ es cociente topológico cuando $X'$ tiene la misma topología que al identificar los elementos de $X$ que tienen la misma imagen. Por eso, si tenemos un candidato a topología de $X/\sim=\bar X$ (por ejemplo queremos ver que $\bar X\simeq X'$), lo que necesitamos es
 
 <ol>
-  <li>A map $q:X\longrightarrow X’$ that is in accordance with the equivalence set in $X$, that is, $q(x)=q(y)\Longleftrightarrow x\sim y$</li>
-  <li>To prove that $q$ is a quotient map</li>
+  <li>Una aplicación $q:X\longrightarrow X'$ que respete la relación de equivalencia en $X$, es decir, $q(x)=q(y)\Longleftrightarrow x\sim y$</li>
+  <li>Probar que $q$ es cociente topológico</li>
 </ol>
 
-and automatically we'll have that $\bar X\simeq X’$. So our goal right now is to find distinctive properties of quotient maps.
+y automáticamente tendremos que $\bar X\simeq X'$. Por tanto, nuestro objetivo ahora es dar caracterizaciones de los cocientes topológicos.

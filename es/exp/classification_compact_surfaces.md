@@ -1,174 +1,174 @@
-A surface is a manifold of dimension 2. For example:
+Una superficie es una variedad de dimensión 2. Como ejemplos tenemos:
 
 <ul>
-<li>The sphere $\S^2=\{(x,y,z)\in \mathbb{R}^3 \, \vert \,x^2+y^2+z^2=1\}$</li>
-<li>The torus $\T^2=\{(x,y,z)\in \mathbb{R}^3 \, \vert \, (\sqrt{x^2+y^2}-2)^2+z^2=1\}$</li>
+<li>La esfera $\S^2=\{(x,y,z)\in \mathbb{R}^3 \, \vert \,x^2+y^2+z^2=1\}$</li>
+<li>El toro $\T^2=\{(x,y,z)\in \mathbb{R}^3 \, \vert \, (\sqrt{x^2+y^2}-2)^2+z^2=1\}$</li>
 </ul>
 
 {{ image | sphere_torus }}
 
-In fact, from a regular equation $S=\{(x,y,z) \, \vert \, F(x,y,z)=0\}$ in $\mathbb{R}^3$ we always get a surface. Being regular means that $\nabla F(x,y,z) \neq 0$, $\forall (x,y,z)\in S$.
+De hecho, siempre que tenemos una ecuación regular $S=\{(x,y,z) \, \vert \, F(x,y,z)=0\}$ en $\mathbb{R}^3$ obtenemos una superficie. La condición de ser regular es que $\nabla F(x,y,z) \neq 0$, $\forall (x,y,z)\in S$.
 
-Given two surfaces $M_1$ and $M_2$, we may build their connected sum: just make two holes and glue the boundaries. We call it $M_1 \# M_2$
+Dadas dos superficies $M_1$ y $M_2$, podemos hacer su suma conexa: hacemos dos pequeños agujeros y unimos por los bordes. La denotaremos por $M_1 \# M_2$
 
 {{ image | connected_sum }}
 
-Of course, the connected sum of two surfaces is a surface again!
+Por supuesto, ¡la suma conexa de dos superficies vuelve a ser una superficie!
 
 {{ image | connected_sum_local }}
 
-So we have double torus, triple torus... in general we speak about tori of genus $g$ (and we denote them by $\Sigma_g$)
+Así podemos construir toros dobles, triples... en general hablamos de toros de género $g$ (y los denotaremos por $\Sigma_g$)
 
 {{ image | g_torus }}
 
-Are these all the possibilities for surfaces? Let's see
+¿Son estos todos los tipos de superficie que podemos tener? Lo vamos a analizar
 
-To warm-up, let's see other surfaces, some of them with boundary. Sometimes we can get it by gluing the sides of some polygons.
+Para ir entrenando, vamos a conocer algunas otras superficies, algunas de ellas con borde. Esto se puede conseguir, muchas veces, pegando los lados de diversos polígonos.
 
-When gluing two sides of a square with the same orientation, we get a cylinder
+Al pegar dos lados de un cuadrado con la misma orientación, obtenemos un cilindro
 
 {{ image | square_cylinder }}
 
-But if we change the orientation of one of the sides, we get a Möbius strip
+Pero si cambiamos la orientación de uno de los lados, obtenemos una cinta de Möbius
 
 {{ image | square_mobius }}
 
-The cylinder and the Möbius strip cannot be the same surface, because the cylinder has two circles as boundary, whereas the Möbius strip has only one.
+El cilindro y la cinta de Möbius no pueden ser la misma superficie, porque el cilindro tiene como borde dos círculos, mientras que la cinta de Möbius sólo tiene uno.
 
-By gluing polygons we may also create closed surfaces. The torus for example
+Mediante el pegado de polígonos también se pueden crear superficies cerradas. Un ejemplo es el toro
 
 {{ image | square_torus }}
 
-And soon we come to know a more complex surface: the Klein bottle
+Y pronto encontramos una superficie más compleja: la botella de Klein
 
 {{ image | square_klein }}
 
-We cannot take it into space without crossings! But there are no boundaries nor breaks, so this is a fledged closed surface.
+¡No se puede meter en el espacio sin que haya cruces! Pero no tiene bordes ni roturas, así que es una superficie cerrada en toda regla.
 
-An even stranger surface: the projective plane
+Una superficie todavía más rara: el plano proyectivo
 
 {{ image | projective_plane_manifold width = 480 }}
 
-We get it by identifying the opposite points in a sphere, or when identifying the points in the boundary of a disc like in the figure
+Ésta se consigue al identificar los puntos opuestos de una esfera, o al identificar el borde de un disco como en la figura
 
 {{ image | sphere_opposite_identification }}
 
-In fact, all the surfaces we come across may be obtained by gluing the sides of a polygon. For instance, the connected sum of two surfaces made with one polygon each is also made with another polygon
+De hecho, todas las superficies que queramos se pueden obtener mediante el pegado de las aristas de un polígono. Por ejemplo, si tenemos dos superficies construidas a partir de polígonos, su suma conexa también se construye pegando un polígono
 
 {{ image | connected_sum_polygon }}
 
-This is the case of the double torus
+Esto es lo que ocurre para el doble toro
 
 {{ image | double_torus_polygon }}
 
-When dealing with the pasting of the sides of a polygon, we use 'words'
+Cuando queramos referirnos a un pegado que se hace en las aristas de un polígono, utilizaremos "palabras"
 
 {{ image | polygon_word }}
 
-Just by taking the sides of the polygon in the right order; wrong direction arrows are signed with a $-1$
+Sólo hay que recorrer todo el polígono y escribir las letras, que estarán "elevadas a $-1$" si nos encontramos la flecha en dirección contraria
 
-Now we know lots of surfaces made up by gluing polygons
+Ahora conocemos muchas superficies que se consiguen mediante el pegado de un polígono
 
 <ul>
-<li>The torus $\T^2$: $aba^{-1}b^{-1}$</li>
-<li>The double torus $\T^2 \# \T^2$: $aba^{-1}b^{-1}cdc^{-1}d^{-1}$</li>
-<li>The torus of genus $g$ $\Sigma_g$: $a_1 b_1 a_1^ {-1}b_1^{-1}\cdots a_gb_ga_g^{-1}b_g^{-1}$</li>
-<li>The Klein bottle $Kl$: $abab^{-1}$</li>
-<li>The projective plane $\mathbb{R}P^2$: $aa$</li>
+<li>El toro $\T^2$: $aba^{-1}b^{-1}$</li>
+<li>El doble toro $\T^2 \# \T^2$: $aba^{-1}b^{-1}cdc^{-1}d^{-1}$</li>
+<li>El toro de género $g$ $\Sigma_g$: $a_1 b_1 a_1^ {-1}b_1^{-1}\cdots a_gb_ga_g^{-1}b_g^{-1}$</li>
+<li>La botella de Klein $Kl$: $abab^{-1}$</li>
+<li>El plano proyectivo $\mathbb{R}P^2$: $aa$</li>
 </ul>
 
-And symbolically $S^2$: $aa^{-1}$
+Y simbólicamente podemos añadir la esfera $S^2$: $aa^{-1}$
 
 {{ image | sphere_planar_representation }}
 
-Before computing and proving that the word method is useful for classifying the compact surfaces, we need some remarks.
+Antes de comenzar a hacer cálculos y comprobar que el método de las palabras realmente nos va a ayudar a clasificar las superficies compactas, debemos hacer algunas observaciones.
 
 <ol>
 <li>
-The projective plane is the union along the boundary of a Möbius band and a disc 
+El plano proyectivo surge al pegar una banda de Möbius y un disco por el borde 
 
 {{ image | projective_plane_mobius_disc }}
 
-Indeed, we remove a disc and glue...
+En efecto, si quitamos un disco y pegamos...
 
 {{ image | projective_plane_mobius_disc_decomposition }}
 </li>
 <li>
-The Klein bottle is the union of two Möbius bands along the boundary, and hence the connected sum of two projective planes
+La botella de Klein se construye al unir dos bandas de Möbius por el borde, y por eso es igual a la suma conexa de dos planos proyectivos
 
 {{ image | klein_bottle_halves width = 480 }}
 
-We also may check it with cut-and-paste diagrams
+Aunque si lo queremos ver con diagramas de corte y pegado, lo podemos hacer así
 
 {{ image | klein_bottle_two_mobius_strips_decomposition }}
 </li>
 <li>
-The connected sum of a torus and a projective plane is the same as the connected sum of a Klein bottle and a projective plane. But since the Klein bottle is equal to the connected sum of two projective planes, both of the previous objects are equal to the connected sum of three projective planes
+La suma conexa de un toro y un plano proyectivo es igual a la suma conexa de una botella de Klein y un plano proyectivo. Así, como la botella de Klein es la suma conexa de dos planos proyectivos, las dos superficies anteriores son la suma conexa de tres planos proyectivos
     
-But why? First of all, making a connected sum with a torus is like attaching a 'handle'
+¿Y esto de dónde viene? En primer lugar, hacer suma conexa con un toro es añadir un "asa"
 
 {{ image | torus_handle }}
 
-And making a connected sum with a Klein bottle is also like attaching a 'handle', but with reversal directions!
+Y para hacer una suma conexa con una botella de Klein, pues también hay que pegar un asa, ¡pero hay que pegarla con las direcciones cambiadas!
 
 {{ image | klein_bottle_handle }}
 
-And when working with a projective plane... then everything is the same, because inside the projective plane there is a Möbius strip
+Y si a un plano proyectivo le hacemos la suma conexa con un toro o con una botella de Klein... pues lo que queda es lo mismo, porque dentro del plano proyectivo hay una banda de Möbius
 
 {{ image | mobius_strip_handle }}
 </li>
 </ol>
 
-Altogether we may think the following: we make connected sums of tori, connected sums of projective planes... but with the connected sums of tori and projective planes there is nothing new, because it is a connected sum of projective planes again! This inspires us to conjecture the
+Al final todo esto nos hace pensar lo siguiente: podemos hacer sumas conexas de toros, sumas conexas de planos proyectivos... ¡pero al hacer sumas conexas de toros y planos proyectivos no conseguimos nada nuevo, porque todo vuelve a ser una suma conexa de planos proyectivos! Esto nos anima a conjeturar el
 
-**Theorem of Classification of Compact Surfaces**
+**Teorema de Clasificación de Superficies Compactas**
 
-Any compact and connected surface belongs to one these three groups:
+Toda superficie compacta y conexa pertenece a uno de los siguientes tres grupos:
 
 <ul>
-<li>The sphere $S^2$</li>
-<li>The connected sum of $g$ tori (or torus of genus $g$) $\Sigma_g$</li>
-<li>The connected sum of $k$ projective planes (called $X_k$)</li>
+<li>La esfera $S^2$</li>
+<li>La suma conexa de $g$ toros (o toro de género $g$) $\Sigma_g$</li>
+<li>La suma conexa de $k$ planos proyectivos (que llamaremos $X_k$)</li>
 </ul>
 
-and all these surfaces are mutually different, having therefore a complete classification
+y todas estas superficies son distintas entre sí, dando lugar a una clasificación completa
 
-**Proof**
+**Demostración**
 
-At this moment we will not prove that all these surfaces are inequivalent; this requires more powerful tools and we will come back when studying the foundamental group (it is not enough to say that these surfaces 'look' different: the connected sums of a projective plane and a torus and of a projective plane and a Klein bottle are equal!)
+No vamos a ver por ahora que todas estas superficies son distintas; esto requiere herramientas más potentes y lo veremos cuando estudiemos el grupo fundamental (no basta con ver que estas superficies "parecen" distintas: ¡la suma conexa entre un plano proyectivo y un toro y entre un plano proyectivo y una botella de Klein son iguales!)
 
-First step: a surface may be always divided into tiny polygons that reconstruct the surface when suitably glued, like in the following torus
+El primer paso: cuando tengamos una superficie siempre la vamos a poder dividir en polígonos pequeñitos que luego podremos volver a unir para reconstruir la superficie, como en el siguiente toro
 
 {{ image | torus_triangulation width = 480 }}
 
-(Be careful! It may seem simple, and with surfaces it is, but to do something similar in higher dimensions is difficult... and even may be impossible!) We would have something like this
+(¡Cuidado! Puede parecer sencillo de hacer, y en superficies lo es, pero hacer algo parecido en dimensiones superiores es más difícil... ¡y de hecho a veces no se puede!) Tendríamos algo así, por ejemplo
 
 {{ image | surface_polygons_decomposition }}
 
-Perhaps we have many little pieces... if we have two different polygons with an edge to be glued, we may glue it and reduce the number of pieces
+Una vez que se tienen estos trocitos, es posible que nos hayan quedado demasiados... si hay polígonos distintos en los que hay que pegar una arista, la pegamos y reducimos el número de polígonos utilizados
 
-In the end, if we have done everything ok... we should have only one polygon. If we have more than one polygon with no edges to be glued in different polygons, then when we glue everything each polygon makes its own surface... but our surface is connected, isn't it?!
+Al final, si lo hemos hecho bien... debemos quedarnos con un solo polígono. Si nos quedasen varios en los que no hay ninguna arista común, al pegar todo cada polígono nos daría su propia superficie... ¡y nuestra superficie es conexa!
 
-And when we have our polygon, is every gluing possible? Well, the sides have to be paired. A side without pair means a border in the surface, and if we glue more than two edges together, we would end up with something like
+Y cuando tenemos un polígono, ¿cómo es el pegado? Bueno, pues los lados se deben pegar por parejas. Si hubiese algún lado sin pareja, esto nos daría un borde en la superficie, y si quisiéramos pegar más de dos lados a la vez, pues nos quedaría algo como
 
 {{ image | surface_multiple_gluing width = 480 }}
 
-That's no surface at all!
+¡Esto no es una superficie!
 
-Having all these things in mind, we proceed by steps
+Sabiendo todas estas cosas, ahora procedemos por pasos
 
-**STEP 1:** We have to look for letters that appear twice in the same sense, that is, something like $ap_1ap_2$. Then there is some Möbius strip... it looks like we were going to be able to extract a projective plane as connected sum... exactly! Just some cut-and-paste
+**PASO 1:** Debemos mirar si en la palabra de nuestro polígono hay alguna letra que aparece las dos veces en el mismo sentido, es decir, algo del tipo $ap_1ap_2$. Entonces hay alguna banda de Möbius... parece que vamos a sacar un plano proyectivo en suma conexa... ¡exacto! Sólo hay que hacer una pequeña manipulación de corte y pegado
 
 {{ image | projective_plane_cut_and_paste }}
 
-By repeating this process if necessary, we 'isolate' the projective planes and we get a word like $a_1a_1\cdots a_ka_kp$, where in $p$ each pair of edges has opposite orientation
+Repitiendo este proceso cuantas veces haga falta, "aislamos" los planos proyectivos y obtenemos una palabra del tipo $a_1a_1\cdots a_ka_kp$, donde en $p$ cada pareja de lados está en sentido opuesto.
 
-**STEP 2:** Now we choose (if we have not finished) a pair of opposite-directed edges, $ap_1a^{-1}p_2$. We will choose them to be the nearest possible. They may even be adjacent! But then we are very lucky, because we may simplify the gluing and get rid of a letter
+**PASO 2:** Ahora elegimos (si es que no hemos acabado) una pareja de lados que está en sentido opuesto, $ap_1a^{-1}p_2$. Lo vamos a elegir de tal modo que los lados estén lo más cerca posible. ¡Puede incluso ocurrir que sean adyacentes! Pero entonces mejor para nosotros, porque podemos simplificar el pegado y ahorrarnos una letra
 
 {{ image | simplify_words }}
 
-In the extreme case, our surface may be $aa^{-1}$. That's a sphere! But suposing the general case that the $a$ sides are not adjacent, we will find some other $b$ inbetween. Its pair $b^{-1}$ must be located in the other side between $a$ and $a^{-1}$, because those were chosen to be the nearest possible. So we have four edges that resemble those of a torus... and we may isolate it again
+Y en el caso extremo, podemos tener que nuestra superficie es $aa^{-1}$. ¡Entonces es una esfera! Pero suponiendo el caso general en que los lados $a$ no son adyacentes, podemos encontrar algún otro lado $b$ por medio. Su pareja $b^{-1}$ debe estar al otro lado de $a$ y $a^{-1}$, pues los habíamos elegido lo más cerca posible. En consecuencia tenemos cuatro lados que parecen de un toro... y en efecto podemos volver a "aislarlo"
 
 {{ image | torus_cut_and_paste }}
 
-Finally, repeating the process, we isolate all the tori until there remains nothing. So we have: our surface is a sphere, or the connected sum of projective planes, or the connected sum of tori, or the connected sum of both projective planes and tori, which we know to be in fact a connected sum of projective planes. So endly we may conclude that our classification is true.
+De nuevo repitiendo el proceso, separamos los toros hasta que no quede nada. Por tanto hemos obtenido: nuestra superficie es una esfera, o una suma conexa de planos proyectivos, o una suma conexa de toros, o una suma conexa de planos proyectivos y toros que, como sabemos, vuelve a ser una suma conexa de planos proyectivos. Así que por fin, podemos concluir que nuestra clasificación es cierta.

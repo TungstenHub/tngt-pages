@@ -1,4 +1,4 @@
 """
-Geometry is the gate of science, and the gate is so low and small that one can only enter it as a child
+La geometría es la puerta de la ciencia, y es tan baja y pequeña que sólo se puede entrar como un niño
 William Kingdon Clifford
 """
