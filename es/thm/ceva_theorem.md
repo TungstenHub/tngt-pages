@@ -1,22 +1,22 @@
-Given a triangle $ABC$, and points $D$, $E$, and $F$ on the sides $BC$, $CA$, and $AB$ respectively, then the segments $AD$, $BE$ and $CF$ are concurrent if and only if
+Dado un triángulo $ABC$, y puntos $D$, $E$, y $F$ sobre los lados $BC$, $CA$, y $AB$ respectivamente, los segmentos $AD$, $BE$ y $CF$ son concurrentes si y sólo si
 
 $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=1$$
 
 {{ d3js | ceva_theorem }}
 
 +++
-Proof
+Demostración
 +++
 
-Suppose that the three segments are concurrent in a point $O$
+Supongamos que los tres segmentos son concurrentes en un punto $O$
 
 {{ image | ceva_proof }}
 
-Then the ratio of lengths $\frac{AF}{FB}$ is equal to the ratio of areas $\frac{AFC}{FBC}$ and $\frac{AFO}{FBO}$, for having equal altitudes. Therefore, following the same proportion, it is also true that
+Entonces la proporción entre longitudes $\frac{AF}{FB}$ es igual a la proporción entre áreas $\frac{AFC}{FBC}$ y $\frac{AFO}{FBO}$, por tener alturas iguales. De este modo, siguiendo la misma proporción, también es verdad que
 
 $$\dfrac{AF}{FB}=\dfrac{OCA}{OBC}$$
 
-Applying the same arguments to the other sides, it turns out that 
+Aplicando los mismos argumentos a los otros lados, resulta que
 
 $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=\dfrac{OCA}{OBC}\dfrac{OAB}{OCA}\dfrac{OBC}{OCA}=1$$
 

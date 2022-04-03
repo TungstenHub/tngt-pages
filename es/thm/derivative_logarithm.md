@@ -1,7 +1,7 @@
 $$<<< (\ln x)'=\dfrac{1}{x} $$
 
 +++
-Proof
+Demostración
 +++
 
 $$<<< f(x)=\ln x $$
@@ -11,7 +11,7 @@ $$<<<
 = \lim_{h\longrightarrow 0}\dfrac{\ln(x+h)-\ln x}{h}
 $$ 
 
-But due to the [properties of logarithms]( TO-DO ) 
+Ahora bien, por las [propiedades de los logaritmos]( TO-DO ) 
 
 $$<<<
 \dfrac{\ln(x+h)-\ln x}{h}
@@ -23,11 +23,11 @@ $$<<<
 = \dfrac{1}{x}\ln\left(1+\dfrac{h}{x}\right)^{\frac{x}{h}}
 $$ 
 
-By the [definition of the number $e$]( TO-DO ),
+Por la [definición del número $e$]( TO-DO ),
 
 $$<<< \lim_{h\longrightarrow 0}\left(1+\dfrac{h}{x}\right)^{\frac{x}{h}} = e $$
 
-and therefore 
+y por tanto
 
 $$<<< 
 \lim_{h\longrightarrow 0}\dfrac{\ln(x+h)-\ln x}{h}

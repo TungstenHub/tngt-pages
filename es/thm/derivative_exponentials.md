@@ -1,7 +1,7 @@
 $$<<< (e^x)'=e^x $$
 
 +++
-Proof
+Demostración
 +++
 
 $$<<< f(x)=e^x; $$
@@ -17,6 +17,6 @@ $$<<<
 = e^x
 $$ 
 
-where in the last limit we have used [the derivative of the exponential in the origin]( lem | derivative_exponential_origin )
+donde en el último límite hemos usado [la derivada de la exponencial en el origen]( lem | derivative_exponential_origin )
 
 +++

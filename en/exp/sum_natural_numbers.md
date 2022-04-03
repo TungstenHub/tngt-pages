@@ -162,7 +162,7 @@ $$-3S=1-2+3-4+5-6+7-8+9-\cdots=\frac{1}{(1-(-1))^2}=\frac{1}{4}$$
 
 $$S=-\frac{1}{12}$$
 
-So we can summarize everything we have seen so far in the following accurate terms.
+So we can summarize everything we have seen so far in the following accurate terms
 
 >>>
 _We don't know what the hell can mean that $1+2+3+4+5+\cdots=-\frac{1}{12}$, but all people willing to associate a finite sum to this series end up saying it adds up to $-\frac{1}{12}$._

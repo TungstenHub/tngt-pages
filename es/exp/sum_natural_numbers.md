@@ -1,12 +1,12 @@
-Any curious mathematician has come accross the formula
+Seguramente todo matemático inquieto ha visto alguna vez la expresión
 
 $$1+2+3+4+5+\cdots=-\dfrac{1}{12}$$
 
-and I would bet it caused him/her both a deep shock and a terrible curiosity. As a matter of fact, such expression doesn't fit in any way into the usual notion of convergent sum. For instance, we use to say that
+y muy raro sería que no le produjese un profundo impacto a la vez que una terrible curiosidad. En efecto, esta fórmula no cuadra de ningún modo con la noción que uno tiene de suma convergente. Por ejemplo solemos decir que
 
 $$1+\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}+\cdots=2$$
 
-since the partial sums
+porque las sumas parciales
 
 $$1=1$$
 
@@ -20,11 +20,11 @@ $$1+\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}=\dfrac{31}{16}=1.9375$$
 
 $$\cdots$$
 
-get closer and closer to 2 in a way explained in detail in any Calculus course.
+se aproximan a 2 de un modo que se explica con detalle en un curso de Análisis.
 
-(OK, so far it wasn't too difficult, was it?)
+(Ok, hasta aquí no era muy difícil, ¿no?)
 
-However, the partical sums of the natural numbers behave in quite a different way
+Sin embargo las sumas parciales de los números naturales son la antítesis del caso anterior...
 
 $$1=1$$
 
@@ -38,13 +38,13 @@ $$1+2+3+4+5=15$$
 
 $$\cdots$$
 
-They grow and grow without an end in sight, so that the sum _diverges_. And now one comes and tells us we're too naive and this sum is actually $-\dfrac{1}{12}$. Amazing what a dimwit, right?
+Crecen y crecen sin parar, y por eso decimos que la suma _diverge_. Y ahora viene uno y nos dice que no, que la suma es $-\dfrac{1}{12}$. Je, qué panoli, ¿no?
 
-Well, not so much.
+Bueno, pues no tanto.
 
-It's true of course that the sum of the natural numbers _diverges_ in the standard sense of convergence, but maybe it's useful to look at this sum _from a different angle_. Let me explain this with an example.
+Es cierto que la suma de los números naturales _diverge_ en el sentido de la convergencia estándar, pero quizá haya que trabajar _en otro sentido_. Dejadme que os explique esto con un ejemplo.
 
-The previous sum $1+\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}+\cdots=2$ is actually just a particular case of a geometric sum: if $|x|< 1$, how much is $1+x+x^2+x^3+x^4+\cdots$?
+La suma anterior $1+\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}+\cdots=2$ es en realidad un caso particular de las sumas geométricas: si $|x|< 1$, ¿cuánto es $1+x+x^2+x^3+x^4+\cdots$?
 
 $$S=1+x+x^2+x^3+x^4+\cdots$$
 
@@ -52,16 +52,16 @@ $$xS=x+x^2+x^3+x^4+x^5+\cdots$$
 
 $$S-xS=(1+x+x^2+x^3+x^4+\cdots)-(x+x^2+x^3+x^4+x^5+\cdots)=1$$
 
-thus arriving to the beautiful formula
+y llegamos a la flamante fórmula
 
 $$S=\dfrac{1}{1-x}$$
 
-Perfect! For $x=\dfrac{1}{2}$, we get $S=\dfrac{1}{1-\frac{1}{2}}=2$.
+¡Perfecto! Para $x=\dfrac{1}{2}$, obtenemos $S=\dfrac{1}{1-\frac{1}{2}}=2$.
 
-But what if $|x|$ isn't less than 1? For instance, taking $x=2$, it turns out that $1+2+4+8+16+\cdots=-1$. That's awful! However, it still keeps appealing to us. A boring mathematician would say
+¿Pero y si $|x|$ no es menor que 1? Por ejemplo tomando $x=2$, resulta que $1+2+4+8+16+\cdots=-1$. ¡Qué barbaridad! Sin embargo, no deja de tener cierto atractivo. Un matemático aburrido diría
 
 >>>
-_The formula $1+x+x^2+x^3+x^4+\cdots=\frac{1}{1-x}$ only makes sense when $|x|< 1$ and it shouldn't be considered outside its validity range._
+_La fórmula $1+x+x^2+x^3+x^4+\cdots=\frac{1}{1-x}$ sólo tiene sentido cuando $|x|< 1$ y fuera de ahí no debemos para nada considerar esta función._
 <<<
 
 ```sage
@@ -74,10 +74,10 @@ show(
   axes_labels=[r'$x$',r'$\frac{1}{1-x}$'])
 ```
 
-While a kamikaze mathematican (I sincerely hope you all are in this class!) would say:
+Mientras que un matemático kamikaze (¡que espero que todos vosotros lo seáis!) diría
 
 >>>
-_Taking such a cool function as $\frac{1}{1-x}$ only within $(-1,1)$ doesn't go. It's really mind-blowing saying that $1+x+x^2+x^3+x^4+\cdots=\frac{1}{1-x}$ for any $x$, no matter how shocking the conclusions are!_
+_Tomar una función tan chula como $\frac{1}{1-x}$ sólo en $(-1,1)$ no pega. ¡Mola un montón decir que $1+x+x^2+x^3+x^4+\cdots=\frac{1}{1-x}$ para todos los $x$, aunque salgan conclusiones súper-chocantes!_
 <<<
 
 ```sage
@@ -98,15 +98,15 @@ show(
   axes_labels=[r'$x$',r'$\frac{1}{1-x}$'])
 ```
 
-What the kamikaze mathematician has just done is what we call an _analytical continuation_ (the concepts _kamikaze_ and _rigorous_ are not opposed, but rather complement each other!).
+Lo que el matemático kamikaze acaba de hacer es lo que se llama _extensión analítica_ (¡los conceptos _kamikaze_ y _riguroso_ no se contraponen, sino que se complementan!).
 
-Something like this is what happens with $1+2+3+4+5+\cdots=-\dfrac{1}{12}$.
+Pues algo así pasa con $1+2+3+4+5+\cdots=-\dfrac{1}{12}$.
 
-In 1859, the German mathematician Bernhard Riemann introduced the ever-ubiquitous _zeta function_:
+En 1859, el matemático alemán Bernhard Riemann introdujo la desde entonces ubicua _función zeta_:
 
 $$\zeta(s)=\sum_{n=1}^\infty \dfrac{1}{n^s}=\dfrac{1}{1^s}+\dfrac{1}{2^s}+\dfrac{1}{3^s}+\dfrac{1}{4^s}+\cdots$$
 
-which, despite converging in a suitable way only for $s>1$ (more precisely, for $\text{Re}(s)>1$ in the complex plane), can also be analytically continued.
+que si bien sólo converge adecuadamente para $s>1$ (más concretamente, para $\text{Re}(s)>1$ en el plano complejo), también se puede extender analíticamente.
 
 ```sage
 show(
@@ -122,7 +122,7 @@ show(
   axes_labels=[r'$x$',r'$\zeta(x)$'])
 ```
 
-(Did anyone imagine it would be kindergarten stuff?)
+(¿a alguien se le ha ocurrido pensar que es una función sencillita?)
 
 ```sage
 show(
@@ -136,11 +136,11 @@ show(
   axes_labels=[r'$x$',r'$\zeta(x)$'])
 ```
 
-Unfortunately, in this case the process of analytical continuation is tremendously complicated... but nevertheless contains the precious gold nugget:
+Desgraciadamente, aquí el proceso de extensión analítica es tremendamente complicado... pero aún así contiene la preciada pepita de oro:
 
 $$1+2+3+4+5+\cdots=\zeta(-1)=-\dfrac{1}{12}$$
 
-In fact, this makes plausible our initial statement. But... may we do some trick to avoid having to do the analytical continuation of the $\zeta$-function? Let's see what can be done. We should proceed as in the beginning:
+En efecto, éste es un indicio de nuestra afirmación. ¿Pero podríamos hacer algún truco para no tener que trabajar con la extensión analítica de la función $\zeta$? Veamos qué se puede hacer. Hay que proceder como al principio:
 
 $$S=1+2+3+4+5+6+7+8+9+\cdots$$
 
@@ -150,24 +150,24 @@ $$-3S=S-4S=1+(2-4)+3+(4-8)+5+(6-12)+7+(8-16)+9+\cdots$$
 
 $$=1-2+3-4+5-6+7-8+9-\cdots$$
 
-On the other hand
+Por otra parte
 
 $$\frac{1}{1-x}=1+x+x^2+x^3+x^4+\cdots$$
 
 $$\left(\frac{1}{1-x}\right)'=\frac{1}{(1-x)^2}=1+2x+3x^2+4x^3+5x^4+\cdots$$
 
-and, evaluating at $x=-1$
+y evaluando en $x=-1$,
 
 $$-3S=1-2+3-4+5-6+7-8+9-\cdots=\frac{1}{(1-(-1))^2}=\frac{1}{4}$$
 
 $$S=-\frac{1}{12}$$
 
-So we can summarize everything we have seen so far in the following accurate terms.
+Así que podemos resumir todo lo que hemos visto hasta ahora en los siguientes precisos términos
 
 >>>
-_We don't know what the hell can mean that $1+2+3+4+5+\cdots=-\frac{1}{12}$, but all people willing to associate a finite sum to this series end up saying it adds up to $-\frac{1}{12}$._
+_No sabemos qué recuernos puede significar que $1+2+3+4+5+\cdots=-\frac{1}{12}$, pero todas las personas que quieren dar una cierta sumabilidad finita a esta serie terminan diciendo que suma $-\frac{1}{12}$._
 <<<
 
-And we don't feel uncomfortable at all about this.
+Y nos quedamos más anchos que largos.
 
-Anyway, some boring mathematician (yes, it's sad, they exist and are far from unique...) can tell us: 'What's the point in all this, if it deals with things that do not make sense'. Well, as extraordinary as it may seem, we can answer back conclusively: **the expression $1+2+3+4+5+\cdots=-\frac{1}{12}$ has visible physical implications, for instance in areas like quantum mechanics or string theory**. Specifically, we can refer to the **Casimir effect** and the **renormalization of zero-point energy, or to the computation of the critical dimension in bosonic string theory**. Of course, these phenomena are difficult to explain... but not impossible to understand. Cheer up! All the beauty in the cosmos is open to the good mathematician.
+De todos modos algún matemático aburrido (sí, es triste, existen y no son únicos...) nos podrá decir: "¿Y todo esto para qué sirve, si habla de cosas que no tienen sentido?". Pues bien, por extraordinario que parezca, podemos darle respuesta: **la expresión $1+2+3+4+5+\cdots=-\frac{1}{12}$ tiene implicaciones físicas visibles, provinentes de la mecánica cuántica y la teoría de cuerdas**. Concretamente podemos referirnos al **efecto Casimir** y el **cálculo de la energía fundamental y dimensión espacial en teoría bosónica de cuerdas**. Estos fenómenos son ciertamente muy complejos de explicar... pero no imposibles de entender. ¡Ánimo pues! Toda la belleza del cosmos está abierta al buen matemático.

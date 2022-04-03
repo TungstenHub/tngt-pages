@@ -1,12 +1,12 @@
 $$<<< \lim_{h\longrightarrow 0} \dfrac{e^h-1}{h}=1 $$
 
 +++
-Proof
+Demostración
 +++
 
 $$<<< \dfrac{(e^h-1)}{h}=\dfrac{\left(\lim_{n\longrightarrow\infty}\left(1+\dfrac{h}{n}\right)^n-1\right)}{h} $$
 
-Let's analyze the power. By the [binomial expansion]( thm | binomial_expansion )
+Analicemos la potencia. Por la [expansión binomial]( thm | binomial_expansion )
 
 $$ 
 \begin{array}{l}
@@ -20,9 +20,9 @@ $$
 \end{array}
 $$ 
 
-where $\alpha_{nh}$ is a quantity depending on $n$ and $h$. 
+donde $\alpha_{nh}$ es una cantidad que depende de $n$ y $h$. 
 
-When $n\longrightarrow\infty$, the quantity $e^h=\lim_{n\longrightarrow\infty}\left(1+\dfrac{h}{n}\right)^n$ gets stable and so does $\alpha_{nh}$ to some quantity $\alpha_h$, satisfying $e^h=1+h+h^2\alpha_h$. But $\alpha_h$ is also stable when $h\longrightarrow 0$, because the $\alpha_{nh}$ were already stable, having only powers of $h$. The fact that $\alpha_h$ is stable under $h\longrightarrow 0$ implies that $h\alpha_h\longrightarrow 0$ (something going to zero times something well-behaved is something going to zero) and then 
+Cuando $n\longrightarrow\infty$, la cantidad $e^h=\lim_{n\longrightarrow\infty}\left(1+\dfrac{h}{n}\right)^n$ se hace estable y por tanto $\alpha_{nh}$ se estabiliza a una cantidad estable $\alpha_h$, y se cumple $e^h=1+h+h^2\alpha_h$. Pero $\alpha_h$ también es estable cuando $h\longrightarrow 0$, pues ya eran estables los $\alpha_{nh}$, que tenían potencias de $h$. El hecho de que $\alpha_h$ sea estable cuando $h\longrightarrow 0$ implica que $h\alpha_h\longrightarrow 0$ (algo que tiende a cero multiplicado por algo que no se mueve mucho es algo que tiende a cero) y por tanto
 
 $$<<< \lim_{h\longrightarrow 0}\dfrac{e^h-1}{h}=\lim_{h\longrightarrow 0}\dfrac{1+h+h^2\alpha_h-1}{h}=\lim_{h\longrightarrow 0} 1+h\alpha_h=1 $$
 

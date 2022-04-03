@@ -1,42 +1,42 @@
-Alice and Bob are discussing how big is the set $\mathcal{P}(\N)$, that is, the collection of all subsets of the natural numbers. The more they think about it, the more they realise this collection is really huge! Examples and examples of subsets of $\N$ come to their minds:
+Alice y Bob están discutiendo sobre cuán grande es $\mathcal{P}(\N)$, es decir, la colección de todos los subconjuntos de los números naturales. Cuanto más piensan en ello, más cuenta se dan de que esta colección ¡es realmente grande! Se les ocurren ejemplos y ejemplos de subconjuntos de $\N$:
 
 <ul>
-  <li>The even numbers: $2 \N=\{0,2,4,6,8,10,12,14,...\}$</li>
-  <li>The numbers between 50 and 83: $[50,83]=\{50, 51, 52,...,81, 82,83\}$</li>
-  <li>The empty subset: $\varnothing=\{\}$</li>
-  <li>The prime numbers: $Prime=\{2,3,5,7,11,13,17,19,23,29,31,...\}$</li>
-  <li>Bob's age (just one element!): $BobAge=\{14\}$</li>
-  <li>The nonprime numbers: $NonPrime=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$</li>
-  <li>The set of lucky numbers among Alice and Bob's friends: $LuckyNumbers=\{3,4,5,6,7,12,13,16,99,777,12345\}$</li>
-  <li>All the numbers! $\N=\{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,...\}$</li>
-  <li>The powers of $2$: $PowersTwo=\{1,2,4,8,16,32,64,128,256,512,1024,...\}$</li>
-  <li> ... and so on ...</li>
+  <li>Los números pares: $2 \N=\{0,2,4,6,8,10,12,14,...\}$</li>
+  <li>Los números entre 50 y 83: $[50,83]=\{50, 51, 52,...,81, 82,83\}$</li>
+  <li>El subconjunto vacío: $\varnothing=\{\}$</li>
+  <li>Los números primos: $Primo=\{2,3,5,7,11,13,17,19,23,29,31,...\}$</li>
+  <li>La edad de Bob (¡un solo elemento!): $EdadBob=\{14\}$</li>
+  <li>Los números no primos: $NoPrimo=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$</li>
+  <li>El conjunto de los números de la suerte entre los amigos de Alice y Bob: $NumerosSuerte=\{3,4,5,6,7,12,13,16,99,777,12345\}$</li>
+  <li>¡Todos los números! $\N=\{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,...\}$</li>
+  <li>Las potencias de $2$: $Potencias2=\{1,2,4,8,16,32,64,128,256,512,1024,...\}$</li>
+  <li> ... y más ...</li>
 </ul>
 
-Alice and Bob wonder whether this collection is _countable_, that is, whether one may hypothetically write down all the subsets of $\N$ in a list without leaving any unnoticed. Alice is somewhat prone to believe that this is not possible; Bob, on the other hand, is sure about this collection being countable and also says he conceives a strategy to achieve this ordering
+Alice y Bob se preguntan si esta colección es _numerable_, es decir, si uno podría de modo hipotético escribir todos los subconjuntos de  $\N$ en una lista sin dejarse ninguno sin incluir. Alice tiende a pensar que no es posible; Bob, por el otro lado, está seguro de que esta colección es numerable y dice que además está pensando en una estrategia para conseguir este orden
 
-"Show me then!" - says Alice 
+"¿Ah sí? ¡Pues muéstramelo!" - dice Alice 
 
-And Bob takes a piece of paper and starts to write down
+Y Bob toma un trozo de papel y empieza a escribir
 
 $$2 \N=\{0,2,4,6,8,10,12,14,...\}$$
 $$[50,83]=\{50, 51, 52,...,81, 82,83\}$$
 $$\varnothing=\{\}$$
-$$Prime=\{2,3,5,7,11,13,17,19,23,29,31,...\}$$
-$$BobAge=\{14\}$$
-$$NonPrime=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$$
-$$LuckyNumbers=\{3,4,5,6,7,12,13,16,99,777,12345\}$$
+$$Primo=\{2,3,5,7,11,13,17,19,23,29,31,...\}$$
+$$EdadBob=\{14\}$$
+$$NoPrimo=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$$
+$$NumerosSuerte=\{3,4,5,6,7,12,13,16,99,777,12345\}$$
 $$\N=\{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,...\}$$
-$$PowersTwo=\{1,2,4,8,16,32,64,128,256,512,1024,...\}$$
+$$Potencias2=\{1,2,4,8,16,32,64,128,256,512,1024,...\}$$
 $$...$$
 $$...$$
 $$...$$
 
-"Oh, this gonna be dull" - thinks Alice. She's not very confident about Bob being able to write down infinitely many items in a piece of paper... but even if he is able, she won't check the infinite list to ensure no subset of $\N$ is left. "There must be a smarter way"
+"Uff, esto va a ser muy pesado" - piensa Alice. No confía mucho en que Bob sea capaz de escribir infinitos elementos en un trozo de papel... e incluso cuando pudiese, ella no iría a repasar la lista infinita para comprobar que no se ha dejado ningún subconjunto de $\N$. "Tiene que haber un modo más elegante"
 
-And she remembers - [Cantor's Theorem]( thm | cantor_theorem ). How could she have overlooked it?
+Y recuerda - el [Teorema de Cantor]( thm | cantor_theorem ). ¿Cómo se le ha podido pasar?
 
-Yes, when trying to count the subsets of $\N$, Bob is building a map $g:\N\longrightarrow\mathcal{P}(\N)$. He hasn't ended yet, but says that has a rule to write down everything
+En efecto, al intentar enumerar todos los subconjuntos de $\N$, Bob está construyendo una función $g:\N\longrightarrow\mathcal{P}(\N)$. Todavía no ha terminado, pero dice que tiene una regla con la que enumerar todo
 
 <table>
   <thead>
@@ -60,19 +60,19 @@ Yes, when trying to count the subsets of $\N$, Bob is building a map $g:\N\longr
     </tr>
     <tr>
       <td>$3$</td>
-      <td>$Prime=\{2,3,5,7,11,13,17,19,23,29,31,...\}$</td>
+      <td>$Primo=\{2,3,5,7,11,13,17,19,23,29,31,...\}$</td>
     </tr>
     <tr>
       <td>$4$</td>
-      <td>$BobAge=\{14\}$</td>
+      <td>$EdadBob=\{14\}$</td>
     </tr>
     <tr>
       <td>$5$</td>
-      <td>$NonPrime=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$</td>
+      <td>$NoPrimo=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$</td>
     </tr>
     <tr>
       <td>$6$</td>
-      <td>$LuckyNumbers=\{3,4,5,6,7,12,13,16,99,777,12345\}$</td>
+      <td>$NumerosSuerte=\{3,4,5,6,7,12,13,16,99,777,12345\}$</td>
     </tr>
     <tr>
       <td>$7$</td>
@@ -80,7 +80,7 @@ Yes, when trying to count the subsets of $\N$, Bob is building a map $g:\N\longr
     </tr>
     <tr>
       <td>$8$</td>
-      <td>$PowersTwo=\{1,2,4,8,16,32,64,128,256,512,1024,...\}$</td>
+      <td>$Potencias2=\{1,2,4,8,16,32,64,128,256,512,1024,...\}$</td>
     </tr>
     <tr>
       <td>$...$</td>
@@ -97,9 +97,9 @@ Yes, when trying to count the subsets of $\N$, Bob is building a map $g:\N\longr
   </tbody>
 </table>
 
-and according to Cantor's Theorem, $g$ will never be surjective, that is, Bob won't be able to write down _all_ subsets of $\N$! She's right! Come on, let's follow the argument of Cantor's proof.
+y según el Teorema de Cantor, $g$ nunca será sobreyectiva, es decir, ¡Bob no va a ser capaz de enumerar _todos_ los subconjuntos de $\N$! ¡Ella tiene razón! Venga, vamos a seguir el argumento de la prueba de Cantor.
 
-Among the natural numbers, the are some that belong to its associated subset, but others not
+Entre los números naturales, algunos pertenecen a su subconjunto asociado, pero otros no
 
 <table>
   <thead>
@@ -127,22 +127,22 @@ Among the natural numbers, the are some that belong to its associated subset, bu
     </tr>
     <tr>
       <td>$3$</td>
-      <td>$Prime=\{2,\hl{3},5,7,11,13,17,19,23,29,31,...\}$</td>
+      <td>$Primo=\{2,\hl{3},5,7,11,13,17,19,23,29,31,...\}$</td>
       <td c>::check::</td>
     </tr>
     <tr>
       <td>$4$</td>
-      <td>$BobAge=\{14\}$</td>
+      <td>$EdadBob=\{14\}$</td>
       <td c>::cross::</td>
     </tr>
     <tr>
       <td>$5$</td>
-      <td>$NonPrime=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$</td>
+      <td>$NoPrimo=\{0,1,4,6,8,9,10,12,14,15,16,18,20,21,22,24,25,26,27,28,30,32,...\}$</td>
       <td c>::cross::</td>
     </tr>
     <tr>
       <td>$6$</td>
-      <td>$LuckyNumbers=\{3,4,5,\hl{6},7,12,13,16,99,777,12345\}$</td>
+      <td>$NumerosSuerte=\{3,4,5,\hl{6},7,12,13,16,99,777,12345\}$</td>
       <td c>::check::</td>
     </tr>
     <tr>
@@ -152,7 +152,7 @@ Among the natural numbers, the are some that belong to its associated subset, bu
     </tr>
     <tr>
       <td>$8$</td>
-      <td>$PowersTwo=\{1,2,4,\hl{8},16,32,64,128,256,512,1024,...\}$</td>
+      <td>$Potencias2=\{1,2,4,\hl{8},16,32,64,128,256,512,1024,...\}$</td>
       <td c>::check::</td>
     </tr>
     <tr>
@@ -173,15 +173,15 @@ Among the natural numbers, the are some that belong to its associated subset, bu
   </tbody>
 </table>
 
-So we have to focus on the set of "red numbers"
+Así que nos tenemos que centrar en el conjunto de los "números rojos"
 
 $$\color{#DD2C00}{B=\{1,2,4,5,...\}}$$
 
-"Bob! I know this subset is not contained in your list!"
+"¡Bob! ¡Sé que este subconjunto no está en tu lista!"
 
-Bob rolled his eyes - "How do you know, if I haven't even finished writing down?"
+Bob puso los ojos en blanco - "¿Cómo lo sabes, si ni siquiera he terminado?"
 
-But Alice explains her argument. "Imagine $B$ is in the list, as the image of some number $b$. Now, is $b$ a _green number_ or a _red number_?"
+Pero Alice le explica el argumento. "Imagina que $B$ está en la lista, como la imagen de algún número $b$. En ese caso, $b$ es un _número verde_ o un _número rojo_?"
 
 <table>
   <tr>
@@ -196,6 +196,6 @@ But Alice explains her argument. "Imagine $B$ is in the list, as the image of so
   </tr>
 </table>
 
-"Neither makes sense, because $B$ is exactly the set of red numbers!" said Alice. "Isn't this clever?"
+"¡No puede ser ninguno, porque $B$ es exactamente el conjunto de los números rojos!" dijo Alice. "¿No es ingenioso?"
 
-"Yikes, you're right!", said Bob finally...
+"¡Ostras, tienes razón!", dijo finalmente Bob...

@@ -1,4 +1,4 @@
-Transform the following system of linear equations in a row echelon form, discuss and solve if having solutions
+Transformar el siguiente sistema de ecuaciones lineales en un sistema escalonado, discutirlo y resolverlo si tiene solución
 
 $$
 \left\{
@@ -10,10 +10,10 @@ $$
 $$
 
 +++
-Solution
+Solución
 +++
 
-The system has the following augmented matrix
+El sistema tiene matriz ampliada
 
 $$
 (A|b)=
@@ -25,7 +25,7 @@ $$
 \end{array}\right)
 $$
 
-on which we perform elementary row transformations
+en la que hacemos transformaciones elementales por filas
 
 $$
 \left(
@@ -67,7 +67,7 @@ $$\simeq_f
 \end{array}\right)
 $$
 
-So our system is equivalent to the following one
+Así pues el sistema de partida es equivalente al sistema
 
 $$
 \left\{
@@ -78,7 +78,7 @@ $$
 \end{array}\right.
 $$
 
-that is **determinate compatible** with solution $x_1=2$, $x_2=8$ and $x_3=21$. Lastly, let's check that these values indeed constitute a solution
+que es **compatible determinado** con solución $x_1=2$, $x_2=8$ and $x_3=21$. Por último, comprobemos que la solución efectivamente resuelve el sistema
 
 $$
 \left\{
