@@ -1,8 +1,8 @@
-Homology describes the shape of a space in a really amazing way. At first it seems strange and confusing, but after a careful study, it comes implicit in a lot of mathematical phenomena. For instance, in the Euler-Poincaré Characteristic: we take some space, triangulate it (break it up in "small pieces") and compute the alternate sum of the number of pieces of each dimension:
+La homología describe la forma de un espacio de modo verdaderamente asombroso. Aunque al principio parece raro y confuso, luego aparece de modo natural en muchos fenómenos matemáticos. Por ejemplo, en la Característica de Euler-Poincaré: tomamos un espacio, lo triangulamos (lo dividimos en "trocitos") y hacemos la suma alternada del número de trozos utilizados de cada tipo:
 
 $$\chi(X)=\sum_i (-1)^i c_i(X)$$
 
-where $c_i(X)$ is the number of $i$-dimensional "faces" of $X$. Surprisingly enough, it does not depend on the chosen triangulation
+donde $c_i(X)$ es el número de caras $i$-dimensionales de $X$. Sorprendentemente, no depende de la triangulación
 
 <table>
   <thead>
@@ -108,11 +108,11 @@ where $c_i(X)$ is the number of $i$-dimensional "faces" of $X$. Surprisingly eno
   </tbody>
 </table>
 
-However, this characteristic is also expressed in homological terms (with no need of triangulation), and this is the proper way indeed. So homology effectively describes the shape of a topological space
+Sin embargo, esta misma característica se expresa en términos homológicos (sin necesidad de triangulación), y de hecho, éste es el modo más apropiado. Así que la homología acierta efectivamente al describir la forma de un espacio topológico
 
 $$\chi(X)=\sum_i (-1)^i \text{rk }H_i(X)=\sum_i (-1)^i b_i(X)$$
 
-where $b_i=\text{rk }H_i(X)$ are the _Betti numbers_
+donde $b_i=\text{rk }H_i(X)$ son los _números de Betti_
 
 <table>
   <thead>
@@ -172,149 +172,149 @@ where $b_i=\text{rk }H_i(X)$ are the _Betti numbers_
 
 ---
 
-Our goal is to understand the shape of a space. How shall we distinguish a sphere from a torus? Homology has a clear motto:
+Nuestro objetivo es entender la forma de un espacio. ¿Cómo distinguiremos una esfera de un toro? La homología tiene un lema:
 
-**FIND SOMETHING WITHOUT BOUNDARY, THAT IS NOT THE BOUNDARY OF ANYTHING**
+**BUSCA ALGO SIN FRONTERA QUE NO SEA LA FRONTERA DE ALGO**
 
-and... it works! Of course, objects with boundary (e.g. open curves) aren't very useful, they may move wildly
+... y curiosamente, ¡funciona! Claro, las cosas que tienen frontera (por ejemplo, curvas sin cerrar) no son muy útiles para encontrar diferencias, se pueden mover demasiado
 
 {{ image | sphere_torus_boundary }}
 
-but objects without boundary... closed objects... these may be more meaningful
+pero las cosas que no tienen frontera, que están cerradas, quizá nos pueden decir algo más
 
 {{ image | sphere_torus_no_boundary }}
 
-In the sphere, a curve without boundary is always the boundary of something... but in the torus we have a curve without boundary that is not the boundary of anything. This is a true difference! It seems to work!
+En la esfera, una curva sin frontera es la frontera de algo... y sin embargo en el toro tenemos una curva sin frontera que no es la frontera de nada... ¡ya tenemos una diferencia! ¡Parece que funciona!
 
 {{ image | sphere_torus_is_boundary }}
 
-Generally speaking, these objects without boundary that are not the boundary of anything catch "holes" in different dimensions... the holes of dimension 0 are unconnected components, the holes of dimension 1 may be surrounded by a loop, whereas those of dimension 2 may be enclosed by surfaces...
+En general estos objetos sin frontera que no son la frontera de nada capturan "agujeros" de distintas dimensiones... los agujeros de dimensión 0 son componentes separadas, los agujeros de dimensión 1 son rodeables por un lazo, los de dimensión 2 por una superficie...
 
 {{ image | homology }}
 
-But one could argue, "isn't the loop in the torus the boundary of the rest of the torus?"
+Pero muchos podrían rebatir, "¿no es el lazo en el toro la frontera del resto del toro?"
 
 {{ image | torus_loop_boundary }}
 
-Well... we're talking about the boundary without knowing exactly what it is... So let's spend some time to define the _boundary operator_ $\partial$
+Bueno... estamos utilizando el concepto de frontera sin definirlo demasiado... Por eso hay que definir mejor el _operador frontera_ $\partial$
 
 ---
 
-To define the **boundary operator** $\partial$, we'll proceed one step at a time:
+Sobre el **operador frontera** $\partial$, vamos por pasos:
 
 <ol>
   <li>
-    $\partial$ maps objects of dimension $k$ to objects of dimension $k-1$, always one dimension below
+    $\partial$ lleva cosas de dimensión $k$ a dimensión $k-1$, siempre una dimensión menos
 
     {{ image | boundary_operator_non_oriented }}
 
-    Objects of dimension 0 are points, those of dimension 1 are curves, those of dimension 2 are surfaces... The set of "objects of dimension $k$" will be denoted $C_k(X)$, so we have
+    Los objetos de dimensión 0 son puntos, los de dimensión 1 son curvas, los de dimensión 2 son superficies... Al conjunto de "objetos de dimensión $k$" en el espacio $X$ le llamaremos $C_k(X)$, así que lo que tenemos es
 
     $$\partial:C_k(X)\longrightarrow C_{k-1}(X)$$
 
-    for every $k\geqslant 0$ (the boundary of a point is nothing, or more algebraically stated, is 0)
+    para cada $k\geqslant 0$ (la frontera de un punto es nada, o dicho más algebraicamente, es 0)
   </li>
   <li>
-    The boundary of something has no boundary (is 0). We may convince ourselves with the examples above. Algebraically, we express it like this
+    La frontera de algo ya no tiene frontera (es 0). Es algo de lo que nos podemos convencer con los ejemplos anteriores. Algebraicamente, esto se expresa como
 
     $$\partial^2=0$$
 
-    and is such an important and ubiquitous property in mathematics that gives rise to the whole field of _Homological Algebra_
+    una propiedad tan importante y que aparece tanto en matemáticas que da pie al _Álgebra Homológica_
   </li>
   <li>
-    For this to work well, all the objects must be _oriented_. The very concept of orientation is very subtle; for now it will be some additional property that takes two opposite values ("one the negative of the other one")
+    Para que todo funcione bien, todos los objetos de dimensión $k$ deben estar _orientados_. El concepto de orientación es delicado; por ahora, para nosotros esto se traducirá que nuestros objetos tienen incorporados una característica que toma dos valores opuestos ("uno el negativo del otro")
 
     <ul>
-      <li>Points will be labelled as $+$ or $-$</li>
-      <li>Curves have a direction</li>
-      <li>Surfaces are painted blue in one face and yellow in the other face; blue denotes _counterclockwise_ rotation and yellow denotes _clockwise_ rotation</li>
-      <li>Volumes have some sort of "helicity"...</li>
+      <li>Los puntos estarán etiquetados con $+$ o $-$</li>
+      <li>Las curvas tienen una dirección</li>
+      <li>Las superficies están pintadas de azul por una cara y de amarillo por la otra; el color azul denota sentido de giro _antihorario_ y el color amarillo giro _horario_</li>
+      <li>Los volúmenes tienen una cierta "helicidad"...</li>
     </ul>
 
-    and this, of course, is taken into account by the boundary operator! A curve starts in a $-$ point and ends in a $+$ point; the spin in the surfaces must match the direction of the boundary curve...
+    ¡y todo esto se tiene en cuenta para el operador frontera! Una curva comienza en un punto $-$ y acaba en un punto $+$; el giro en las superficies debe coincidir con la dirección de la curva frontera...
 
     {{ image | boundary_operator }}
 
-    Why is this a key fact for the boundary operator? Because this way $\partial$ works perfect when dividing objects
+    ¿Por qué es importante esto? Para que el operador frontera $\partial$ funcione bien al dividir objetos
 
     {{ image | boundary_operator_division }}
 
-    Great! Equal objects with different orientation act as opposite and cancel out. So everything works with a marvelous algebraic taste. Moreover, this clarifies the problem we had with the torus: if we cut the torus, each edge of the surface adds a boundary, but since they have opposite orientations, they cancel out!
+    ¡Magnífico! Los objetos iguales con distinta orientación actúan como opuestos y se cancelan. Esto hace que todo funcione bien. Además nuestro problema anterior del toro se ha solucionado: si cortamos un toro, cada extremo de la superficie da un borde, pero como éstos tienen orientaciones opuestas, ¡se cancelan!
 
     {{ image | cut_torus_boundary }}
 
-    So it is true: the beforementioned loop is not the boundary of anything
+    Por eso, podemos volver a afirmar: el lazo anterior en el toro no es frontera de nada.
   </li>
 </ol>
 
 ---
 
-So we should find objects without boundary that are not the boundary of something. We'll consider three groups:
+Así que debemos buscar objetos sin frontera que no sean la frontera de algo. En general lo denotaremos con tres letras:
 
 <ul>
-  <li>$C$: objects (with or without boundary)</li>
-  <li>$Z$: objects without boundary</li>
-  <li>$B$: objects without boundary that are also the boundary of something</li>
+  <li>$C$: objetos (con o sin frontera)</li>
+  <li>$Z$: objetos sin frontera</li>
+  <li>$B$: objetos sin frontera que además son la frontera de algo</li>
 </ul>
 
-And the inclusion $B\subset Z\subset C$ holds. Apparently, the set $Z\smallsetminus B$ is the interesting one. But... is this the best approach, the most "mathematical"?
+Y se tiene la inclusión $B\subset Z\subset C$. Aparentemente, nos debemos fijar en el conjunto $Z\smallsetminus B$. ¿Pero es éste el tratamiento más adecuado, el más "matemático"?
 
-Let's think for a moment in the whole numbers $\mathbb{Z}$. Among the whole numbers there is a "phenomenon", that of _being multiple of $5$_. This phenomenon is interesting precisely because the are whole numbers that are _not_ multiple of $5$. We may think of it as if $Z=\mathbb{Z}$ and $B=5\mathbb{Z}$ the multiples of $5$. One may show the fact that there are numbers that are not multiples of $5$ examining the set
+Por ejemplo, fijémonos en los enteros $\mathbb{Z}$. Dentro de los enteros hay un fenómeno que es _ser múltiplo de $5$_. Este fenómeno tiene interés precisamente porque hay enteros que _no_ tienen esta propiedad. Es como si $Z=\mathbb{Z}$ y $B=5\mathbb{Z}$ los múltiplos de $5$. Uno puede describir el hecho de que hay números que no son múltiplos de $5$ fijándose en el conjunto
 
 $$Z\smallsetminus B=\{\cdots,-6,-4,-3,-2,-1,1,2,3,4,6,7,8,9,11,12,13,14,\cdots\}$$
 
-But for a mathematician, working with this set is very annoying. It isn't even closed for the sum ($2$ and $3$ are in $Z\smallsetminus B$ but $2+3=5\not\in Z\smallsetminus B$), there is no interesting structure for this set. So let's consider a totally different approach
+Pero para un matemático, trabajar con este conjunto es un poco incómodo. No es cerrado para la suma ($2$ y $3$ están en $Z\smallsetminus B$ pero $2+3=5\not\in Z\smallsetminus B$), no se puede dotar de alguna estructura interesante... En oposición a esto, tomamos otro acercamiento.
 
-$1$ and $6$ are both non-multiples of $5$, and are distinct, but it could be said that both express the same _not-being-multiple-of-$5$_, because both are of type $5k+1$. Perhaps we could abstract the number and consider the _class_, so we'll say
+$1$ y $6$ son ambos no múltiplos de $5$, y son distintos, pero se puede decir que ambos recogen la misma _no-multiplicidad-de-$5$_, porque en realidad los dos son del tipo $5k+1$. Podemos abstraer el objeto y quedarnos con su _clase_, y diremos que
 
-$$[1]=[6]\qquad\text{ because }\qquad 1-6\in B=5\mathbb{Z}$$
+$$[1]=[6]\qquad\text{ porque }\qquad 1-6\in B=5\mathbb{Z}$$
 
-In the very same spirit, we define
+En ese mismo espíritu, definimos
 
 $$[a]=[b]\qquad\text{ if }\qquad a-b\in B=5\mathbb{Z}$$
 
-This gives rise to five classes, making up $\mathbb{Z}_5=\{[0],[1],[2],[3],[4]\}$, which happens to be extremely rich from a structural point of view: not only is it closed for the sum and product modulus $5$, which constitutes the set as a _group_ and a _ring_, but it is also a _finite field_. And this procedure is standard in mathematics: it is the quotient $Z/B$.
+Esto nos lleva a distinguir cinco clases, que forman $\mathbb{Z}_5=\{[0],[1],[2],[3],[4]\}$, y que resulta ser un objeto estructuralmente riquísimo, pues con la suma y el producto módulo $5$ no sólo es grupo y anillo sino además _cuerpo finito_. Y esta construcción es estándar en matemáticas: es el cociente $Z/B$.
 
-So the right point of view, also for the homology, is not substraction $Z\smallsetminus B$, but quotient $Z/B$. Some examples will corroborate how useful is this procedure
+De tal modo que, también para la homología, el modo correcto de pensar no es con la sustracción $Z\smallsetminus B$, sino con el cociente $Z/B$. Y unos cuantos ejemplos avalarán el acierto de esta construcción
 
 ---
 
-Let $C_k(X)$ be the set of objects of dimension $k$ inside $X$. Since we are interested in an algebraic approach, we'll work with (formal) linear combinations that we may add and substact easily. That is, elements of $C_k(X)$ may be of the form
+Sea $C_k(X)$ el conjunto de los objetos de dimensión $k$ en $X$. Como estamos interesados en un enfoque algebraico, trabajaremos con combinaciones lineales (formales) que podemos sumar y restar fácilmente. Es decir, los elementos de  $C_k(X)$ pueden ser de la forma
 
 {{ image | chains }}
 
-where $\lambda_i$, $\mu_j$, $\eta_k$ are whole numbers. These are called _chains_. We keep in mind that a negative "amount" of objects is equivalent to a change of orientation, as discussed above: swapping $-$ and $+$, inverting the direction of a curve, interchanging blue and yellow... So the boundary operator $\partial$ is better seen as a linear operator
+donde $\lambda_i$, $\mu_j$, $\eta_k$ son números enteros. Éstas son _cadenas_. Y contamos con que una "cantidad" negativa de objetos equivale a cambiar la orientación, como se discutía más arriba: intercambiar $-$ y $+$, invertir la dirección de una curva, conmutar azul y amarillo... De modo que el operador frontera $\partial$ se ve mejor como un operador lineal
 
 $$\partial_k:C_k(X)\longrightarrow C_{k-1}(X)$$
 
-which satisfies $\partial_{k-1}\circ\partial_k=0$ (or more succinctly $\partial^2=0$). This implies
+que satisface $\partial_{k-1}\circ\partial_k=0$ (o más sucintamente $\partial^2=0$). Esto implica
 
 $$\text{im }\partial_{k+1} \subset\text{ker }\partial_k$$
 
-and it makes sense to define
+y tiene sentido definir
 
 $$Z_k(X)=\text{ker }\partial_k$$
 $$B_k(X)=\text{im }\partial_{k+1}$$
 
-(called _cycles_ and _boundaries_ respectively) and yes, $B_k(X)\subset Z_k(X)\subset C_k(X)$. And in this context, we define the **homology groups**
+(llamados _ciclos_ and _fronteras_ respectivamente) y sí, $B_k(X)\subset Z_k(X)\subset C_k(X)$. Y en este contexto, definimos los **grupos de homología**
 
 $$H_k(M)=\dfrac{\text{ker }\partial_k}{\text{im }\partial_{k+1}}=\dfrac{Z_k(M)}{B_k(M)}$$
 
-Strange? Somewhat. But extremely useful. The homology groups are made up by homology classes, that merge _homologous cycles_, that is, cycles whose difference is a boundary. And, as a matter of fact, homologous cycles, those whose difference is a boundary, are precisely those that catch the same "hole". Astonishing, isn't it? So astonishing that has fascinated and keeps fascinating all sort of scientists over decades
+¿Extraño? Un poco. Pero extremadamente útil. Los grupos de homología están hechos de clases de homología, que aúnan _ciclos homólogos_, es decir, ciclos cuya diferencia es una frontera. Y, en efecto, los ciclos homólogos, esos cuya diferencia es una frontera, son precisamente los que detectan el mismo "agujero". Increíble, ¿no? Tan increíble que ha fascinado y sigue fascinando a todo tipo de científicos durante décadas
 
 {{ image | boundaries }}
 
 ---
 
-Let's explore some concrete examples of homology. The simplest homology to be computed is homology of order zero, _which detects the number of (path) connected components in the space_. Why? For $k=0$, each element of $C_0(X)$ is just an integer-valued sum of points in $X$, for instance $\sigma=7p-3q$, $p$, $q\in X$. Points have no boundary, so $\partial_0:C_0(X)\longrightarrow 0$ is the null map and $Z_0(X)=C_0(X)$. On the other hand, $\partial_1:C_1(X)\longrightarrow C_0(X)$ maps each open path to a pair of points, one point with a $+$ sign and the other one with a $-$ sign. And any such pair of points belongs to the image of $\partial_1$ as long as there is some path in $X$ from the $-$ point to the $+$, that is, as long as they're in the same connected component! As a consequence, in $H_0(X)=Z_0(X)/B_0(X)$ we're free to move a point inside its component, as shown in the picture above, and we may also calcel out $+$ and $-$ points in the same component. This being so, each homological class in $H_0(X)$ assigns a net number of points to each component, and thus $H_0(X)\simeq \mathbb{Z}^n$, where $n$ is the number of connected components of the space. Fantastic, isn't it?
+Vamos a explorar algunos ejemplos concretos de homología. La homología más sencilla de calcular es la homología de orden cero, _que detecta el número de componentes conexas (por caminos)_. ¿Por qué? Para $k=0$, cada elemento de $C_0(X)$ es simplemente una suma entera de puntos en $X$, por ejemplo $\sigma=7p-3q$, $p$, $q\in X$. Los puntos no tienen frontera, por lo que $\partial_0:C_0(X)\longrightarrow 0$ es la aplicación nula y $Z_0(X)=C_0(X)$. Por otro lado, $\partial_1:C_1(X)\longrightarrow C_0(X)$ aplica cada camino abierto a un par de puntos, uno con un signo $+$ y otro con un signo $-$. Y cualquier par de tales puntos pertenece a la imagen de $\partial_1$ siempre y cuando haya algún camino en $X$ desde el punto $-$ al punto $+$, es decir, ¡siempre que estén en la misma componente conexa! Como consecuencia, en $H_0(X)=Z_0(X)/B_0(X)$ tenemos libertad para mover un punto dentro de su componente, como se ve en la imagen de arriba, y también podemos cancelar puntos $+$ y $-$ en la misma componente. Si esto es así, cada clase de homología en $H_0(X)$ asigna un número de puntos neto a cada componente, y por eso $H_0(X)\simeq \mathbb{Z}^n$, donde $n$ es el número de componentes conexas del espacio. Fantástico, ¿verdad?
 
 {{ image | homology_connected_components }}
 
-In the very same spirit, $H_1(X)$ detects holes surrounded by a loop. The quotient ensures that different loops enclosing the same hole belong to the same class
+En esta misma línea, $H_1(X)$ detecta agujeros que se pueden rodear con un lazo. El cociente asegura que lazos distintos rodeando el mismo agujero pertenecen a la misma clase
 
 {{ image | homologous_loops }}
 
-Now we can reason the homology of simple spaces 
+Ahora podemos razonar la homología de espacios sencillos
 
 <table>
   <thead>
@@ -367,39 +367,39 @@ Now we can reason the homology of simple spaces
 
 ---
 
-Even in the simplest spaces, the sets $C_k(X)$, $Z_k(X)$, $B_k(X)$ are usually extremely big. Think, for instance, that $C_1(X)$ contains all functions $f:[0,1]\longrightarrow X$ - that's _huge_. So there is a "lighter" version of homology, called _simplicial homology_ (which will be marked with a $\Delta$), that works for triangulated spaces, and that compute the very same homology groups (i.e. isomorphic). The idea is simple: use only objects of the triangulation. So $C^\Delta_0(X)$ consists of integer-valued combinations of vertices, $C^\Delta_1(X)$ consists of integer-valued combinations of oriented edges, and so on. Everything else is the same and works fine:
+Incluso en los espacios más simples, los conjuntos $C_k(X)$, $Z_k(X)$, $B_k(X)$ son normalemente extremadamente grandes. Piensa, por ejemplo, que $C_1(X)$ contiene todas las funciones $f:[0,1]\longrightarrow X$ - eso es _enorme_. Así que hay una versión "más ligera" de la homología, llamada _homología simplicial_ (a la que marcaremos con una $\Delta$), que funciona en espacios triangulados, y que calcula los mismos grupos de homología (bueno, grupos isomorfos). La idea es simple: usa sólo objetos de la triangulación. Luego $C^\Delta_0(X)$ consiste en combinaciones enteras de vértices, $C^\Delta_1(X)$ consiste en combinaciones enteras de aristas orientadas, etcétera. Todo lo demás es igual y funciona perfectamente:
 
 $$\partial^\Delta_k:C^\Delta_k(X)\longrightarrow C^\Delta_{k-1}(X)$$
 $$Z^\Delta_k(X)=\text{ker }\partial^\Delta_k$$
 $$B^\Delta_k(X)=\text{im }\partial^\Delta_{k+1}$$
 $$H^\Delta_k(M)=\dfrac{Z^\Delta_k(M)}{B^\Delta_k(M)}$$
 
-But now we're only working with finite dimensional spaces (provided that the triangulation is finite) which behave much better. We may _compute_ the simplicial homology groups. But since a space has many triangulations... we would like to have an "absolute" homology, which is the one described above. It is the _singular homology_, and it is one of the finest constructions in mathematics
+¡Y sí, calcula los mismo grupos de homología, detecta los mismos agujeros! Solo que ahora estamos trabajando con espacios de dimensión finita (suponiendo que la triangulación es finita) que se manejan incomparablemente mejor. Podemos _computar_ los grupos de homología simplicial. Pero como un espacio tiene muchas triangulaciones... nos gustaría tener una homología absoluta, que es la que se describe arriba. Ésta es la _homología singular_, y es una de las construcciones más bellas en matemáticas
 
-And all this digression comes back to the Euler-Poincaré characteristic. How? Since we are now working with finite dimensional vector spaces (well, they're not vector spaces, because we're working over $\mathbb{Z}$, but it doesn't matter - we'll use rank $\text{rk}$ as the analogous of $\text{dim}$), usual linear algebra applies. In the one hand, 
+Y toda esta digresión vuelve a la característica de Euler-Poincaré. ¿Cómo? Ya que estamos trabajando con espacios vectoriales de dimensión finita (a ver, no son espacios vectoriales, porque estamos trabajando sobre $\mathbb{Z}$, pero no importa - usaremos el rango $\text{rk}$ como el análogo de $\text{dim}$), el álgebra lineal corriente aplica. Por una parte, 
 
 $$H_k=Z_k/B_k\Longrightarrow \text{rk }H_k=\text{rk }Z_k-\text{rk }B_k$$
 
-but on the other hand, 
+pero por la otra, 
 
 $$B_{k-1}=\text{im }\partial_k\simeq C_k/\text{ker }\partial_k=C_k/Z_k$$
 $$\text{rk }B_{k-1}=\text{rk }C_k-\text{rk }Z_k$$
 
-and this necessarily holds along the whole chain
+y esto necesariamente se cumple en toda la cadena
 
 {{ image | homology_chain_dimensions }}
 
-Plugging this into the Euler-Poincaré characteristic, we have
+Si insertamos esto en la característica de Euler-Poincaré, tenemos que
 
 $$
 \begin{array}{rcl}
 \chi & = & \sum_i (-1)^i c_i \\
 & = & \sum_i (-1)^i \text{rk }C_i \\
 & = & \sum_i (-1)^i (\text{rk }Z_i + \text{rk }B_{i-1}) \\
-& & \text{[index trick: \(\sum_i (-1)^i\text{rk }B_{i-1} = -\sum_i (-1)^i\text{rk }B_i\)]} \\
+& & \text{[truco: \(\sum_i (-1)^i\text{rk }B_{i-1} = -\sum_i (-1)^i\text{rk }B_i\)]} \\
 & = & \sum_i (-1)^i (\text{rk }Z_i - \text{rk }B_i) \\
 & = & \sum_i (-1)^i \text{rk }H_i \\
 \end{array}
 $$
 
-_The result above is very deep_: the quantities $c_i$ depend on the specific triangulation of the space $X$, but the Euler-Poincaré characteristic $\chi$ _does not depend_ on the triangulation, and therefore constitutes a topological invariant, because it may be expressed in terms of homology. And as a side note, it shows that homology, no matter how strange seemed at first, is of crucial importance in algebraic topology
+_Este resultado es muy profundo_: las cantidades $c_i$ dependen de la triangulación elegida en el espacio $X$, pero la característica de Euler-Poincaré $\chi$ _no depende_ de la triangulación, y por tanto constituye un invariante topológico, porque se puede expresar en términos de homología. Y como nota adicional, muestra que la homología, aunque parezca muy extraña al principio, es de una importancia crucial en la topología algebraica

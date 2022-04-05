@@ -1,31 +1,31 @@
-What is Functional Analysis about? It deals with certain strange fenomena having place when mixing infinite dimensional vector spaces with topology. Let's examine some enlightening examples.
+¿De qué trata el Análisis Funcional? Trata de ciertos fenómenos curiosos que ocurren cuando se juntan los espacios vectoriales de dimensión infinita con la topología. Con unos ejemplos lo veremos mejor.
 
-In basic Linear Algebra it is customary to work with finite dimensional vector spaces, like $\R^3$. These spaces may be given a topology, of course. But there aren't many choices: any sensible topology in $\R^3$ (that is, compatible with $\R$, its distance and topology) will match the usual topology, the one coming from euclidean distance, or product topology, or whatever. Linear forms (such as $(x,y,z)\longmapsto x+2y+3z$) are always continuous and behave perfectly.
+En el Álgebra Lineal básica se suele trabajar con espacios vectoriales de dimensión finita, como por ejemplo $\R^3$. A estos espacios se les puede dar una topología, claro. Pero en realidad no hay demasiadas elecciones que hacer: cualquier topología mínimamente sensata en $\R^3$ (es decir, que sea afín con las propiedades de $\R$, con su distancia y topología) coincidirá con la topología usual, que es la que proviene de la distancia euclídea, o de la topología producto, o de lo que queramos. Las formas lineales, por ejemplo $(x,y,z)\longmapsto x+2y+3z$, son siempre continuas y se comportan de maravilla.
 
-We're not used to work in infinite dimension, so we'll take the vector space of continuous functions in $[0,1]$, which is denoted by $C[0,1]$. We may imagine lots and lots of functions
+En dimensión infinita no estamos acostumbrados a trabajar, así que tomaremos un ejemplo: el espacio vectorial de las funciones continuas en el intervalo $[0,1]$, que se denota por $C[0,1]$. Nos lo podemos imaginar pintando una barbaridad de funciones
 
 {{ image | continuous_0_1 }}
 
-As a vector space, its structure is standard; to endorse it a topology, supreme distance is usually used: given two functions $f$ and $g$, its distance is defined as
+Como espacio vectorial, no hay ningún problema; para hacerlo espacio topológico se suele utilizar la distancia del supremo: dadas dos funciones $f$ y $g$, se define su distancia como
 
 $$d(f,g)=\displaystyle \sup_{x\in[0,1]}|g(x)-f(x)|$$
 
-and it is easy to check that it is indeed a well-behaved distance giving a topology to $C[0,1]$. No problem so far.
+y es fácil comprobar que cumple las propiedades de función distancia y por tanto hace de $C[0,1]$ un espacio topológico. Hasta aquí, todo bien.
 
-To move into a more exotic setting let's consider a vector subspace, which is also a topological subspace: $P[0,1]\subset C[0,1]$ the subspace containing the functions that are restrictions of polynomials. So we may have the functions $1$, $x$, $x^2$, $x^7+3x^3-15$, and so on. Well, we could as well think in the space of polynomials; the restriction to $[0,1]$ is purely formal, and that's exactly the hot point! Let $T$ be the linear map defined as
+Para movernos hacia terrenos más exóticos, consideremos un subespacio vectorial, que a la vez es subespacio topológico: $P[0,1]\subset C[0,1]$ el subespacio formado por aquellas funciones que son restricciones de polinomios. Aquí nos encontramos las funciones $1$, $x$, $x^2$, $x^7+3x^3-15$, etc. En realidad, es como si trabajásemos con el espacio de polinomios; la restricción a $[0,1]$ pasa a ser formal. Pero precisamente por eso surgen fenómenos extraños. Podemos considerar la siguiente aplicación lineal
 
 $$T:P[0,1]\longrightarrow \R$$
 $$p(x)\longmapsto T(p(x))=p(2)$$
 
-Even when dealing with functions over $[0,1]$ this map is well-defined because polynomials are uniquely extended. Is $T$ linear? Dead linear! But **it is not continuous**. Indeed, let $p_n(x)=\dfrac{x^n}{2^n}$ and $p(x)=0$
+Independientemente de que estemos trabajando con funciones en $[0,1]$ esta función está bien definida porque sólo la hemos definido en los polinomios. ¿Es lineal? Linealísima. Pero **no es continua**. En efecto, consideramos $p_n(x)=\dfrac{x^n}{2^n}$ y $p(x)=0$
 
 {{ image | poly_seq_0_1 }}
 
-Look! $p_n\longrightarrow p$ since $d(p_n,p)=|p(1)-p_n(1)|=|0-\frac{1}{2^n}|=\frac{1}{2^n}$. Now $T(p_n)=p_n(2)=1$ for all $n$ and $T(p)=p(2)=0$! That's certainly a discontinuity. But wait, there are discontinuities at every point! Given any polynomial $q$, we may consider $q+p_n\longrightarrow q$. And of course one may replace $2$ with another value outside $[0,1]$ and voilà! As many discontinuous linear maps as we want.
+Es cierto que $p_n\longrightarrow p$, pues $d(p_n,p)=\|p(1)-p_n(1)\|=\|0-\frac{1}{2^n}\|=\frac{1}{2^n}$. Sin embargo, ¡$T(p_n)=p_n(2)=1$ para todo $n$ y $T(p)=p(2)=0$! Es una discontinuidad como un camión. Además, hay discontinuidad en todo punto; dado cualquier polinomio $q$, basta considerar la sucesión $q+p_n\longrightarrow q$. Y como este hay muchísimos ejemplos; cambiando $2$ por cualquier número fuera de $[0,1]$ conseguimos una aplicación lineal no continua.
 
-Perhaps we should have chosen another topology? You may try to change the metric and the topology, but you will always have this sort of problems, at least if we keep them compatible with the vector space structure (this compatibility will be defined later as the metric being a _norm_)
+¿Será que no hemos elegido una buena topología? Obviamente se puede cambiar la métrica y la topología, pero el lector puede convencerse de que nunca conseguiremos una distancia sin problemas, si queremos que esta distancia tenga cierta compatibilidad con la estructura de espacio vectorial (esta compatibilidad se definirá más adelante como que la distancia es una _norma_)
 
-Next shocking result: $P[0,1]\subset C[0,1]$ **is not a closed subspace**. In $\R^3$, every vector subspace (planes, lines and points) are closed. No longer in infinite dimension! Let $f=e^x|_{[0,1]}\in C[0,1]$. Due to the Taylor theorems, we know that the Taylor polynomials
+Como segundo ejemplo de resultado chocante, $P[0,1]\subset C[0,1]$ **no es un subespacio cerrado**. En $\R^3$, todos los subespacios vectoriales (planos, rectas y puntos) son cerrados. ¡En dimensión infinita no! Sea $f=e^x|_{[0,1]}\in C[0,1]$. Gracias a los teoremas de Taylor, sabemos que los polinomios de Taylor
 
 $$p_0=1$$
 $$p_1=1+x$$
@@ -33,12 +33,12 @@ $$p_2=1+x+\dfrac{x^2}{2!}$$
 $$p_3=1+x+\dfrac{x^2}{2!}+\dfrac{x^3}{3!}$$
 $$...$$
 
-uniformly converge to $f$ in $[0,1]$. That is: $p_n\longrightarrow f$, hence $P[0,1]\subset C[0,1]$ is not closed, since $f_n\in P[0,1]\,\forall n$ and $f\in C[0,1]\smallsetminus P[0,1]$. Moreover, that reveals an intrinsic topological property of $P[0,1]$: **it is not a complete space**.
+convergen uniformemente a $f$ en $[0,1]$. Pero esto es lo mismo que decir que $p_n\longrightarrow f$, y aquí está que $P[0,1]\subset C[0,1]$ no es cerrado, porque $f_n\in P[0,1]\,\forall n$ y $f\in C[0,1]\smallsetminus P[0,1]$. De hecho, esto revela una propiedad topológica intrínseca de $P[0,1]$: **no es un espacio completo**.
 
-Now surprisingly, all these problems are no real problems, but give rise to an extremely rich branch of Mathematics: Functional Analysis. The objects it deals with are mainly
+Pues bien, todas estas consideraciones, lejos de ser una situación incómoda, dan pie a una rama de las matemáticas riquísima, el Análisis Funcional. Sus objetos de estudio son
 
 <ol>
-  <li>Infinite dimension vector spaces topologized by compatible metrics (_normed spaces_)</li>
-  <li>especially those which become complete (_Banach spaces_)</li>
-  <li>and the continuous linear maps between them</li>
+  <li>Espacios vectoriales de dimensión infinita con topologías dadas por distancias compatibles (_espacios normados_)</li>
+  <li>especialmente los espacios normados completos (_espacios de Banach_)</li>
+  <li>junto con las aplicaciones lineales continuas entre ellos</li>
 </ol>
