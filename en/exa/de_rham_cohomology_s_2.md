@@ -14,8 +14,8 @@ Now let $\alpha$ be a 1-form in $\S^2$ with $\d\alpha=0$. The restriction of $\a
 
 $$f=
 \begin{cases}
-f_1 & \text{en $U$}\\
-\tilde{f}_2 & \text{en $V$}
+f_1 & \text{in $U$}\\
+\tilde{f}_2 & \text{in $V$}
 \end{cases}$$
 
 This function satisfies $\d f=\alpha$, since it already does in $U$, $V$. Therefore 
@@ -48,11 +48,11 @@ Great! Let $\tilde{\alpha}_1=\alpha_1-\d f_1$, $\tilde{\alpha}_2=\alpha_2+\d f_2
 
 $$\alpha=
 \begin{cases}
-\tilde{\alpha}_1 & \text{en $U$}\\
-\tilde{\alpha}_2 & \text{en $V$}
+\tilde{\alpha}_1 & \text{in $U$}\\
+\tilde{\alpha}_2 & \text{in $V$}
 \end{cases}$$
 
-that satisfies $\d \alpha=\beta$ n $\S^2$. That, $\alpha_1$ and $\alpha_2$ could be non-extensible, but we have managed to correct this non-extensibility
+that satisfies $\d \alpha=\beta$ in $\S^2$. That is, $\alpha_1$ and $\alpha_2$ could be non-extensible, but we have managed to correct this non-extensibility
 
 If $\lambda\neq 0$, this process is not possible: if there is some global $\alpha$, 
 
@@ -74,8 +74,8 @@ and we may define
 
 $$\beta=
 \begin{cases}
-\beta_1 & \text{en $U$}\\
--\beta_2 & \text{en $V$}
+\beta_1 & \text{in $U$}\\
+-\beta_2 & \text{in $V$}
 \end{cases}$$ 
 
 The induced 1-forms are, up to the derivative of a function, $\alpha_1=\rho_2\gamma$ and $\alpha_2=-\rho_1\gamma$, and 

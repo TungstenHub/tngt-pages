@@ -14,7 +14,7 @@ $$H^0(\T^2)=\dfrac{\text{ker }\d_0}{\text{im }\d_{-1}}=\dfrac{\left\{f\middle|\d
 
 ---
 
-To compute the next cohomology groups we will use the Fourier series of these periodic functions: $f(\alpha,\beta)=\sum_{\substack{m,n=-\infty}}^\infty f_{mn}\ee^{\ii m\alpha}\ee^{\ii n\beta}$, y lo mismo para $g$, $h$ y $k$. This decomposition will be merely formal, without minding convergence or differentiability, in a totally heuristic fashion which, however, yields completely right results
+To compute the next cohomology groups we will use the Fourier series of these periodic functions: $f(\alpha,\beta)=\sum_{\substack{m,n=-\infty}}^\infty f_{mn}\ee^{\ii m\alpha}\ee^{\ii n\beta}$, and the same for $g$, $h$ y $k$. This decomposition will be merely formal, without minding convergence or differentiability, in a totally heuristic fashion which, however, yields completely right results
 
 $$\d (g\d \alpha+h\d\beta)=\left(\dfrac{\partial h}{\partial \alpha}-\dfrac{\partial g}{\partial \beta}\right)\d \alpha\wedge\d\beta=\ii\sum_{mn}(mh_{mn}-ng_{mn})\ee^{\ii m\alpha}\ee^{\ii n\beta}\d \alpha\wedge\d\beta$$
 

@@ -39,7 +39,7 @@ $$H^0(\R^2)=\dfrac{\{f=cte\in\R\}}{0}\simeq\R$$
   <li>$\text{im }\d_0=\left\{\dfrac{\partial f}{\partial x}\d x+\dfrac{\partial f}{\partial y}\d y\right\}$</li>
 </ul>
 
-Obviously, $\text{im }\d_0\subset\text{ker }\d_1$, because $\dfrac{\partial (\partial f/\partial y)}{\partial x}-\dfrac{\partial (\partial f/\partial x)}{\partial y}=0$. Now we wonder whether equality holds. Let $g$, $h$ with $\dfrac{\partial h}{\partial x}=\dfrac{\partial g}{\partial y}$; there will exist some $f$ with $\dfrac{\partial f}{\partial x}=g$, $\dfrac{\partial f}{\partial y}=h$? If so, this function could be found by integration, moving along the $x$-axis and then vertically; let $f(0,0)=0$: 
+Obviously, $\text{im }\d_0\subset\text{ker }\d_1$, because $\dfrac{\partial (\partial f/\partial y)}{\partial x}-\dfrac{\partial (\partial f/\partial x)}{\partial y}=0$. Now we wonder whether equality holds. Let $g$, $h$ with $\dfrac{\partial h}{\partial x}=\dfrac{\partial g}{\partial y}$; will there be some $f$ with $\dfrac{\partial f}{\partial x}=g$, $\dfrac{\partial f}{\partial y}=h$? If so, this function could be found by integration, moving along the $x$-axis and then vertically; let $f(0,0)=0$: 
 
 $$f(x,y)=\int_0^x f_x(t,0)\d t+\int_0^y f_y(x,t)\d t=\int_0^x g(t,0)\d t+\int_0^y h(x,t)\d t$$
 
@@ -60,6 +60,6 @@ $$H^1(\R^2)=\dfrac{\left\{g\d x+h\d y\middle|\dfrac{\partial h}{\partial x}-\dfr
   <li>$\text{im }\d_1=\left\{\left(\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}\right)\d x\wedge\d y\right\}$</li>
 </ul>
 
-Given some fixed function $k$, there will exist $g$, $h$ with $\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}=k$? Now is very easy: we may take $g=0$ and $h(x,y)=\int_0^x k(t,y)\d t$, and everything is ok. So again kernel and image coincide and
+Given some fixed function $k$, will there be $g$, $h$ with $\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}=k$? Now it's very easy: we may take $g=0$ and $h(x,y)=\int_0^x k(t,y)\d t$, and everything is ok. So again kernel and image coincide and
 
 $$H^2(\R^2)=\dfrac{\{k\d x\wedge\d y\}}{\left\{\left(\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}\right)\d x\wedge\d y\right\}}=0$$

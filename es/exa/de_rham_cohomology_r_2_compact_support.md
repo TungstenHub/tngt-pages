@@ -1,35 +1,35 @@
-Differential forms in $\R ^2$ and the actuation of $\d$ are as before, but now $f$, $g$, $h$ and $k$ have compact support
+Las formas diferenciales con soporte compacto en $\R ^2$ y la actuación de $\d$ son como antes, solo que $f$, $g$, $h$ y $k$ son ahora funciones de soporte compacto
 
 ---
 
-$\text{ker }\d_0$ requires again the functions $f$ to be constant, but since compact support is also required, it turns out that $\text{ker }\d_0=\{f\equiv 0\}$ and
+$\text{ker }\d_0$ vuelve a estar formado por funciones $f$ constantes, pero como ahora se requiere que $f$ sea de soporte compacto, resulta que $\text{ker }\d_0=\{f\equiv 0\}$ y
 
 $$H^0_c(\R ^2)=\dfrac{\{f\equiv 0\}}{0}=0$$
 
 ---
 
-For the next group, it was initially proposed the function 
+Para el siguiente grupo, en un primer momento se propuso la función
 
 $$ f(x,y)=\int_0^x f_x(t,0)\d t+\int_0^y f_y(x,t)\d t=\int_0^x g(t,0)\d t+\int_0^y h(x,t)\d t$$
 
-that satisfied $\d f=g\d x+h\d y$, so every closed 1-form was exact. The issue is that $f$ may not have compact support even when $g$ and $h$ do. But this is easily fixed: if $g$ and $h$ are zero outside some compact set $[-M,M] \times[-M,M]$, there it is also true that 
+que cumple $\d f=g\d x+h\d y$, y así todas las 1-formas cerradas son exactas. El problema es que ahora $f$ puede no tener soporte compacto aun cuando $g$ y $h$ sí. Pero esto no es gran dificultad: si $g$ y $h$ se anulan fuera de un conjunto $[-M,M] \times[-M,M]$, entonces ahí también es cierto que
 
 $$\dfrac{\partial f}{\partial x}=g=0$$ 
 $$\dfrac{\partial f}{\partial y}=h=0$$
 
-so $f$ is constant in $\R ^2\smallsetminus [-M,M] \times[-M,M]$ (which is connected). So we may redefine $f$ substracting this constant, so that it is also zero outside $[-M,M] \times[-M,M]$. Therefore, in the compact case every closed 1-form is exact too, and
+por lo que $f$ es constante en $\R ^2\smallsetminus [-M,M] \times[-M,M]$ (que es conexo). Así, basta redefinir $f$ restándole esa constante para que valga 0 fuera de $[-M,M] \times[-M,M]$. Luego también en el caso con soporte compacto las 1-formas cerradas son exactas y
 
 $$H^1_c(\R ^2)=0$$
 
 ---
 
-Here comes the true difference: $H^2_c(\R ^2)$ is not trivial. In the non-compact case, from the 2-form $k\d x\wedge\d y$ we had taken 
+Aquí viene la mayor diferencia: $H^2_c(\R ^2)$ no es trivial. En el caso no compacto, para la 2-forma $k\d x\wedge\d y$ habíamos tomado 
 
 $$g=0,\qquad h(x,y)=\int_0^x k(t,y)\d t$$
 
-for $\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}=k$, but now it now it is very rare that $h$ has compact support. Can we choose $g$ and $h$ more wisely? Well, in fact, hardly ever...
+para que $\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}=k$, pero ahora es casi imposible que $h$ tenga soporte compacto. ¿Podemos elegir $g$ y $h$ más acertadamente? Pues, de hecho, casi nunca vamos a poder...
 
-The major obstruction is when $\int_{\R ^2} k(x,y)\neq 0$. Imagine that $g$ and $h$ are zero outside some $K=[-M,M] \times[-M,M]$ (and its boundary). Then
+La mayor obstrucción es cuando $\int_{\R ^2} k(x,y)\neq 0$. Supongamos que $g$ y $h$ se anulan fuera de un cuadrado $K=[-M,M] \times[-M,M]$ (y sobre el borde). Entonces
 
 $$
 \begin{array}{rcl}
@@ -39,26 +39,26 @@ $$
 \end{array}
 $$
 
-so if $\int_{\R ^2} k(x,y)\neq 0$ there's nothing to do: $k\d x\wedge\d y$ is automatically closed, but it's not exact. And what if $\int_{\R ^2} k(x,y)=0$? We'll try the approach above and modify it if needed. Let 
+con lo que si $\int_{\R ^2} k(x,y)\neq 0$ no hay nada que hacer: $k\d x\wedge\d y$ es automáticamente cerrada, pero no es exacta. ¿Y si $\int_{\R ^2} k(x,y)=0$? Intentaremos hacer lo de antes y retocaremos si hace falta. Sea
 
 $$h(x,y)=\int_{-M}^x k(t,y)\d t$$
 
-Above, below and to the left of $K$, $h$ is identically zero, whereas to the right it equates some function $v(y)$ with support in $[-M,M]$. To correct this anomaly, let's take a differentiable function $\rho(x)$ that values 0 in $(-\infty,-M]$ and 1 in $[M,\infty)$, and we switch to
+Arriba, abajo y a la izquierda del cuadrado $h$ se anula, mientras que a la derecha toma los valores de una cierta función $v(y)$ con soporte en $[-M,M]$. Para corregir esta anomalía, tomamos una función diferenciable $\rho(x)$ que valga 0 en $(-\infty,-M]$ y 1 en $[M,\infty)$, y pasamos a la función
 
 $$\tilde{h}(x,y)=h(x,y)-\rho(x)v(y)$$
 
-which now has compact support! But this change comes at a cost that we expect to compensate with $g$:
+¡que ahora tiene soporte compacto! Pero este cambio tiene un precio que tendremos que compensar con $g$:
 
 $$\dfrac{\partial \tilde{h}}{\partial x}=\dfrac{\partial h}{\partial x}-\rho'(x)v(y)=k-\rho'(x)v(y)$$
 
-and we need $\dfrac{\partial g}{\partial y}=-\rho'(x)v(y)$, and we're forced to take 
+así que necesitamos que $\dfrac{\partial g}{\partial y}=-\rho'(x)v(y)$, que se consigue tomando
 
 $$g(x,y)=\int_{-M}^y -\rho'(x)v(t)\d t=-\rho'(x)\int_{-M}^y v(t)\d t$$
 
-Great! $g$ is zero outside $K$, also above it, because 
+¡Magnífico! $g$ se anula fuera de $K$, también encima, porque
 
 $$\int_{-M}^M v(t)\d t=\int_{\R ^2} k(x,y)=0$$
 
-Since $\int_{\R ^2} k(x,y)$ determines the exactness of the 2-form, there is one degree of freedom and
+Como $\int_{\R ^2} k(x,y)$ decide la exactitud de la 2-forma, hay un grado de libertad y
 
 $$H^2_c(\R ^2)\simeq\R $$

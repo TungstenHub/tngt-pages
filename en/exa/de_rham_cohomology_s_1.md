@@ -23,7 +23,7 @@ $$H^0(\S^1)=\dfrac{\{f=cte\in\R\}}{0}\simeq\R$$
   <li>$\text{im }\d_0=\left\{\dfrac{\partial f}{\partial \theta}\d\theta\right\}$</li>
 </ul>
 
-and we wonder whether every $2\pi$-periodic function may be expressed as the derivative of some other $2\pi$-periodic function $f$. It should be then $f(\theta)=\int_0^\theta g(t)\d t$ (up to constants), but for $f$ to be $2\pi$-periodic it is needed that $\int_0^{2\pi} g(t)\d t=0$. Obviously not every $2\pi$-periodic function $g$ meets this requirement, but one may overcome this by slightly modifying $g$: $\tilde{g}=g-\frac{1}{2\pi}\int_0^{2\pi} g(t)\d t$. This way every $g$ is expressed in a unique way as the sum of a constant function and a function of the type $\dfrac{\partial f}{\partial \theta}$. As a consequence, 
+and we wonder whether every $2\pi$-periodic function $g$ may be expressed as the derivative of some other $2\pi$-periodic function $f$. It should be then $f(\theta)=\int_0^\theta g(t)\d t$ (up to constants), but for $f$ to be $2\pi$-periodic it is needed that $\int_0^{2\pi} g(t)\d t=0$. Obviously not every $2\pi$-periodic function $g$ meets this requirement, but one may overcome this by slightly modifying $g$: $\tilde{g}=g-\frac{1}{2\pi}\int_0^{2\pi} g(t)\d t$. This way every $g$ is expressed in a unique way as the sum of a constant function and a function of the type $\dfrac{\partial f}{\partial \theta}$. As a consequence, 
 
 $$H^1(\S^1)=\dfrac{\{g\d\theta\}}{\left\{\dfrac{\partial f}{\partial \theta}\d\theta\right\}}\simeq\R$$
 

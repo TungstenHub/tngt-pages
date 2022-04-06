@@ -1,12 +1,12 @@
-In $\R^2$, differential forms are as follows:
+En $\R^2$, las formas diferenciales son del siguiente tipo:
 
 <ul>
-  <li>0-forms: $f:\R^2\longrightarrow\R$ differentiable</li>
-  <li>1-forms: $g\d x+h\d y$, $g$, $h:\R^2\longrightarrow\R$ differentiable</li>
-  <li>2-forms: $k\d x\wedge\d y$, $k:\R^2\longrightarrow\R$ differentiable</li>
+  <li>0-formas: $f:\R^2\longrightarrow\R$ diferenciable</li>
+  <li>1-formas: $g\d x+h\d y$, $g$, $h:\R^2\longrightarrow\R$ diferenciables</li>
+  <li>2-formas: $k\d x\wedge\d y$, $k:\R^2\longrightarrow\R$ diferenciable</li>
 </ul>
 
-and the exterior derivative acts on them:
+y la diferencial exterior actúa en ellas de este modo:
 
 <ul>
   <li>$\d(f)=\d f=\dfrac{\partial f}{\partial x}\d x+\dfrac{\partial f}{\partial y}\d y$</li>
@@ -21,13 +21,13 @@ and the exterior derivative acts on them:
     \dfrac{\partial k}{\partial x}\d x\wedge\d x\wedge\d y+\dfrac{\partial k}{\partial y}\d y\wedge\d x\wedge\d y=0$</li>
 </ul>
 
-Now we may compute the cohomology groups
+Ahora podemos calcular los grupos de cohomología
 
 ---
 
 <ul>
   <li>$\text{ker }\d_0=\left\{f\middle|\dfrac{\partial f}{\partial x}=\dfrac{\partial f}{\partial y}=0\right\}=\{f|f=cte\in\R\}$</li>
-  <li>$\text{im }\d_{-1}=\{0\}$ (we take $\d_{-1}:0\longrightarrow\Omega^0(\R^2)$ the zero map)</li>
+  <li>$\text{im }\d_{-1}=\{0\}$ (tomamos $\d_{-1}:0\longrightarrow\Omega^0(\R^2)$ la aplicación nula)</li>
 </ul>
 
 $$H^0(\R^2)=\dfrac{\{f=cte\in\R\}}{0}\simeq\R$$
@@ -39,17 +39,17 @@ $$H^0(\R^2)=\dfrac{\{f=cte\in\R\}}{0}\simeq\R$$
   <li>$\text{im }\d_0=\left\{\dfrac{\partial f}{\partial x}\d x+\dfrac{\partial f}{\partial y}\d y\right\}$</li>
 </ul>
 
-Obviously, $\text{im }\d_0\subset\text{ker }\d_1$, because $\dfrac{\partial (\partial f/\partial y)}{\partial x}-\dfrac{\partial (\partial f/\partial x)}{\partial y}=0$. Now we wonder whether equality holds. Let $g$, $h$ with $\dfrac{\partial h}{\partial x}=\dfrac{\partial g}{\partial y}$; there will exist some $f$ with $\dfrac{\partial f}{\partial x}=g$, $\dfrac{\partial f}{\partial y}=h$? If so, this function could be found by integration, moving along the $x$-axis and then vertically; let $f(0,0)=0$: 
+Evidentemente, $\text{im }\d_0\subset\text{ker }\d_1$, pues $\dfrac{\partial (\partial f/\partial y)}{\partial x}-\dfrac{\partial (\partial f/\partial x)}{\partial y}=0$. Nos preguntamos si se da la igualdad. Sean $g$, $h$ con $\dfrac{\partial h}{\partial x}=\dfrac{\partial g}{\partial y}$; ¿existirá una $f$ con $\dfrac{\partial f}{\partial x}=g$, $\dfrac{\partial f}{\partial y}=h$? En caso afirmativo, esta función se podría hallar por integración, desplazándose por el eje $x$ y luego verticalmente; tomamos $f(0,0)=0$: 
 
 $$f(x,y)=\int_0^x f_x(t,0)\d t+\int_0^y f_y(x,t)\d t=\int_0^x g(t,0)\d t+\int_0^y h(x,t)\d t$$
 
-Does this function meet our requirements? 
+¿Cumple esta función lo que queremos?
 
 $$\dfrac{\partial f}{\partial x}=g(x,0)+\int_0^y \dfrac{\partial h}{\partial x}(x,t)\d t=g(x,0)+\int_0^y \dfrac{\partial g}{\partial y}(x,t)\d t=g(x,0)+ [g(x,t)]_0^y=g(x,0)+g(x,y)-g(x,0)=g(x,y)$$ 
 
 $$\dfrac{\partial f}{\partial y}=h(x,y)$$  
 
-so $f$ is our desired function. Therefore there is equality in our previous sets and
+así que $f$ es la función buscada. Por tanto se tiene una igualdad entre los conjuntos anteriores y
 
 $$H^1(\R^2)=\dfrac{\left\{g\d x+h\d y\middle|\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}=0\right\}}{\left\{\dfrac{\partial f}{\partial x}\d x+\dfrac{\partial f}{\partial y}\d y\right\}}=0$$
 
@@ -60,6 +60,6 @@ $$H^1(\R^2)=\dfrac{\left\{g\d x+h\d y\middle|\dfrac{\partial h}{\partial x}-\dfr
   <li>$\text{im }\d_1=\left\{\left(\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}\right)\d x\wedge\d y\right\}$</li>
 </ul>
 
-Given some fixed function $k$, there will exist $g$, $h$ with $\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}=k$? Now is very easy: we may take $g=0$ and $h(x,y)=\int_0^x k(t,y)\d t$, and everything is ok. So again kernel and image coincide and
+Dada una función $k$ fija, ¿existirán $g$, $h$ con $\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}=k$? Ahora es muy fácil: podemos tomar $g=0$ y $h(x,y)=\int_0^x k(t,y)\d t$, y se cumple el requisito anterior. Así que de nuevo el núcleo y la imagen coinciden y
 
 $$H^2(\R^2)=\dfrac{\{k\d x\wedge\d y\}}{\left\{\left(\dfrac{\partial h}{\partial x}-\dfrac{\partial g}{\partial y}\right)\d x\wedge\d y\right\}}=0$$
