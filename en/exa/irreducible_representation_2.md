@@ -1,4 +1,4 @@
-The representation of [representation of $\Z_n$ as plane rotations]( exa | representation_finite_group # zn_plane_rotations ) seems a good candidate of irreducible one. All the plane gets rotated, there seem to be no fixed vectors or subspaces!
+The [representation of $\Z_n$ as plane rotations]( exa | representation_finite_group # zn_plane_rotations ) seems a good candidate of irreducible one. All the plane gets rotated, there seem to be no fixed vectors or subspaces!
 
 But appearances are deceptive, especially if working with complex numbers
 

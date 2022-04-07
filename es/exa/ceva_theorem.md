@@ -1,18 +1,18 @@
-Let's see some checks / applications of Ceva's Theorem
+Veamos algunas comprobaciones / aplicaciones del Teorema de Ceva
 
 ---
 
 [{centroid}]
 
-**Centroid**
+**Baricentro**
 
-This case is very easy: each median in the triangle cuts the opposite side by half. This way,
+Este caso es muy fácil: cada mediana del triángulo corta el lado opuesto por la mitad. Así,
 
 $$AF=FB$$
 $$BD=DC$$
 $$CE=EA$$
 
-and thus
+y de este modo
 
 $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=1\times 1\times 1=1$$
 
@@ -20,9 +20,9 @@ $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=1\times 1\times 1=1$$
 
 [{incenter}]
 
-**Incenter**
+**Incentro**
 
-According to the [bisector theorem]( exa | bisector_theorem ),
+Según el [teorema de la bisectriz]( exa | bisector_theorem ),
 
 $$
 \dfrac{AF}{FB}=\dfrac{AC}{CB}\qquad
@@ -30,7 +30,7 @@ $$
 \dfrac{CE}{EA}=\dfrac{CB}{BA}
 $$
 
-and we have
+y tenemos
 
 $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=\dfrac{AC}{CB}\dfrac{BA}{AC}\dfrac{CB}{BA}=1$$
 
@@ -38,28 +38,28 @@ $$\dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA}=\dfrac{AC}{CB}\dfrac{BA}{AC}\dfrac{
 
 [{orthocenter}]
 
-**Orthocenter**
+**Ortocentro**
 
-In this case computations are somewhat more involved, but not too much.
+En este caso los cálculos son un poco más liosos, pero tampoco mucho.
 
-Let's try to find out the length of the two parts in which an altitude splits a side:
+Vamos a intentar encontrar la longitud de las dos partes en que una altura divide un lado:
 
 {{ image | triangle_altitude_projection }}
 
-Applying the Pythagorean Theorem to the two right triangles yields
+Aplicando el Teorema de Pitágoras a los dos triángulos rectángulos queda
 
 $$x^2 + h^2 = b^2$$
 $$(a-x)^2 + h^2 = c^2$$
 
-Expanding the second equation and injecting the first one
+Expandiendo la segunda ecuación y sustituyéndola en la primera
 
 $$c^2 = (a-x)^2 + h^2 = a^2 - 2ax + x^2 + h^2 = a^2 - 2ax + b^2$$
 
-provides a way to isolate $x$:
+obtenemos el modo de despejar $x$:
 
 $$c^2 = a^2 - 2ax + b^2 \Longrightarrow 2ax = a^2 + b^2 - c^2 \Longrightarrow x = \dfrac{a^2 + b^2 - c^2}{2a} $$
 
-Therefore
+Por tanto
 
 $$ AF = \dfrac{c^2 + b^2 - a^2}{2c} $$
 $$ FB = \dfrac{c^2 + a^2 - b^2}{2c} $$
@@ -68,7 +68,7 @@ $$ DC = \dfrac{a^2 + b^2 - c^2}{2a} $$
 $$ CE = \dfrac{b^2 + a^2 - c^2}{2b} $$
 $$ EA = \dfrac{b^2 + c^2 - a^2}{2b} $$
 
-and finally
+y finalmente
 
 $$
 \dfrac{AF}{FB}\dfrac{BD}{DC}\dfrac{CE}{EA} = 

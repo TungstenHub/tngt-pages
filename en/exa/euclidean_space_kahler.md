@@ -20,4 +20,4 @@ $$R_{j\bar{k}}=-\dfrac{\partial ^2}{\partial z_j \partial \bar{z}_k}(\log \det g
 
 $$Sc=g^{j\bar{k}}R_{j\bar{k}}=0$$
 
-Therefore the flat metric $\C^n$ is Einstein of constant 0.
+Therefore the flat metric in $\C^n$ is Einstein of constant 0.

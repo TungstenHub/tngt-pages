@@ -38,7 +38,7 @@ Smart, isn't it? But it doesn't seem to outperform the explicit change of variab
 
 $$\int\dfrac{1}{2+\cos x}\dd x$$
 
-Now the integral is not immediate nor the term  $\dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)=\dfrac{1}{1+\cos x}$ appears. But the implicit change of variable is easily applied
+Now the integral is not immediate nor the term $\dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)=\dfrac{1}{1+\cos x}$ appears. But the implicit change of variable is easily applied
 
 $$
 \int\dfrac{1}{2+\cos x}\dd x

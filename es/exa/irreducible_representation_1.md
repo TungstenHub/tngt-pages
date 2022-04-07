@@ -1,18 +1,18 @@
 [{trivial_representation}]
 
-The trivial representation
+La representación trivial
 
 $$\rho: G \ll \GL(V)$$
 $$g \maps \id_V$$
 
-is never irreducible unless $\dim V=1$, because any subspace of $V$ is invariant under $G$
+nunca es irreducible a menos que $\dim V=1$, porque cualquier subespacio de $V$ es invariante bajo $G$
 
 ---
 
 [{regular_representation}]
 
-The [regular representation]( exp | regular_representation ) is never irreducible (unless $G$ is the trivial group): the vector
+La [representación regular]( exp | regular_representation ) nunca es reducible (a menos que $G$ sea el grupo trivial): el vector
 
 $$v = g_1 + \cdots + g_n \in \C[G]$$
 
-is fixed under any $g\in G$ (all the $g_i$ get permuted), and the subspace spanned by $v$ is invariant
+está fijo bajo cualquier $g\in G$ (todos los $g_i$ se permutan), y el subespacio generado por $v$ es invariante

@@ -1,6 +1,6 @@
-The representation of [representation of $\Z_n$ as plane rotations]( exa | representation_finite_group # zn_plane_rotations ) seems a good candidate of irreducible one. All the plane gets rotated, there seem to be no fixed vectors or subspaces!
+La [representación de $\Z_n$ como rotaciones del plano]( exa | representation_finite_group # zn_plane_rotations ) parece un buen candidato de representación irreducible. Todo el plano se rota, ¡no parece que haya vectores o subespacios fijos!
 
-But appearances are deceptive, especially if working with complex numbers
+Pero las apariencias engañan, especialmente si trabajamos con números complejos
 
 $$\rho: \Z_n \ll \GL(\C^2)\qquad
 [k] \maps 
@@ -10,7 +10,7 @@ $$\rho: \Z_n \ll \GL(\C^2)\qquad
 \end{pmatrix}
 $$
 
-All these rotations have common eigenvectors: if $\alpha = \frac{2\pi k}{n}$
+Todas estas rotaciones tienen autovectores comunes: si $\alpha = \frac{2\pi k}{n}$
 
 $$
 \begin{pmatrix}
@@ -37,7 +37,7 @@ $$
 e^{\ii\alpha}\vect{1,-\ii}
 $$
 
-So choosing another base, the previous representation is 
+Con lo que eligiendo otra base, la representación anterior es
 
 $$
 [k] \maps 
@@ -48,7 +48,7 @@ $$
 \zeta_n = e^{\frac{2\pi\ii}{n}}
 $$
 
-which is the direct sum of two representations of degree 1, and thus reducible
+que es la suma directa de dos representaciones de grado 1, y por tanto reducible
 
 $$ 
 \begin{array}{l}
@@ -57,4 +57,4 @@ $$
 \end{array}
 $$
 
-It certainly works well with the structure of $\Z_n$, because $\zeta_n^n = 1$. And it also shows that it is completely different to work with $\R$ or with $\C$!
+Ciertamente todo esto funciona bien con la estructura de $\Z_n$, porque $\zeta_n^n = 1$. Y de paso muestra que las cosas son muy diferentes de trabajar con $\R$ a trabajar con $\C$...

@@ -1,4 +1,4 @@
-The system (of only one equation)
+El sistema (de una sola ecuación)
 
 $$
 \left\{
@@ -7,19 +7,19 @@ $$
 \end{array}\right.
 $$
 
-is compatible and indeterminate, because it has lots of solutions. Indeed, give $x$ and $y$ the values you want, and then solve for $z$. If we choose $x=3$ and $y=1$, then
+es compatible e indeterminado, porque tiene montones de soluciones. De hecho, dale a $x$ e $y$ los valores que quieras, y resuelve $z$. Si elegimos $x=3$ e $y=1$, entonces
 
 $$2x+3y+4z = 2\cdot 3+3\cdot 1 +4z = 24\Longrightarrow 4z=15\Longrightarrow z=\dfrac{15}{4}$$
 
-and $\left(x=3,y=1,z=\frac{15}{4}\right)$ is a solution. If we choose instead $x=0$ and $y=0$, then
+y $\left(x=3,y=1,z=\frac{15}{4}\right)$ es una solución. Si en cambio elegimos $x=0$ e $y=0$, entonces
 
 $$2x+3y+4z = 2\cdot 0+3\cdot 0 +4z = 24\Longrightarrow 4z=24\Longrightarrow z=6$$
 
-and $(x=0,y=0,z=6)$ is a solution. Do you see? Lots of solutions
+y $(x=0,y=0,z=6)$ es una solución. ¿Ves? Mogollón de soluciones
 
 ---
 
-The system
+El sistema
 
 $$
 \left\{
@@ -29,7 +29,7 @@ $$
 \end{array}\right.
 $$
 
-is compatible and indeterminate, too. It is not so loose though. We may choose the value we like for $x$, but once this choice is fixed, there is no room for other choices. Why? Well, when the value of $x$ is fixed, we are left with something like
+también es compatible e indeterminado. Pero ya no es tan holgado. Podemos elegir el valor que queramos para $x$, pero una vez que hemos elegido aquí, ya no podemos seguir eligiendo. ¿Por qué? Bueno, cuando el valor de $x$ está fijo, se nos queda algo como
 
 $$
 \left\{
@@ -39,11 +39,11 @@ $$
 \end{array}\right.
 $$
 
-for some values $a$ and $b$. But the second row is exactly one $y$ bigger than the first row! So $y$ is necessarily $b-a$. And $z$ would be determined thereafter. Lots of solutions again, but _less_ than in the previous example
+para algunos valores $a$ y $b$. ¡Pero la segunda fila es exactamente una $y$ mayor que la primera fila! Con lo que $y$ es necesariamente $b-a$. Y $z$ se determinaría acto seguido. De nuevo muchas soluciones, pero _menos_ que en el ejemplo anterior
 
 ---
 
-The system
+El sistema
 
 $$
 \left\{
@@ -53,7 +53,7 @@ $$
 \end{array}\right.
 $$
 
-is incompatible: it can't be that $2x+3y+4z = 24$ and $2x+3y+4z = 27$ at the same time! The prototype ("minimal example") of incompatible equation, though, is
+es incompatible: ¡no puede ser que $2x+3y+4z = 24$ y $2x+3y+4z = 27$ a la vez! Sin embargo, el prototipo ("ejemplo mínimo") de ecuación incompatible es
 
 $$
 \left\{
@@ -62,11 +62,11 @@ $$
 \end{array}\right.
 $$
 
-Very sad, isn't it?
+Qué triste, ¿no?
 
 ---
 
-The system
+El sistema
 
 $$
 \left\{
@@ -77,7 +77,7 @@ x & -2y & + z & = & 7\\
 \end{array}\right.
 $$
 
-has exactly one solution, $(x=2,y=8,z=21)$, and therefore is compatible and determinate. But how do we know this? We'll study this in more detail. In the other hand, a system that would be very easily classified as compatible and determinate is
+tiene exactamente una solución, $(x=2,y=8,z=21)$, y por tanto es compatible y determinado. ¿Pero cómo sabemos esto? Lo vamos a estudiar en más detalle. Por otra parte, un sistema que sería súper fácil de clasificar como compatible y determinado es
 
 $$
 \left\{
@@ -88,7 +88,7 @@ x &  &  & = & 2\\
 \end{array}\right.
 $$
 
-It seems a stupidity to care about this kind of systems... but it's not! And the reason is that to solve the first system, we will somehow transform it into the second one
+Puede parecer una estupidez prestar atención a este tipo de sistemas... ¡pero no lo es! Y la razón es que para resolver el primer sistema, vamos a tener que transformarlo de alguna manera en el segundo
 
 $$
 \left\{
@@ -106,4 +106,4 @@ x &  &  & = & 2\\
 \end{array}\right.
 $$
 
-which is straightforward to solve. So... ready to know more?
+que ya se resuelve directamente. Así que... ¿preparado para saber más?

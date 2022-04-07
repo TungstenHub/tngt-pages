@@ -1,32 +1,32 @@
-Let's work on the integral
+Vamos ahora con la integral
 
 $$\int\dfrac{1}{1+\cos x}\dd x$$
 
-The best way to solve this integral is to realize that $1+\cos x=2\cos^2\left(\dfrac{x}{2}\right)$, which would lead immediately to 
+La mejor manera de resolver esta integral es darse cuenta de que $1+\cos x=2\cos^2\left(\dfrac{x}{2}\right)$, que conduciría inmediatamente a
 
 $$\int\dfrac{1}{1+\cos x}\dd x=\tan\left(\dfrac{x}{2}\right)+k$$
 
-but in case one does not catch on, an implicit change of variable will be useful again. Suppose we proceed in an explicit way:
+pero en el caso en que uno no se dé cuenta, un cambio de variable implícito volverá a ser de utilidad. Supongamos que procedemos de un modo explícito:
 
 $$t =\tan\left(\dfrac{x}{2}\right)$$
 $$\d t = \dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)\dd x$$
 
-And $\dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)=\dfrac{1}{1+\cos x}$, so we would have indeed
+Y $\dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)=\dfrac{1}{1+\cos x}$, así que tendríamos de hecho
 
 $$\int\dfrac{1}{1+\cos x}\dd x=\int\d t=t+k=\tan\left(\dfrac{x}{2}\right)+k$$
 
-which essentially is the same as above. But: would the integrand be slightly different, the change of variable could not have been applied. Instead, an implicit change of variable $h(t)=x$ is _always_ appliable - we'll stress this subtlety later. For now, we take the form
+que es esencialmente lo mismo que antes. Sin embargo: si el integrando fuese ligeramente distinto, el cambio de variable no se podría haber aplicado. En contraposición a esto, un cambio de variable implícito $h(t)=x$ _siempre_ es aplicable - más tarde pondremos énfasis en este punto. Por ahora tomamos el cambio
 
 $$2\tan^{-1}t =x$$
 $$\dfrac{2}{1+t^2}\dd t = \d x$$
 
-We also need to express $\cos x$ in terms of $t$: if $\tan\left(\dfrac{x}{2}\right)=t$, then (check it!)
+También necesitamos expresar $\cos x$ en términos de $t$: si $\tan\left(\dfrac{x}{2}\right)=t$, entonces (¡compruébalo!)
 
 $$\tan x=\dfrac{2t}{1-t^2}$$
 $$\sin x=\dfrac{2t}{1+t^2}$$
 $$\cos x=\dfrac{1-t^2}{1+t^2}$$
 
-and therefore
+y por tanto
 
 $$
 \int\dfrac{1}{1+\cos x}\dd x
@@ -34,11 +34,11 @@ $$
 = t+k =\tan\left(\dfrac{x}{2}\right)+k
 $$
 
-Smart, isn't it? But it doesn't seem to outperform the explicit change of variable, so we will slightly modify our integrand
+Ingenioso, ¿verdad? Como no parece superar al cambio de variable explícito, vamos a modificar ligeramente nuestro integrando
 
 $$\int\dfrac{1}{2+\cos x}\dd x$$
 
-Now the integral is not immediate nor the term  $\dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)=\dfrac{1}{1+\cos x}$ appears. But the implicit change of variable is easily applied
+Ahora la integral ni es inmediata ni aparece el término $\dfrac{1}{2}\left(1+\tan^2\left(\dfrac{x}{2}\right)\right)=\dfrac{1}{1+\cos x}$. Pero el cambio de variable implícito se aplica fácilmente
 
 $$
 \int\dfrac{1}{2+\cos x}\dd x
@@ -47,4 +47,4 @@ $$
 = \dfrac{2}{\sqrt{3}}\tan^{-1}\left(\dfrac{\tan\left(\frac{x}{2}\right)}{\sqrt{3}}\right)+k
 $$
 
-Amazing! It's your turn to differentiate and check that everything works fine
+¡Increíble! Es tu turno de derivar y comprobar que todo va bien

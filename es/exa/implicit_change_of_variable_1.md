@@ -1,13 +1,13 @@
-Let's work on the integral
+Vamos a trabajar con la integral
 
 $$\int\sqrt{1-x^2}\dd x$$
 
-for which an implicit change of variable will be very useful:
+para la que un cambio de variable implícito va a ser muy útil:
 
 $$\sin t =x$$
 $$\cos t \dd t = \d x$$
 
-Since the right hand side is just $\d x$, this change may always be applied. All implicit changes of variable of the type $h(t)=x$ are directly appliable; whether these changes simplify or complicate the integrand is more subtle. In this case, the change works like a charm
+Como la parte de la derecha es simplemente $\d x$, este cambio siempre se puede aplicar. Todos los cambios de variable implícitos del tipo $h(t)=x$ se pueden aplicar directamente; que estos cambios simplifiquen o compliquen el integrando ya es otra cuestión. En este caso, el cambio funciona de maravilla
 
 $$
 \int\sqrt{1-x^2}\dd x
@@ -15,11 +15,11 @@ $$
 \int\sqrt{1-\sin^2(t)}\cos t \dd t=\int\cos^2(t) \dd t
 $$
 
-Our new integrand is indeed simpler: $\cos(2t)=\cos^2(t) – \sin^2(t) = 2\cos^2(t) – 1\Longrightarrow \cos^2(t)=\dfrac{1+\cos(2t)}{2}$, and 
+Nuestro nuevo integrando se ha vuelto más simple: $\cos(2t)=\cos^2(t) – \sin^2(t) = 2\cos^2(t) – 1\Longrightarrow \cos^2(t)=\dfrac{1+\cos(2t)}{2}$, y 
 
 $$\int\cos^2(t) \dd t=\int\dfrac{1+\cos(2t)}{2}\dd t=\dfrac{1}{2}t+\dfrac{1}{4}\sin(2t)+k$$
 
-Now we undo our change (keep in mind that $\sin(2t)=2\sin t\cos t$)
+Ahora deshacemos el cambio (ten en cuenta que $\sin(2t)=2\sin t\cos t$)
 
 $$
 \dfrac{1}{2}t+\dfrac{1}{4}\sin(2t)+k
@@ -28,7 +28,7 @@ $$
 =\dfrac{1}{2}\left(x\sqrt{1-x^2}+\sin^{-1} x\right)+k
 $$
 
-Great!! Let's differentiate to check that everything is peachy
+¡Perfecto! Vamos a derivar para asegurarnos de que todo marcha bien
 
 $$
 \left(\dfrac{1}{2}\left(x\sqrt{1-x^2}+\sin^{-1} x\right)+k\right)'
