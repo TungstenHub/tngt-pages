@@ -1,4 +1,4 @@
-A fairly simple proof that $\pi$ is slightly less, but very close to, $\dfrac{22}{7}$: since $\dfrac{x^4(1-x)^4}{1+x^2}$ is strictly positive,
+Una prueba bastante simple de que $\pi$ ligeramente menor, aunque muy cercano, a $\dfrac{22}{7}$: puesto que $\dfrac{x^4(1-x)^4}{1+x^2}$ es estrictamente positiva,
 
 $$
 \begin{split}   

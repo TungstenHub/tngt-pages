@@ -1,5 +1,5 @@
 <ul>
-  <li>A set $A=\{a\}$ with just one element is obviously well-ordered with respect to $\in$, but in general is not transitive, because $A$ should include the elements of $a$. In fact, the only ordinal with just one element is $1=\{\varnothing\}$</li>
-  <li>Each natural number is an ordinal</li>
-  <li>The set $\mathbb{N}$ of natural numbers is an ordinal</li>
+  <li>Un conjunto $A=\{a\}$ con un solo elemento está obviamente bien ordenado con respecto a $\in$, pero en general no es transitivo, porque $A$ debería incluir todos los elementos de $a$. De hecho, el único ordinal con un solo elemento es $1=\{\varnothing\}$</li>
+  <li>Todo número natural es un ordinal</li>
+  <li>El conjunto $\mathbb{N}$ de los números naturales es un ordinal</li>
 </ul>

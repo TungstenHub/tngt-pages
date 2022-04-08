@@ -1,3 +1,3 @@
-The **Klein bottle**... does not have two faces, just one!!
+La **botella de Klein**... no tiene dos caras, ¡sólo una!
 
 {{ threejs | klein }}

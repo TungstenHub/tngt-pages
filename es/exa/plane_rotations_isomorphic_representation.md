@@ -1,4 +1,4 @@
-Let's revisit the [representation of $\Z_n$ as plane rotations]( exa | representation_finite_group # zn_plane_rotations ):
+Volvamos a la [representación de $\Z_n$ como rotaciones en el plano]( exa | representation_finite_group # zn_plane_rotations ):
 
 $$\rho: \Z_n \ll \GL(\C^2)\qquad
 [k] \maps 
@@ -16,7 +16,7 @@ $$\bar{\rho}: \Z_n \ll \GL(\C^2)\qquad
 \end{pmatrix}
 $$
 
-We said $\rho$ and $\bar{\rho}$ should be considered equal in some sense, but now we have the proper concept. Rotating clockwise is like reflecting anti-clockwise rotation, isn't it? Let's take the $x$-axis reflection:
+Dijimos que $\rho$ y $\bar{\rho}$ deberían ser consideradas iguales en algún sentido, pero ahora tenemos el concepto apropiado. Rotar en el sentido horario es como reflejar una rotación antihoraria, ¿no? Tomemos la reflexión en el eje $x$:
 
 $$\phi: \C^2 \ll \C^2$$
 $$\phi = 
@@ -26,7 +26,7 @@ $$\phi =
 \end{pmatrix}
 $$
 
-And effectively
+Y efectivamente
 
 $$
 \begin{array}{rcll}
@@ -38,12 +38,12 @@ $$
 \begin{pmatrix}
 \cos\left(\frac{2\pi k}{n}\right) & -\sin\left(\frac{2\pi k}{n}\right) \\[0.5em]
 \sin\left(\frac{2\pi k}{n}\right) &  \cos\left(\frac{2\pi k}{n}\right)
-\end{pmatrix} & \text{\tiny[first rotate clockwise, then reflect]} \\[1.5em]
+\end{pmatrix} & \text{\tiny[primero rotar en sentido antihorario, luego reflejar]} \\[1.5em]
 & = &
 \begin{pmatrix}
  \cos\left(\frac{2\pi k}{n}\right) & -\sin\left(\frac{2\pi k}{n}\right) \\[0.5em]
 -\sin\left(\frac{2\pi k}{n}\right) & -\cos\left(\frac{2\pi k}{n}\right)
-\end{pmatrix} & \text{\tiny[mix of reflection and rotation]} \\[1.5em]
+\end{pmatrix} & \text{\tiny[mezcla de reflexión y rotación]} \\[1.5em]
 & = &
 \begin{pmatrix}
  \cos\left(\frac{2\pi k}{n}\right) & \sin\left(\frac{2\pi k}{n}\right) \\[0.5em]
@@ -52,10 +52,10 @@ $$
 \begin{pmatrix}
 1 & 0 \\[0.5em]
 0 & -1
-\end{pmatrix} & \text{\tiny[first reflect, then rotate anti-clockwise]} \\[1.5em]
+\end{pmatrix} & \text{\tiny[primero reflejar, luego rotar en sentido horario]} \\[1.5em]
 & = &
 \bar{\rho}_{[k]}\phi \\
 \end{array}
 $$
 
-for each $[k]\in\Z_n$. This way, $\rho$ and $\bar{\rho}$ are isomorphic representations via $\phi$.
+para cada $[k]\in\Z_n$. Así, $\rho$ y $\bar{\rho}$ son representaciones isomorfas vía $\phi$.

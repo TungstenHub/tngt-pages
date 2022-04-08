@@ -1,3 +1,3 @@
-$\pi$ (the area oh the circle of radius $1$) is slightly more than $3$, the area of the inscribed regular dodecagon 
+$\pi$ (el área del círculo de radio $1$) es ligeramente mayor que $3$, el área del dodecágono regular inscrito
 
 {{ image | pi_dodecagon }}

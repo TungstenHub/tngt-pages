@@ -38,7 +38,7 @@ $$
 \begin{pmatrix}
 \cos\left(\frac{2\pi k}{n}\right) & -\sin\left(\frac{2\pi k}{n}\right) \\[0.5em]
 \sin\left(\frac{2\pi k}{n}\right) &  \cos\left(\frac{2\pi k}{n}\right)
-\end{pmatrix} & \text{\tiny[first rotate clockwise, then reflect]} \\[1.5em]
+\end{pmatrix} & \text{\tiny[first rotate anti-clockwise, then reflect]} \\[1.5em]
 & = &
 \begin{pmatrix}
  \cos\left(\frac{2\pi k}{n}\right) & -\sin\left(\frac{2\pi k}{n}\right) \\[0.5em]
@@ -52,7 +52,7 @@ $$
 \begin{pmatrix}
 1 & 0 \\[0.5em]
 0 & -1
-\end{pmatrix} & \text{\tiny[first reflect, then rotate anti-clockwise]} \\[1.5em]
+\end{pmatrix} & \text{\tiny[first reflect, then rotate clockwise]} \\[1.5em]
 & = &
 \bar{\rho}_{[k]}\phi \\
 \end{array}

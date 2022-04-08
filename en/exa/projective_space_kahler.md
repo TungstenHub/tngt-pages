@@ -2,7 +2,7 @@ The projective space $\C P^n$ has a special metric, the Fubini-Study metric, in 
 
 $$\mathcal{K}=\log(1+|z|^2)$$
 
-where every other coefficients of the metric follows:
+where every other coefficient of the metric follows:
 
 $$h_{jk}=2\dfrac{\partial ^2}{\partial z_j\partial \bar{z}_k}\log(1+|z|^2)=2\dfrac{\partial }{\partial z_j}\left(\dfrac{z_k}{1+|z|^2}\right)=2\dfrac{\delta_{jk}(1+|z|^2)-\bar{z}_j z_k}{(1+|z|^2)^2}$$
 
