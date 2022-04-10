@@ -1,47 +1,47 @@
 >>> 
-**Tangency Problem of Apollonius:** to draw a circle that is tangent to three given circles.
+**Problema de Tangencia de Apolonio:** dibujar un círculo que sea tangente a tres círculos dados.
 <<<
 
-This problem, along with Gergonne's solution that will be developed here, constitutes a delicate and sublime jewel of classical geometry.
+Este problema, junto con la solución de Gergonne que se desarrollará aquí, es una auténtica joya de la geometría clásica.
 
 {{ image | ap }}
 
-First things first: what are we looking for? We're looking for a circle that is tangent to the circles $A$, $B$ and $C$. But how many such circles are there?
+Vamos por el principio: ¿qué estamos buscando? Buscamos un círculo que sea tangente a los círculos $A$, $B$ y $C$. ¿Y cuántos círculos de estos hay?
 
 {{ image | ap_0 }}
 
-There are 8 of them, because for each of $A$, $B$ and $C$ we have to choose interior or exterior tangency.
+Hay 8, porque para cada uno de $A$, $B$ y $C$ se puede tener tangencia interior o exterior.
 
-Gergonne took them by pairs: in this case, we'll work with $\Gamma^+$ and $\Gamma^-$, the circles having three exterior and interior tangencies respectively.
+Gergonne los tomó por pares: en este caso, trabajaremos con $\Gamma^+$ and $\Gamma^-$, los círculos que tienen las tres tangencias exteriores e interiores respectivamente.
 
 {{ image | ap_1 }}
 
-$A$ is bitangent to $\Gamma^+$ and $\Gamma^-$: we know that [the tangency points are aligned with the similarity point $R$ of $\Gamma^+$ and $\Gamma^-$]( exp | circle_power ), from which the power to $A$ is $\Pi_{A}(R)=\sqrt{\Pi_{\Gamma^+}(R)\Pi_{\Gamma^-}(R)}$.
+$A$ es bitangente a $\Gamma^+$ y $\Gamma^-$: sabemos que [los puntos de tangencia están alineados con el punto de similaridad $R$ de $\Gamma^+$ y $\Gamma^-$]( exp | circle_power ), de donde resulta que su potencia a $A$ es $\Pi_{A}(R)=\sqrt{\Pi_{\Gamma^+}(R)\Pi_{\Gamma^-}(R)}$.
 
 {{ image | ap_2 }}
 
-But this is true for $B$ and $C$ too, i.e. $\Pi_{A}(R)=\Pi_{B}(R)=\Pi_{C}(R)$. So $R$ is indeed the [radical center of $A$, $B$ and $C$]( app | circles_radical_center )! And we know how to draw this!
+Pero esto también es verdad para $B$ y para $C$, es decir, $\Pi_{A}(R)=\Pi_{B}(R)=\Pi_{C}(R)$. ¡Luego $R$ es de hecho el [centro radical de $A$, $B$ y $C$]( app | circles_radical_center )! ¡Y esto lo sabemos dibujar!
 
 {{ image | ap_3 }}
 
-On the other hand, having three circles, we can't help thinking of [d'Alembert Theorem]( app | circles_dalembert ): all three (exterior) similarity points $e_{BC}$, $e_{CA}$ and $e_{AB}$ are aligned in a line $l$. Is this useful? Well, it is crucial.
+Por otra parte, teniendo tres círculos, no podemos sino pensar en el [Teorema de d'Alembert]( app | circles_dalembert ): los tres puntos de similaridad (exteriores) $e_{BC}$, $e_{CA}$ y $e_{AB}$ están en una recta $l$. ¿Y esto es útil? Bueno, es crucial.
 
 {{ image | ap_4 }}
 
-The $Γ$ circles are bitangent to $B$ and $C$, so $\Pi_{\Gamma^+}(e_{BC}) = \Pi_{\Gamma^-}(e_{BC}) = \sqrt{\Pi_{B}(e_{BC})\Pi_{B}(e_{BC})}$. But in the same way $\Pi_{\Gamma^+}(e_{CA}) = \Pi_{\Gamma^-}(e_{CA})$ and $\Pi_{\Gamma^+}(e_{AB}) = \Pi_{\Gamma^-}(e_{AB})$... so $l$ must be the radical axis of $\Gamma^+$ and $\Gamma^-$!
+Lo círculos $\Gamma$ son bitangentes a $B$ y $C$, luego $\Pi_{\Gamma^+}(e_{BC}) = \Pi_{\Gamma^-}(e_{BC}) = \sqrt{\Pi_{B}(e_{BC})\Pi_{B}(e_{BC})}$. Pero del mismo modo $\Pi_{\Gamma^+}(e_{CA}) = \Pi_{\Gamma^-}(e_{CA})$ y $\Pi_{\Gamma^+}(e_{AB}) = \Pi_{\Gamma^-}(e_{AB})$... ¡así que $l$ debe ser el eje radical de $\Gamma^+$ y $\Gamma^-$!
 
 {{ image | ap_5 }}
 
-The tangents to $A$ drawn from the tangency points with $\Gamma^+$ and $\Gamma^-$ meet at $q$. They're of equal length, so the power of $q$ with respect to the $Γ$ circles is the same - that is, $q$ lies in the radical axis $l$.
+Las tangentes a $A$ dibujadas desde los puntos de tangencia con $\Gamma^+$ y $\Gamma^-$ se encuentran en $q$. Son de igual longitud, por lo que la potencia de $q$ respecto a los círculos $\Gamma$ es la misma - esto es, $q$ está sobre el eje radical $l$.
 
 {{ image | ap_6 }}
 
-$q$ is the [pole]( app | circle_polar_line ) of the green line with respect to $A$, and lies in $l$. So by [polarity reciprocity]( app | circle_polar_recip ), the pole of $l$ with respect to $A$ lies in the green line. We can thus draw the green line, because we have a second anchor in $R$.
+$q$ es el [polo]( app | circle_polar_line ) de la recta verde con respecto a $A$, y está sobre $l$. Por [reciprocidad polar]( app | circle_polar_recip ), el polo de $l$ respecto a $A$ está sobre la recta verde. Y podemos dibujar tal recta verde, porque tenemos un segundo punto en $R$.
 
 {{ image | ap_7 }}
 
-That's Gergonne's solution!! Draw the radical center $R$, then d'Alembert line $l$, with its poles $p_A$, $p_B$ and $p_C$, and join them with $R$ - tangency points found ::heart::
+¡Ésta es la solución de Gergonne! Dibuja el centro radical $R$, después la recta de d'Alembert $l$, con sus polos $p_A$, $p_B$ y $p_C$, y únelos con $R$ - puntos de tangencia encontrados ::heart::
 
 {{ image | ap_label }}
 
-Taking d'Alembert lines with pairs of internal similarity points gives rise to the other three pairs of tangent circles.
+Tomando rectas de d'Alembert con pares de puntos de similaridad interiores obtenemos los otros tres pares de círculos tangentes.

@@ -28,11 +28,11 @@ On the other hand, having three circles, we can't help thinking of [d'Alembert T
 
 {{ image | ap_4 }}
 
-The $Γ$ circles are bitangent to $B$ and $C$, so $\Pi_{\Gamma^+}(e_{BC}) = \Pi_{\Gamma^-}(e_{BC}) = \sqrt{\Pi_{B}(e_{BC})\Pi_{B}(e_{BC})}$. But in the same way $\Pi_{\Gamma^+}(e_{CA}) = \Pi_{\Gamma^-}(e_{CA})$ and $\Pi_{\Gamma^+}(e_{AB}) = \Pi_{\Gamma^-}(e_{AB})$... so $l$ must be the radical axis of $\Gamma^+$ and $\Gamma^-$!
+The $\Gamma$ circles are bitangent to $B$ and $C$, so $\Pi_{\Gamma^+}(e_{BC}) = \Pi_{\Gamma^-}(e_{BC}) = \sqrt{\Pi_{B}(e_{BC})\Pi_{B}(e_{BC})}$. But in the same way $\Pi_{\Gamma^+}(e_{CA}) = \Pi_{\Gamma^-}(e_{CA})$ and $\Pi_{\Gamma^+}(e_{AB}) = \Pi_{\Gamma^-}(e_{AB})$... so $l$ must be the radical axis of $\Gamma^+$ and $\Gamma^-$!
 
 {{ image | ap_5 }}
 
-The tangents to $A$ drawn from the tangency points with $\Gamma^+$ and $\Gamma^-$ meet at $q$. They're of equal length, so the power of $q$ with respect to the $Γ$ circles is the same - that is, $q$ lies in the radical axis $l$.
+The tangents to $A$ drawn from the tangency points with $\Gamma^+$ and $\Gamma^-$ meet at $q$. They're of equal length, so the power of $q$ with respect to the $\Gamma$ circles is the same - that is, $q$ lies in the radical axis $l$.
 
 {{ image | ap_6 }}
 
