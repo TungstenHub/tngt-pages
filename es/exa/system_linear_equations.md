@@ -1,26 +1,26 @@
-The expression
+La expresión
 
 $$2x_1+3x_2+4x_3=24$$
 
-is a linear equation, with coefficients $a_1=2$, $a_2=3$, $a_3=4$ and independent term $b=24$. When few unknowns are used, it is customary to call them $x$, $y$, $z$, $t$... just to avoid many subindexes
+es una ecuación lineal, con coeficientes $a_1=2$, $a_2=3$, $a_3=4$ y término independiente $b=24$. Cuando hay pocas incógnitas, es normal llamarlas $x$, $y$, $z$, $t$... simplemente para evitar muchos subíndices
 
 $$2x+3y+4z=24$$
 
-For instance $(x=1,y=2,z=4)$ is a solution of this linear equation, because replacing the unknowns with the chosen values satisfies the equality
+Por ejemplo, $(x=1,y=2,z=4)$ es una solución de esta ecuación lineal, porque al remplazar las incógnitas por estos valores, la igualdad se cumple
 
 $$2\cdot 1+3\cdot 2+4\cdot 4=24$$
 
-$(x=10,y=-8,z=7)$ is a solution too
+$(x=10,y=-8,z=7)$ también es solución
 
 $$2\cdot 10+3\cdot (-8)+4\cdot 7=24$$
 
-but $(x=1,y=1,z=1)$ is not a solution
+pero $(x=1,y=1,z=1)$ no es solución
 
 $$2\cdot 1+3\cdot 1+4\cdot 1= 9 \neq 24$$
 
-that is, some choices may be solutions but others may not. We would like to find _all_ solutions
+es decir, algunas combinaciones son soluciones pero otras no. Nos gustaría encontrar _todas_ las soluciones
 
-Now we may add a second equation
+Ahora añadimos una segunda ecuación
 
 $$
 \left\{
@@ -30,7 +30,7 @@ $$
 \end{array}\right.
 $$
 
-thus having a system of linear equations. For this system, our first choice $(x=1,y=2,z=4)$ is still a solution:
+y así tenemos un sistema de ecuaciones lineales. Para este sistema, nuestra primera combinación $(x=1,y=2,z=4)$ sigue siendo solución:
 
 $$
 \left\{
@@ -40,7 +40,7 @@ $$
 \end{array}\right.
 $$
 
-but the second choice $(x=10,y=-8,z=7)$ is no longer a solution
+pero la segunda combinación $(x=10,y=-8,z=7)$ ya no es solución
 
 $$
 \left\{
@@ -50,4 +50,4 @@ $$
 \end{array}\right.
 $$
 
-This is kind of obvious: the more equations we have to satisfy, the less solutions we find. As before, we would like to find _all_ solutions - how should we proceed?
+A ver, tiene sentido: cuantas más ecuaciones se tienen que cumplir, menos soluciones encontramos. Y como decíamos antes, queremos encontrar _todas_ las soluciones - ¿Y eso cómo lo hacemos?

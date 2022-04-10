@@ -1,12 +1,12 @@
-A representation of degree 1 turns out to be a homomorphism
+Una representación de grado 1 resulta ser un homomorfismo
 
 $$\rho: G \ll \C$$
 
-Here we have the trivial representation $g\maps 1$, but sometimes there are other more interesting representations of degree 1
+Por supuesto se tiene la representación trivial $g\maps 1$, pero a veces uno encuentra otras representaciones de grado 1 más interesantes
 
-For instance, $S_n$ has the _sign representation_
+Por ejemplo, $S_n$ tiene la _representación signo_
 
 $$\rho: S_n \ll \C$$
 $$\sigma \maps \sgn(\sigma)\in\{+1, -1\}$$
 
-Cool, isn't it? Which other representations of degree 1 can we find?
+Guay, ¿no? ¿Qué otras representaciones de grado 1 podemos encontrar?

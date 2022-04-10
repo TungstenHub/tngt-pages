@@ -1,23 +1,22 @@
 [{trivial_representation}]
 
-First example: the **trivial representation**
+Primer ejemplo: la **representación trivial**
 
 $$\rho: G \ll \GL(V)$$
 $$g \maps \id_V$$
 
-That is, each $g$ represents _leaving the vector space alone_
+Es decir, cada $g$ representa _dejar el espacio vectorial en paz_
 
-As such,
+Como tal,
 
 $$gv = v \qquad \forall g\,\forall v$$
 
-Not very interesting, but worth mentioning 
-
+No es muy interesante, pero se debe mencionar
 ---
 
 [{zn_plane_rotations}]
 
-Another useful representation is seeing $\Z_n$ as rotations in the plane (as if it was $\R^2$ instead of $\C^2$)
+Otra representación muy útil es ver $\Z_n$ como rotaciones en el plano (como si fuese $\R^2$ en vez de $\C^2$)
 
 $$\rho: \Z_n \ll \GL(\C^2)$$
 $$[k] \maps 
@@ -27,9 +26,9 @@ $$[k] \maps
 \end{pmatrix}
 $$
 
-Cool, each $[k]\in\Z_n$ performs an anti-clockwise rotation of angle $\frac{2\pi k}{n}$
+¡Chachi!, cada $[k]\in\Z_n$ efectúa una rotación antihoraria de ángulo $\frac{2\pi k}{n}$
 
-One could also think in rotating clockwise,
+Uno también podría pensar en rotar en sentido horario,
 
 $$\bar{\rho}: \Z_n \ll \GL(\C^2)$$
 $$[k] \maps 
@@ -39,17 +38,17 @@ $$[k] \maps
 \end{pmatrix}
 $$
 
-And one would argue that these representations should be, in some sense, _equal_
+Y también uno podría pensar que estas representaciones deberían ser consideradas, en algún sentido, _iguales_
 
 ---
 
 [{sn_permutation_basis}]
 
-Permutation groups $S_n$ act nicely on spaces of dimension $n$ by permuting base vectors
+Los grupos simétricos $S_n$ actúan muy bien en espacios de dimensión $n$ permutando los vectores de la base
 
 $$\rho: S_n \ll \GL(\C^n)$$
 $$\rho(\sigma)(e_i) = e_{\sigma(i)}$$
 
-For instance, if $n=4$ and $\sigma=(123)$, then
+Por ejemplo, si $n=4$ y $\sigma=(123)$, entonces
 
 $$\rho(\sigma): \vect{a,b,c,d} \maps \vect{c,a,b,d}$$
