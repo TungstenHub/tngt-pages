@@ -1,1 +1,1 @@
-$\langle \mathbb{N}, <_{\mathbb{N}}\rangle$ is a well ordered set, because each non-empty subset of $\mathbb{N}$ has a minimal element. On the other hand, $\langle \mathbb{Z}, <_{\mathbb{Z}}\rangle$ is not well-ordered: the whole set $\mathbb{Z}$ has no minimal element
+$\langle \mathbb{N}, <_{\mathbb{N}}\rangle$ es un conjunto bien ordenado, porque cada subconjunto no vacío de $\mathbb{N}$ tiene un elemento mínimo. Por otra parte, $\langle \mathbb{Z}, <_{\mathbb{Z}}\rangle$ no está bien ordenado: el conjunto total $\mathbb{Z}$ no tiene elemento mínimo
