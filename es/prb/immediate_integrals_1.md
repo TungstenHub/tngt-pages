@@ -3,7 +3,7 @@
 $$<<< \int \dfrac{1}{1-\sin^2 x}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -20,7 +20,7 @@ $$
 $$<<< \int \dfrac{7x^4-3x^2-3x+5}{4x^2}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -37,7 +37,7 @@ $$
 $$<<< \int \dfrac{1+7x^2-5x^3}{2\sqrt{x}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -55,7 +55,7 @@ $$
 $$<<< \int \dfrac{3x+4\sqrt[4]{x}}{5\sqrt[3]{x}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -74,7 +74,7 @@ $$
 $$<<< \int \dfrac{4\sqrt{x}-3\sqrt[5]{x^3}}{3\sqrt[3]{x^2}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

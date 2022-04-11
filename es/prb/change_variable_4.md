@@ -3,7 +3,7 @@
 $$<<< \int \dfrac{x^2}{8+x^6}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -26,7 +26,7 @@ $$
 $$<<< \int \dfrac{e^x}{e^{2x}+2e^x+1}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -49,7 +49,7 @@ $$
 $$<<< \int \dfrac{x+4}{\sqrt{1-x^2}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -75,7 +75,7 @@ $$
 $$<<< \int \dfrac{1}{x\ln x}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -95,7 +95,7 @@ $$
 $$<<< \int \dfrac{x}{\sqrt{1-x^4}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

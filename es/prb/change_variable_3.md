@@ -3,7 +3,7 @@
 $$<<< \int \dfrac{x+2}{x^2+4x-13}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -26,7 +26,7 @@ $$
 $$<<< \int e^x\sin(e^x)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -48,7 +48,7 @@ $$
 $$<<< \int \dfrac{\ln(\sqrt{x})}{x}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -71,7 +71,7 @@ $$
 $$<<< \int \ln(\cos x)\tan x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -99,7 +99,7 @@ $$
 $$<<< \int x\sqrt{1-3x^2}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

@@ -3,7 +3,7 @@
 $$<<< \int \dfrac{e^x+e^{2x}+e^{3x}+e^{4x}}{e^{4x}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -12,28 +12,28 @@ $$<<<
 \qquad = \dfrac{e^{-3x}}{-3}+\dfrac{e^{-2x}}{-2}+\dfrac{e^{-x}}{-1}+x+k
 $$
 
-Indeed, for any integral
+De hecho, para cualquier integral
 
 $$\int e^{ax}\dd x$$
 
-we may apply a simple change of variable
+podemos aplicar un simple cambio de variable
 
 $$t=ax$$
 $$\dd t=a\dd x$$
 
-so
+con lo que
 
 $$\int e^{ax}\dd x=\dfrac{1}{a}\int e^{ax}a\dd x=\dfrac{1}{a}\int e^t\dd t=\dfrac{1}{a}e^t+k=\dfrac{1}{a}e^{ax}+k$$
 
-One could also reason this way:
+Uno también podría razonarlo así:
 
 $$\int e^{ax}\dd x=\int \left(e^a\right)^x\dd x=\dfrac{1}{\ln\left(e^a\right)}\left(e^a\right)^x+k=\dfrac{1}{a}e^{ax}+k$$
 
-In both ways, 
+De cualquiera de las maneras, 
 
 $$\int e^{ax}\dd x=\dfrac{1}{a}e^{ax}+k$$
 
-and also
+y también
 
 $$<<< 
 \int \dfrac{e^x+e^{2x}+e^{3x}+e^{4x}}{e^{4x}}\dd x \\
@@ -48,7 +48,7 @@ $$
 $$<<< \int \dfrac{e^{2x}+e^{-2x}}{e^x}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -65,7 +65,7 @@ $$
 $$<<< \int \sin(5x+2)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

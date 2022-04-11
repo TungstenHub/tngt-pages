@@ -4,16 +4,16 @@ $$(\sqrt{e^x+1})'=\dfrac{1}{2\sqrt{e^x+1}}e^x=\dfrac{e^x}{2\sqrt{e^x+1}}$$
 
 we're looking for _a function whose derivative is the function given_:
 
-$$\int\sqrt{1+e^x}\dd x=2\sqrt{1+e^x}+\ln(\sqrt{1+e^x}-1)-\ln(\sqrt{1+e^x}+1) + k$$
+$$\int\sqrt{e^x+1}\dd x=2\sqrt{e^x+1}+\ln(\sqrt{e^x+1}-1)-\ln(\sqrt{e^x+1}+1) + k$$
 
 where $k$ is some constant of choice, say $0$, $456$, $-\dfrac{3}{7}$, anything. And it works!
 
 $$
 \begin{array}{l}
-(2\sqrt{1+e^x}+\ln(\sqrt{1+e^x}-1)-\ln(\sqrt{1+e^x}+1) + k)' \\[1.5em]
-\qquad = 2\dfrac{e^x}{2\sqrt{e^x+1}}+\dfrac{1}{\sqrt{1+e^x}-1}\dfrac{e^x}{2\sqrt{e^x+1}}-\dfrac{1}{\sqrt{1+e^x}+1}\dfrac{e^x}{2\sqrt{e^x+1}}\\[1.5em]
-\qquad = \dfrac{e^x}{2\sqrt{e^x+1}}\left(2+\dfrac{1}{\sqrt{1+e^x}-1}-\dfrac{1}{\sqrt{1+e^x}+1}\right)\\[1.5em]
-\qquad = \dfrac{e^x}{2\sqrt{e^x+1}}\left(2+\dfrac{\sqrt{1+e^x}+1}{e^x}-\dfrac{\sqrt{1+e^x}-1}{e^x}\right)\\[1.5em]
+(2\sqrt{e^x+1}+\ln(\sqrt{e^x+1}-1)-\ln(\sqrt{e^x+1}+1) + k)' \\[1.5em]
+\qquad = 2\dfrac{e^x}{2\sqrt{e^x+1}}+\dfrac{1}{\sqrt{e^x+1}-1}\dfrac{e^x}{2\sqrt{e^x+1}}-\dfrac{1}{\sqrt{e^x+1}+1}\dfrac{e^x}{2\sqrt{e^x+1}}\\[1.5em]
+\qquad = \dfrac{e^x}{2\sqrt{e^x+1}}\left(2+\dfrac{1}{\sqrt{e^x+1}-1}-\dfrac{1}{\sqrt{e^x+1}+1}\right)\\[1.5em]
+\qquad = \dfrac{e^x}{2\sqrt{e^x+1}}\left(2+\dfrac{\sqrt{e^x+1}+1}{e^x}-\dfrac{\sqrt{e^x+1}-1}{e^x}\right)\\[1.5em]
 \qquad = \dfrac{e^x}{2\sqrt{e^x+1}}\left(2+\dfrac{2}{e^x}\right)\\[1.5em]
 \qquad = \dfrac{e^x+1}{\sqrt{e^x+1}}\\[1.5em]
 \qquad = \sqrt{e^x+1}\\
@@ -22,7 +22,7 @@ $$
 
 Wow! We say that 
 
-$$2\sqrt{1+e^x}+\ln(\sqrt{1+e^x}-1)-\ln(\sqrt{1+e^x}+1) + k$$
+$$2\sqrt{e^x+1}+\ln(\sqrt{e^x+1}-1)-\ln(\sqrt{e^x+1}+1) + k$$
 
 is the **indefinite integral** of
 

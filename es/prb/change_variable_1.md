@@ -3,7 +3,7 @@
 $$<<< \int x^2\cos(4x^3-2)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -26,7 +26,7 @@ $$
 $$<<< \int \dfrac{\d x}{a^2+x^2}$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -49,7 +49,7 @@ $$
 $$<<< \int x(2x^2-2)^{11}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -72,7 +72,7 @@ $$
 $$<<< \int x\sqrt[3]{4+2x^2}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -95,7 +95,7 @@ $$
 $$<<< \int \sin^2 x\cos x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

@@ -1,19 +1,19 @@
-We have said that there is no set of rules that work for every function. Indeed it is much more subtle than that. There are functions whose integral _is not expressible in terms of elementary functions_:
+Hemos dicho que no hay un conjunto de reglas que funcionen en todos los casos. Pero de hecho es mucho más delicado que todo esto. Hay funciones cuya integral _no se puede expresar usando funciones elementales_:
 
 $$\int e^{-x^2}\dd x=???$$
 
-What does this mean? Well, there _exist_ functions (unique up to a constant) whose derivative is $e^{-x^2}$
+¿Qué significa esto? Bueno, _hay_ funciones (únicas salvo constante) cuya derivada es $e^{-x^2}$
 
 ```sage
 plot([exp(-x^2), sqrt(pi)/2*erf(x)], (x,-2,2), legend_label=['$e^{-x^2}$','$F(x)$'], thickness=3)
 ```
 
-but these functions may not be expressed as a combination of sums, products, quotients, powers, roots, sines or cosines, exponentials or logarithms, or anything one has used so far, no matter how we combine them. Just that. If we want, we may come up with a new name for it, much like we have named all the other functions. In fact, this function (a multiple of it) has been given a name, and it's of crucial importance in Probability, Statistics and Partial Differential Equations: it's the **Gauss Error Function**:
+pero éstas no se pueden expresar como una combinación de sumas, productos, cocientes, potencias, raíces, senos o cosenos, exponenciales o logaritmos, o cualquier cosa que hayamos usado hasta ahora, lo combinemos como lo combinemos. Así tal cual. Si queremos, podemos ponerle un nombre nuevo, igual que le pusimos nombre al resto de funciones. De hecho, a esta función (a un múltiplo, más bien) se le ha dado un nombre, y es de una importancia mayor en Probabilidad, Estadística y en Ecuaciones en Derivadas Parciales: es la **Función de Error de Gauss**:
 
 $$\mathrm{erf}(x)=\dfrac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}\dd t$$
 
-(you may forget about this definition for now; it's a _definite integral_). And in fact any "malicious random function" won't have in general an integral expressible in terms of elementary functions
+(puedes pasar de esta definición por ahora; es una _integral definida_). Y de hecho cualquier "función maliciosa al azar" no va a tener en general una integral expresable en términos de funciones elementales
 
 $$\int \sin(\sin(\sin(\sin x)))\dd x=???$$
 
-so the set of functions whose integral may be solved explicitely (that is, whose integral is expressible in terms of elementary functions) is indeed very small
+con lo que el conjunto de funciones cuya integral se puede resolver explícitamente (es decir, cuya integral es expresable en términos de funciones elementales) es de hecho muy pequeño

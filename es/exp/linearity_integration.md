@@ -1,14 +1,14 @@
-Differentiation behaves well with respect to sums and products with numbers
+La derivación se porta bien con respecto a las sumas y productos con números
 
 $$(aF(x)+bG(x))'=aF'(x)+bG'(x)$$
 
-(we say it is _linear_). So integration behaves the same way: if
+(decimos que es _lineal_). Así que la integración se porta igual de bien: si
 
 $$\int f(x)\dd x=F(x)+k$$
 $$\int g(x)\dd x=G(x)+k$$
 
-then
+entonces
 
 $$\int (af(x)+bg(x))\dd x=aF(x)+bG(x)+k$$
 
-($k$ simply denotes the constant degree of freedom, so sums and products don't apply on it)
+($k$ simplemente denota la constante libre, las sumas y productos no le afectan)

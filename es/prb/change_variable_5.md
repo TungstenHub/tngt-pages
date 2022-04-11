@@ -3,7 +3,7 @@
 $$<<< \int \dfrac{\d x}{\sqrt{x-1}+\sqrt{x+1}}$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -28,7 +28,7 @@ $$
 $$<<< \int \dfrac{2^x}{\sqrt{1-4^x}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -51,7 +51,7 @@ $$
 $$<<< \int \dfrac{\d x}{\sqrt{2x-x^2}}$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -68,10 +68,10 @@ $$
 $$<<< \int \tan^3 x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
-Keeping in mind that $\int \tan x\dd x=-\ln|\cos x|+k$, which was [calculated in a previous problem]( prb | change_variable_2 # a ), we do a trick
+Teniendo en cuenta que $\int \tan x\dd x=-\ln|\cos x|+k$, que fue [calculado en un problema previo]( prb | change_variable_2 # a ), hacemos un truco
 
 $$<<< 
 \int \tan^3 x\dd x
@@ -94,7 +94,7 @@ $$
 $$<<< \int \dfrac{x^3+3x}{x^4+1}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

@@ -3,7 +3,7 @@
 $$<<<  \int \tan x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<<  
@@ -26,7 +26,7 @@ $$
 $$<<<  \int \dfrac{\ln(x^4)}{x}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<<  
@@ -49,7 +49,7 @@ $$
 $$<<<  \int \dfrac{e^{\sqrt{x}}}{\sqrt{x}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<<  
@@ -72,7 +72,7 @@ $$
 $$<<<  \int \dfrac{x}{\sqrt{1+x^2}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<<  
@@ -95,7 +95,7 @@ $$
 $$<<<  \int \dfrac{3x+2}{4+x^2}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<<  
@@ -103,7 +103,7 @@ $$<<<
 = 3\int \dfrac{x}{4+x^2}\dd x+2\int \dfrac{1}{4+x^2}\dd x
 $$
 
-Let's go with the first part:
+Vamos con la primera parte:
 
 $$<<<  
 \int \dfrac{x}{4+x^2}\dd x
@@ -117,14 +117,14 @@ $$<<<
 \dfrac{1}{2}\ln|4+x^2| + k = \dfrac{1}{2}\ln(4+x^2) + k
 $$
 
-As for the second part, we know from a [previous exercise]( prb | change_variable_1 # b ) that:
+En cuanto a la segunda parte, sabemos de un [ejercicio previo]( prb | change_variable_1 # b ) que:
 
 $$<<<  
 \dfrac{1}{4+x^2}\dd x
 = \dfrac{1}{2}\tan^{-1}\left(\dfrac{x}{2}\right) + k
 $$
 
-So adding everything up we get
+Así que sumando todo nos queda
 
 $$<<<  
 \int \dfrac{3x+2}{4+x^2}\dd x

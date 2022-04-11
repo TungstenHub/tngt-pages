@@ -3,7 +3,7 @@
 $$<<< \int \left(3^x+\dfrac{\sin x - \cos x}{5}\right)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -20,7 +20,7 @@ $$
 $$<<< \int \tan^2 x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -36,7 +36,7 @@ $$<<<
 $$<<< \int \dfrac{2^{2x+3}}{3^{x-1}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -55,7 +55,7 @@ $$
 $$<<< \int \left(2^{2x}+\dfrac{4}{1+x^2}-\sin x\right)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -72,7 +72,7 @@ $$
 $$<<< \int \dfrac{8x^2-3x+4}{x+1}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

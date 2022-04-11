@@ -1,24 +1,24 @@
-If $F'(x)=f(x)$, then $(F(g(x)))'=f(g(x))g'(x)$. Thus, the integral of a function of the type 
+Si $F'(x)=f(x)$, entonces $(F(g(x)))'=f(g(x))g'(x)$. De este modo, la integral de una función del tipo
 
 $$\int f(g(x))g'(x)\dd x$$
 
-is always solved as 
+siempre se resuelve como
 
 $$\int f(g(x))g'(x)\dd x=F(g(x))+k$$
 
-It is very useful to denote this trick with a _change of variable_: let
+Es muy útil efectuar este truco como un _cambio de variable_: sea
 
 $$t=g(x)$$
 
-If we differentiate both sides of the expression and keep track of variable with respect to which we are differentiating with $\d \cdot$, we get
+Si derivamos ambos lados de la expresión y señalamos la variable con respecto a la que estamos derivando con $\d \cdot$, tenemos
 
 $$\d t = g'(x)\dd x$$
 
-and the expression above is more easily handed
+y la expresión de arriba se puede manejar más fácilmente
 
 $$\int f(g(x))g'(x)\dd x\oveq{g(x)=t\\g'(x)\dd x=\dd t}\int f(t)\dd t=F(t)+k\oveq{t=g(x)}F(g(x))+k$$
 
-This also leads to a list of "semi-immediate integrals": if $t$ is some function of $x$,
+Esto nos lleva a una lista de "integrales semi-inmediatas": si $t$ es alguna función de $x$,
 
 $$
 \int t^n\cdot t' \dd x=\dfrac{t^{n+1}}{n+1}+k\qquad \text{if $n\neq -1$}
