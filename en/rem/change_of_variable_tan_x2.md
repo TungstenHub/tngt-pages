@@ -10,7 +10,7 @@ $$\tan x=\dfrac{2t}{1-t^2}$$
 $$\sin x=\dfrac{2t}{1+t^2}$$
 $$\cos x=\dfrac{1-t^2}{1+t^2}$$
 
-and there are [rules to integrate all rational functions](exp | integration_rational_functions), as we will see later; therefore integrals involving trigonometric functions and additions, substractions, products and quotients may_always_ be integrated with this change of variable. The simpler change of variable
+and there are [rules to integrate all rational functions](exp | integration_rational_functions), as we will see later; therefore integrals involving trigonometric functions and additions, substractions, products and quotients may _always_ be integrated with this change of variable. The simpler change of variable
 
 $$t =\tan x$$
 $$\tan^{-1}t =x$$

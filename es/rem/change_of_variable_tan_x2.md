@@ -1,28 +1,28 @@
-The change of variable used in the previous example
+El cambio de variable utilizado en el ejemplo anterior
 
 $$t=\tan\left(\dfrac{x}{2}\right)$$
 $$2\tan^{-1}t =x$$
 $$\dfrac{2}{1+t^2}\dd t = \d x$$
 
-may seem rather strange, but is indeed very useful. The ultimate reason for this choice is that all trigonometric functions are transformed into rational functions (polynomial quotients)
+puede parecer un poco extraño, pero en realidad es muy útil. Y la razón de hacer esta elección es que todas las funciones trigonométricas se convierten en funciones racionales (cocientes de polinomios)
 
 $$\tan x=\dfrac{2t}{1-t^2}$$
 $$\sin x=\dfrac{2t}{1+t^2}$$
 $$\cos x=\dfrac{1-t^2}{1+t^2}$$
 
-and there are [rules to integrate all rational functions](exp | integration_rational_functions), as we will see later; therefore integrals involving trigonometric functions and additions, substractions, products and quotients may_always_ be integrated with this change of variable. The simpler change of variable
+y hay [reglas para integrar las funciones racionales](exp | integration_rational_functions), como veremos más tarde; de este modo, integrales que involucran funciones trigonométricas y sumas, restas, multiplicaciones y divisiones se pueden integrar _siempre_ con este cambio de variable. El cambio de variable más simple
 
 $$t =\tan x$$
 $$\tan^{-1}t =x$$
 $$\dfrac{1}{1+t^2}\dd t = \d x$$
 
-would not work here, since in this case $\sin x$ and $\cos x$ involve square roots
+no funcionaría aquí porque en este caso $\sin x$ y $\cos x$ involucran raíces cuadradas
 
 $$\tan x=t$$
 $$\sin x=\dfrac{t}{\sqrt{1+t^2}}$$
 $$\cos x=\dfrac{1}{\sqrt{1+t^2}}$$
 
-However, sometimes other techniques may be shorter (especially for [powers of sines and cosines](exp | integration_powers_trig_functions)). For instance
+Sin embargo, a veces otras técnicas pueden ser más cortas (especialmente para [potencias de senos y cosenos](exp | integration_powers_trig_functions)). Por ejemplo
 
 $$
 \int \sin^2 x\cos x\dd x
@@ -31,7 +31,7 @@ $$
 = 8\int \dfrac{t^2(1-t^2)}{(1+t^2)^4}\dd t
 $$
 
-leads to a tedious rational function, whereas a wiser change of variable
+lleva a una función racional tremendamente liosa, mientras que un cambio de variable más avispado
 
 $$ 
 \int \sin^2 x\cos x\dd x
@@ -42,4 +42,4 @@ $$
 \dfrac{1}{3}\sin^3 x + k 
 $$
 
-solves it immediately
+la resuelve inmediatamente

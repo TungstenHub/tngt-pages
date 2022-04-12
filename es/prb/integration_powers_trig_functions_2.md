@@ -3,10 +3,10 @@
 $$<<< \int \sin x\cos(3x)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
-First we expand $\cos(3x)$:
+En primer lugar expandimos $\cos(3x)$:
 
 $$
 \cos(3x)=\cos(2x)\cos x-\sin(2x)\sin x \\
@@ -15,7 +15,7 @@ $$
 = 4\cos^3(x)-3\cos x
 $$
 
-Now we're ready to plug it in
+Ahora lo podemos sustituir
 
 $$<<< 
 \int \sin x\cos(3x)\dd x
@@ -29,12 +29,12 @@ $$<<<
 \hl{\dfrac{3}{2}\cos^2(x) - \cos^4(x) +k}
 $$
 
-Alternatively,
+Alternativamente,
 
 $$\sin \alpha\cos\beta = \dfrac{1}{2}(\sin(\alpha-\beta)+\sin(\alpha+\beta))$$
 $$\sin x\cos(3x) = \dfrac{1}{2}(\sin(-2x)+\sin(4x))=\dfrac{1}{2}(-\sin(2x)+\sin(4x))$$
 
-and therefore
+y por tanto
 
 $$<<< 
 \int \sin x\cos(3x)\dd x
@@ -44,7 +44,7 @@ $$<<<
 = \hl{\dfrac{1}{4}\cos(2x) - \dfrac{1}{8}\cos(4x) +k}
 $$
 
-Both results are indeed the same up to a constant, because (check it!)
+Los dos resultados en realidad sólo se diferencian en una constante, porque (¡compruébalo!)
 
 $$
 \dfrac{1}{4}\cos(2x) - \dfrac{1}{8}\cos(4x) - \left(\dfrac{3}{2}\cos^2(x) - \cos^4(x)\right)=-\dfrac{3}{8}
@@ -58,7 +58,7 @@ $$
 $$<<< \int \sin^2(x)\cos^3(x)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -81,7 +81,7 @@ $$
 $$<<< \int \cos(2x)\cos(4x)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

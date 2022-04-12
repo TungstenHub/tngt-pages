@@ -3,7 +3,7 @@
 $$<<< \int \sin^3(3x+2)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -30,7 +30,7 @@ $$
 $$<<< \int \cos^4(x)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -52,7 +52,7 @@ $$
 $$<<< \int \sin^2(x)\cos^4(x)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

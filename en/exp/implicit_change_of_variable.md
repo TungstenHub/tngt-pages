@@ -12,7 +12,7 @@ $t$ may be explicitely expressed in terms of $x$, and this would lead to the sam
 
 $$t=h^{-1}(g(x))$$
 $$
-t\d t = (h^{-1})'(g(x))g'(x)\dd x=\dfrac{1}{h'(h^{-1}(g(x)))}g'(x)\dd x=\dfrac{1}{h'(t)}g'(x)\dd x
+t\dd t = (h^{-1})'(g(x))g'(x)\dd x=\dfrac{1}{h'(h^{-1}(g(x)))}g'(x)\dd x=\dfrac{1}{h'(t)}g'(x)\dd x
 $$
 $$h'(t)\dd t = g'(x)\dd x$$
 
