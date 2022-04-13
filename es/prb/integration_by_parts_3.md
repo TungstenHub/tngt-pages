@@ -3,7 +3,7 @@
 $$<<< \int e^x\cos x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -21,7 +21,7 @@ e^x\cos x+e^x\sin x-\int e^x\cos x\dd x
 \hl{\dfrac{1}{2}e^x(\cos x+\sin x)+k}
 $$
 
-Both times we have assigned the trigonometric part to $u$ and the exponential part to $v$. Switching roles works too:
+Las dos veces hemos asignado la parte trigonométrica a $u$ y la parte exponencial a $v$. Si cambiamos de roles también funciona:
 
 $$<<< 
 \int e^x\cos x\dd x
@@ -38,7 +38,7 @@ e^x\sin x-\left(-e^x\cos x-\int -e^x\cos x\dd x\right)
 \hl{\dfrac{1}{2}e^x(\cos x+\sin x)+k}
 $$
 
-_But mixing roles would not work:_
+_Pero mezclando roles no funciona:_
 
 $$<<< 
 \int e^x\cos x\dd x
@@ -54,7 +54,7 @@ e^x\cos x-e^x\cos x-\int -e^x\cos x\dd x
 = \int e^x\cos x\dd x
 $$
 
-having the very same integral we began with
+porque nos sale la misma integral con la que empezamos
 
 +++
 
@@ -64,7 +64,7 @@ having the very same integral we began with
 $$<<< \int e^{ax}\cos (bx)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -84,15 +84,15 @@ $$<<<
 = \hl{\dfrac{1}{a^2+b^2}e^{ax}(a\cos (bx)+b\sin (bx))+k}
 $$
 
-This result may be obtained in a much less formal, but certainly very beautiful way, by means of Euler's identity on complex exponentiation: 
+Este resultado se puede obtener de un modo más informal, pero a la vez muy bonito, por medio de la identidad de Euler en la exponencial compleja: 
 
 $$e^{(a+bi)x}=e^{ax}(\cos(bx)+i\sin(bx))$$
 
-Integrating both sides, 
+Integrando ambas partes, 
 
 $$\dfrac{1}{a+bi}e^{(a+bi)x}+k=\int e^{(a+bi)x}\dd x=\int e^{ax}\cos (bx)\dd x + i\int e^{ax}\sin (bx)\dd x$$
 
-but 
+pero 
 
 $$
 \begin{array}{rcl}
@@ -103,12 +103,12 @@ $$
 \end{array}
 $$
 
-and equating real and imaginary parts returns
+y al igualar parte real y parte imaginaria nos queda
 
 $$\int e^{ax}\cos (bx)\dd x=\dfrac{1}{a^2+b^2}e^{ax}(a\cos(bx)+b\sin(bx))+k$$
 $$\int e^{ax}\sin (bx)\dd x=\dfrac{1}{a^2+b^2}e^{ax}(a\sin(bx)-b\cos(bx))+k$$
 
-derivation which centainly is most remarkable
+derivación verdaderamente notable
 
 +++
 
@@ -118,7 +118,7 @@ derivation which centainly is most remarkable
 $$<<< \int \cos(\ln x)\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -136,6 +136,6 @@ x\cos(\ln x) + x\sin(\ln x) - \int\cos(\ln x)\frac{1}{x}x\dd x
 \hl{\dfrac{1}{2}x\left(\cos(\ln x)+\sin(\ln x)\right) + k}
 $$
 
-Surprisingly enough, a change of variable $e^t=x$, $e^t\dd t=\d x$ would lead to $\int e^t\cos t\dd t$, which is solved with the very same double integration by parts technique
+Sorprendentemente, un cambio de variable $e^t=x$, $e^t\dd t=\d x$ nos llevaría a $\int e^t\cos t\dd t$, que se resuelve con la misma técnica de la doble integración por partes
 
 +++

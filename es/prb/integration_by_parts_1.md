@@ -3,7 +3,7 @@
 $$<<< \int x^2 e^x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -26,7 +26,7 @@ $$
 $$<<< \int (3x+2)\sin x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -46,7 +46,7 @@ $$
 $$<<< \int x^2\ln x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -68,7 +68,7 @@ $$
 $$<<< \int \ln^3 x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -94,7 +94,7 @@ $$
 $$<<< \int x\cdot 3^{-x}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

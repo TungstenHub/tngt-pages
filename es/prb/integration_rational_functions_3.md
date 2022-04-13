@@ -3,10 +3,10 @@
 $$<<< \int \dfrac{x^3}{x^2+2x+3}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
-First we perform polynomial division until the degree of the numerator is less than the degree of the denominator
+En primer lugar hacemos división polinomial hasta que el grado del numerador sea menor que el grado del denominador
 
 $$
 \begin{array}{rcl}
@@ -19,18 +19,18 @@ x^3 & = & x^3+2x^2+3x-2x^2-3x\\
 
 $$\dfrac{x^3}{x^2+2x+3}=x-2+\dfrac{x+6}{x^2+2x+3}$$
 
-Now we focus on partial fractions decomposition. $x^2+2x+3$ has no real roots
+Ahora nos centramos en la descomposición en fracciones simples. $x^2+2x+3$ no tiene raíces reales
 
 $$x^2+2x+3=0\Longrightarrow x=\dfrac{-2\pm\sqrt{2^2-4\cdot 1\cdot 3}}{2}=\dfrac{-2\pm\sqrt{-8}}{2}$$
 
-Indeed,
+De hecho,
 
 $$(x+1)^2=x^2+2x+1$$
 $$x^2+2x+3=(x+1)^2+2$$
 $$x+6=(x+1)+5$$
 $$\dfrac{x+6}{x^2+2x+3}=\dfrac{x+1}{(x+1)^2+2}+\dfrac{5}{(x+1)^2+2}$$
 
-Therefore
+Por tanto
 
 $$<<< 
 \int \dfrac{4x+1}{x^2+x+3}\dd x
@@ -50,16 +50,16 @@ $$
 $$<<< \int \dfrac{x^5}{(x+1)^3}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
-The partial fraction decomposition will be more easily handled with a change of variable $y=x+1$
+La descomposición en fracciones simples se va a manejar mejor con un cambio de variable $y=x+1$
 
 $$\dfrac{x^5}{(x+1)^3}=\dfrac{(y-1)^5}{y^3}=\dfrac{y^5-5y^4+10y^3-10y^2+5y-1}{y^3} \\ 
 = y^2-5y+10-\dfrac{10}{y}+\dfrac{5}{y^2}-\dfrac{1}{y^3} \\
 = (x+1)^2-5(x+1)+10-\dfrac{10}{x+1}+\dfrac{5}{(x+1)^2}-\dfrac{1}{(x+1)^3}$$
 
-Therefore
+Por tanto
 
 $$<<< 
 \int \dfrac{x^5}{(x+1)^3}\dd x
@@ -69,7 +69,7 @@ $$<<<
 = \hl{\dfrac{1}{3}(x+1)^3 - \dfrac{5}{2}(x+1)^2+10x -10\ln|x+1| - \dfrac{5}{x+1} + \dfrac{1}{2(x+1)^2} + k}
 $$
 
-Of course a change of variable $t=x+1$ inside the integral would have had analogous results
+Por supuesto un cambio de variable $t=x+1$ dentro de la integral hubiera tenido resultados análogos
 
 +++
 
@@ -79,7 +79,7 @@ Of course a change of variable $t=x+1$ inside the integral would have had analog
 $$<<< \int \dfrac{\d x}{1+e^x}$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -104,10 +104,10 @@ $$
 $$<<< \int \dfrac{5}{x^2-3}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
-Let's decompose in partial fractions:
+Descompongamos en fracciones simples:
 
 $$x^2-3=(x-\sqrt{3})(x+\sqrt{3})$$
 $$
@@ -118,7 +118,7 @@ $$
 $$\dfrac{5}{x^2-3}=\dfrac{5}{2\sqrt{3}}\left(\dfrac{1}{x-\sqrt{3}}-\dfrac{1}{x+\sqrt{3}}\right)$$
 
 
-Therefore
+Por tanto
 
 $$<<< 
 \int \dfrac{5}{x^2-3}\dd x
@@ -136,7 +136,7 @@ $$
 $$<<< \int \sqrt{1+e^x}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

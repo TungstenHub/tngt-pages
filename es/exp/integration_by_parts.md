@@ -1,19 +1,19 @@
-We may encounter the integral
+Podemos encontrarnos con la integral
 
 $$\int\ln x\dd x$$
 
-and none of the techniques learnt so far seems to work. But here the [derivative of a product of functions](thm | derivative_product) will be very useful:
+y ninguna de las técnicas que hemos aprendido hasta ahora parece funcionar. Pero justamente la [derivada del producto de funciones](thm | derivative_product) va a ser muy útil:
 
 $$(x\ln x)'=(x)'\ln x+x(\ln x)'=1\ln x+x\dfrac{1}{x}=\ln x+1$$
 
-which is nearly what we need! Indeed
+¡que es casi casi lo que necesitamos! De hecho
 
 $$\int\ln x\dd x=\int((x\ln x)'-1)\dd x=x\ln x-x$$
 
-Great! This technique is called **integration by parts** and works as follows: let $u(x)$ and $v(x)$ be some functions. We know that
+¡Fenomenal! Esta técnica se llama **integración por partes** y funciona así: sean $u(x)$ y $v(x)$ funciones. Sabemos que
 
 $$(uv)'=u'v+uv'$$
 
-so if our integrand is of the form $uv'$, we may switch to a completely different, and perhaps simpler, integral:
+así que si nuestro integrando es de la forma $uv'$, podemos cambiarla a una integral completamente diferente, y que quizá con un poco de suerte sea más simple:
 
 $$\int uv'\dd x=\int((uv)'-u'v)\dd x=uv-\int u'v\dd x$$

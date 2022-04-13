@@ -1,19 +1,19 @@
-Every rational function $\dfrac{P(x)}{Q(x)}$ (quotient of polynomials with real coefficients) [may be decomposed into a sum of a polynomial and multiples of partial fractions](thm | partial_fraction_decomposition) of the type  
+Toda función racional $\dfrac{P(x)}{Q(x)}$ (cociente de polinomios con coeficientes reales) [se puede descomponer en suma de un polinomio y múltiplos de fracciones simples](thm | partial_fraction_decomposition) del tipo  
 
 $$\dfrac{1}{(x-a)^n}$$
 $$\dfrac{A+Bx}{\left((x-a)^2+b^2\right)^n}$$
 
-Therefore integration of rational functions is always solvable, as long as we know how to integrate the previous functions. The first type is immediate:
+Por eso la integración de funciones racionales siempre se puede resolver, siempre y cuando sepamos resolver las integrales de estas fracciones simples. Las del primer tipo son inmediatas:
 
 $$\int \dfrac{1}{x-a}\dd x=\ln\vert x-a\vert+k$$
-$$\int \dfrac{1}{(x-a)^n} \dd x=-\dfrac{1}{n-1}\dfrac{1}{(x-a)^{n-1}}+k\qquad \text{if \(n\neq 1\)}$$
+$$\int \dfrac{1}{(x-a)^n} \dd x=-\dfrac{1}{n-1}\dfrac{1}{(x-a)^{n-1}}+k\qquad \text{si \(n\neq 1\)}$$
 
-For the second type, after changes of variable and manipulations, we are left with fractions of the form
+Para el segundo tipo, después de cambios de variable y manipulaciones, nos quedamos con fracciones del tipo
 
 $$\dfrac{1}{(x^2+1)^n}$$
 $$\dfrac{x}{(x^2+1)^n}$$
 
-The change of variable $t=x^2+1$ is well-suited for the second case
+El cambio de variable $t=x^2+1$ funciona bien para el segundo caso
 
 $$
 \int \dfrac{x}{(x^2+1)^n} \dd x
@@ -21,7 +21,7 @@ $$
 \dfrac{1}{2}\int \dfrac{1}{t^n} \dd t
 $$
 
-As for the first case, the implicit change of variable $\tan t=x$ turns everything into [powers of cosines](exp | integration_powers_trig_functions)
+Para el primer caso, el cambio de variable implícito $\tan t=x$ convierte todo en [potencias de cosenos](exp | integration_powers_trig_functions)
 
 $$
 \int \dfrac{1}{(x^2+1)^n} \dd x

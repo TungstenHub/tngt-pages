@@ -3,7 +3,7 @@
 $$<<< \int \tan^{-1} x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -23,7 +23,7 @@ $$
 $$<<< \int \sin^{-1} x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -43,7 +43,7 @@ $$
 $$<<< \int \dfrac{\ln\left(\sqrt{x}\right)}{\sqrt{x}}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -55,7 +55,7 @@ $$<<<
 = \hl{\sqrt{x}\ln x - 2\sqrt{x} + k}
 $$
 
-Keep in mind that $\ln\left(\sqrt{x}\right)=\dfrac{1}{2}\ln x$. A change of variable $t=\sqrt{x}$ would have worked as well
+Ten en cuenta que $\ln\left(\sqrt{x}\right)=\dfrac{1}{2}\ln x$. Un cambio de variable $t=\sqrt{x}$ también habría funcionado
 
 +++
 
@@ -65,7 +65,7 @@ Keep in mind that $\ln\left(\sqrt{x}\right)=\dfrac{1}{2}\ln x$. A change of vari
 $$<<< \int x^3 e^{x^2}\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 
@@ -90,7 +90,7 @@ $$
 $$<<< \int x\tan^{-1} x\dd x$$
 
 +++
-Solution
+Solución
 +++
 
 $$<<< 

@@ -1,12 +1,12 @@
-Sometimes it may happen, especially with products of exponential and trigonometric functions, that executing two integrations by parts **keeping the same structure for $u$ and $v$** returns the initial integral, with a change of sign, together with a remainder function: 
+A veces puede ocurrir, especialmente con productos de exponenciales y funciones trigonométricas, que aplicando dos integraciones por partes **con la misma estructura para $u$ y $v$** devuelve la integral inicial, con un cambio de signo, junto con una función como residuo: 
 
 $$\int f(x)\dd x=\cdots=g(x)-\int f(x)\dd x$$
 
-In this case, executing more integrations by parts will not solve the integral; instead it is ready to be solved from the previous expression as if it was a completely normal equation
+En este caso hacer más integraciones por partes no va a resolver la integral; en cambio, está lista para resolverse de la expresión anterior como si fuera una ecuación completamente normal
 
 $$\int f(x)\dd x=\dfrac{1}{2}g(x)+k$$
 
-Depending on the integral, positive constants (usually squared) may accompany the initial integral; this is no inconvenience for the integral to be solved
+Dependiendo de la integral, constantes positivas (normalmente al cuadrado) pueden acompañar la integral inicial; eso no es ningún problema para resolver la integral
 
 $$\int f(x)\dd x=\cdots=g(x)-a\int f(x)\dd x$$
 $$\int f(x)\dd x=\dfrac{1}{1+a}g(x)+k$$
