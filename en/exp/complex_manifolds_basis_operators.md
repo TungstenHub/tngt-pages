@@ -56,7 +56,7 @@ $$\partial+\bar{\partial}=\frac{\partial}{\partial z^j}\d z^j+\frac{\partial}{\p
 
 $$0=\d^2=(\partial+\bar{\partial})(\partial+\bar{\partial})=\partial^2+\partial\bar{\partial}+ \bar{\partial}\partial+\bar{\partial}^2$$
 
-$\partial^2$ adds two holomorphic terms, $\bar{\partial}^2$ add two antiholomorphic terms and $\partial\bar{\partial}+ \bar{\partial}\partial$ adds a term of each type, so each term has to be identically zero. 
+$\partial^2$ adds two holomorphic terms, $\bar{\partial}^2$ add two antiholomorphic terms and $\partial\bar{\partial} + \bar{\partial}\partial$ adds a term of each type, so each term has to be identically zero. 
 
 There exists a canonical isomorphism
 

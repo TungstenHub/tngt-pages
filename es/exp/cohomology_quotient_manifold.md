@@ -1,27 +1,27 @@
-Imagine now that we have a quotient manifold, that is, a manifold $\tilde{M}$ that is built when a group $G$ acts properly and discontinuously upon a manifold $M$. This would mean that there is an injective homomorphism $\varphi:G\longrightarrow \mathrm{Diffeo}(M)$ ($v(g)=v_g:M\longrightarrow M$); discontinuity requires that each point in $M$ has a neighborhood $U$ that does not overlap with any image $\varphi_g(U)$, $g\neq e$. The quotient $\tilde{M}=M/G$ comes from $M$ when identifying points in the same orbit under the transformations $\varphi_g$
+Imagina que tenemos una variedad cociente, es decir, una variedad $\tilde{M}$ que se construye cuando un grupo $G$ actúa propia y discontinuamente sobre una variedad $M$. Esto significaría que hay un homomorfismo inyectivo $\varphi:G\longrightarrow \mathrm{Diffeo}(M)$ ($v(g)=v_g:M\longrightarrow M$); discontinuamente significa que cada punto de $M$ tiene un entorno $U$ que no se solapa con ninguna imagen $\varphi_g(U)$, $g\neq e$. El cociente $\tilde{M}=M/G$ viene de $M$ al identificar puntos en la misma órbita bajo las transformaciones $\varphi_g$
 
 {{ image | group_action_manifold }}
 
-Now, are the cohomology of $M$ and $\tilde{M}$ related in some way? Let's see 
+Ahora bien, ¿tienen algo que ver las cohomologías de $M$ y $\tilde{M}$? Vamos a ver
 
-In the one hand we have a natural projection
+Por una parte tenemos la proyección natural
 
 $$\pi:M\longrightarrow \tilde{M}\qquad\qquad p\longmapsto [p]$$
 
-which induces 
+que induce 
 
 $$\pi^*:H^k(\tilde{M})\longrightarrow H^k(M)$$
 
-On the other hand, for each $g\in G$ we have
+Por otra parte, para cada $g\in G$ se tiene
 
 $$\varphi_g:M\longrightarrow M$$
 
-inducing
+induciendo
 
 $$\varphi_g^*:H^k(M)\longrightarrow H^k(M)$$
 
-Since $\pi\circ\varphi_g=\pi$, it is also true that 
+Como $\pi\circ\varphi_g=\pi$, también es verdad que
 
 $$\varphi_g^*\circ\pi^*=\pi^*$$
 
-Ok, and now what?
+Ok, ¿y ahora qué?

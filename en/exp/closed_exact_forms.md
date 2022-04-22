@@ -9,12 +9,12 @@ And since $\d^2=0$, exact forms are immediately closed. Moreover:
 
 <ul>
   <li>
-    A closed form always vanishes in submanifolds that are a boundary
+    A closed form has always null integral in submanifolds that are a boundary
 
     {{ image | integration_closed_forms }}
   </li>
   <li>
-    An exact form always vanishes in closed submanifolds, no matter if they are boundary of something else
+    An exact form has always null integral in closed submanifolds, no matter if they are boundary of something else
 
     {{ image | integration_exact_forms }}
   </li>

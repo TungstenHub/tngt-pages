@@ -1,36 +1,36 @@
-Have you ever tried to compute the sum of the $n$ first $p$ powers? 
+¿Alguna vez has intentado calcular la suma de las primeras $n$ potencias de $p$?
 
 $$S=1^p+2^p+3^p+\cdots+n^p$$
 
-For instance, we already know that
+Por ejemplo, sabemos que
 
 $$1+2+3+\cdots+n=\dfrac{n(n+1)}{2}$$
 $$1^2+2^2+3^2+\cdots+n^2=\dfrac{1}{6}n(n+1)(2n+1)$$
 $$1^3+2^3+3^3+\cdots+n^3=\left(\dfrac{n(n+1)}{2}\right)^2$$
 
-But what happens with larger values of $p$? Well, the Swiss mathematician Jacob Bernoulli found out a "nearly-closed" formula, using an extremely curious idea. Ready? It all has to do with a _magic_ quantity called $B$ 
+¿Pero qué ocurre con valores de $p$ mayores? Bueno, el matemático suizo Jacob Bernoulli encontró una fórmula "casi cerrada" usando un truco extremadamente curioso. ¿Listo? Todo gira entorno a una cantidad _mágica_ llamada $B$ 
 
-For now, we will assume $B$ is just a plain number, and so will be $a$. According to the [binomial expansion]( thm | binomial_expansion ), 
+Por ahora, vamos a pensar que $B$ es simplemente un número cualquiera, y que $a$ también lo es. Según la [expansión binomial]( thm | binomial_expansion ), 
 
 $$(a+B)^q=a^q+qa^{q-1}B+\binom{q}{2}a^{q-2}B^2+\binom{q}{3}a^{q-3}B^3+\cdots$$
 
-for $q$ some positive integer. In our case we'll need $q=p+1$, so
+siendo $q$ un entero positivo que queramos. De hecho vamos a elegir $q=p+1$, luego
 
 $$(a+B)^q=a^q+qa^pB+\binom{q}{2}a^{p-1}B^2+\binom{q}{3}a^{p-2}B^3+\cdots$$
 
-and in the same way,
+y del mismo modo,
 
 $$(a+B-1)^q=a^q+qa^p(B-1)+\binom{q}{2}a^{p-1}(B-1)^2+\binom{q}{3}a^{p-2}(B-1)^3+\cdots$$
 
-Substracting these two quantities leads to
+Restando estas dos cantidades nos queda
 
 $$(a+B)^q-(a+B-1)^q=qa^p+\binom{q}{2}a^{p-1}\left[B^2-(B-1)^2\right]+\binom{q}{3}a^{p-2}\left[B^3-(B-1)^3\right]+\cdots$$
 
-This is very interesting: if we temporarily forget about the terms having $B$, we have
+Esto es muy interesante: si por un momento nos olvidamos de los términos que tienen $B$, nos queda
 
 $$(a+B)^q-(a+B-1)^q\simeq qa^p$$
 
-and this resembles a lot a telescopic sum! That is, the sum $S=1^p+2^p+3^p+\cdots+n^p$ would be nearly straightforward to compute. But the fact is that we cannot forget about the terms having $B$. And there is no quantity $B$ that simultaneously satisfies 
+¡y esto se parece muchísimo a una suma telescópica! Es decir, la suma $S=1^p+2^p+3^p+\cdots+n^p$ sería casi inmediata de calcular. Pero el problema es que no nos podemos olvidar tan fácilmente de los términos que tienen $B$. Y además no hay ninguna cantidad $B$ que simultáneamente satisfaga
 
 $$B^2-(B-1)^2=0$$
 $$B^3-(B-1)^3=0$$
@@ -38,38 +38,38 @@ $$B^4-(B-1)^4=0$$
 $$B^5-(B-1)^5=0$$
 $$...$$
 
-so instead, our quantity $B$ will be a _magic_ quantity, such that _all_ previous statements hold
+así vamos a tirar de imaginación: nuestra cantidad $B$ será una cantidad _mágica_, de modo que _todas_ las igualdades anteriores se cumplen
 
-The previous structure containing $a$ and $B$ is very helpful for us to some extent, but after that we will manipulate the quantity $B$. The manipulation will be as follows: after expanding the binomials, the powers of $B$ will be replaced by some other quantities
+La estructura anterior con $a$ y $B$ nos es muy útil hasta cierto punto, pero después vamos a manipular la cantidad $B$. La manipulación será como sigue: después de expandir los binomios, las potencias de $B$ se remplazarán por otras cantidades
 
 $$B^m\leadsto B_m$$
 
-which will be carefully chosen for everything to work nice. We will denote this trick like this
+que se elegirán cuidadosamente para que todo funcione bien. Este truco lo vamos a escribir así
 
-$$\check{\overline{expression}}$$
+$$\check{\overline{expr}}$$
 
-For instance,
+Por ejemplo,
 
 $$\check{\overline{(1+B)^5}}=\check{\overline{1+5B+10B^2+10B^3+5B^4+B^5}}=1+5B_1+10B_2+10B_3+5B_4+B_5$$
 
-With this trick, we would have
+Con este truco, tenemos
 
 $$\check{\overline{(a+B)^q}}=a^q+qa^p\check{\overline{B}}+\binom{q}{2}a^{p-1}\check{\overline{B^2}}+\binom{q}{3}a^{p-2}\check{\overline{B^3}}+\cdots$$
 $$\check{\overline{(a+B-1)^q}}=a^q+qa^p\check{\overline{(B-1)}}+\binom{q}{2}a^{p-1}\check{\overline{(B-1)^2}}+\binom{q}{3}a^{p-2}\check{\overline{(B-1)^3}}+\cdots$$
 
-and also
+y también
 
 $$\check{\overline{(a+B)^q}}-\check{\overline{(a+B-1)^q}}=qa^p+\binom{q}{2}a^{p-1}\left[\check{\overline{B^2}}-\check{\overline{(B-1)^2}}\right]+\binom{q}{3}a^{p-2}\left[\check{\overline{B^3}}-\check{\overline{(B-1)^3}}\right]+\cdots$$
 
-and supposing that we're clever enough to find coefficients $B_m$ for which
+y suponiendo que somos lo suficientemente listos como para encontrar coeficientes $B_m$ para los que
 
 $$\check{\overline{B^k}}-\check{\overline{(B-1)^k}}=0\qquad \forall\,k$$
 
-then
+entonces
 
 $$\check{\overline{(a+B)^q}}-\check{\overline{(a+B-1)^q}}=qa^p$$
 
-and also
+y también
 
 $$
 \begin{array}{rcl}
@@ -81,15 +81,15 @@ $$
 \end{array}
 $$
 
-so that
+con lo que
 
 $$\check{\overline{(n+B)^q}}-\check{\overline{B^q}}=qS$$
 
-and finally
+y finalmente
 
 $$1^p+2^p+3^p+\cdots+n^p=\dfrac{\check{\overline{(n+B)^q}}-\check{\overline{B^q}}}{q}$$
 
-Yeah!! Now let's determine these mysterious coefficients $B_m$:
+¡Ostras! Vamos a determinar estos coeficientes misteriosos $B_m$:
 
 $$
 \begin{array}{rccl}
@@ -112,9 +112,9 @@ B_4-(B_4-4B_3+6B_2-4B_1+1) & = && \\
 \end{array}
 $$
 
-If you think this may be a very important sequence in mathematics, you're right! These are the **Bernoulli numbers** and are of crucial importance in Number Theory. And yes, odd coefficients other than $B_1$ are zero! Can you see why? 
+Si te parece que ésta debe ser una sucesión muy importante en matemáticas, ¡estás en lo cierto! Son los **números de Bernoulli** y son fundamentales en Teoría de Números. Y sí, los coeficientes impares distintos de $B_1$ son cero. ¿Puedes ver por qué? 
 
-To end with, let's calculate some of these sums! $p=1$: 
+Para terminar, ¡vamos a calcular algunas de estas sumas! $p=1$: 
 
 $$
 \begin{array}{rcl}
@@ -152,7 +152,7 @@ $$
 \end{array}
 $$
 
-which leads to the well-known identity
+que nos da la muy conocida identidad
 
 $$1^3+2^3+3^3+\cdots+n^3=(1+2+3+\cdots+n)^2$$
 

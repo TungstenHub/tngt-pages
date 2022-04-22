@@ -46,7 +46,7 @@ $$B^m\leadsto B_m$$
 
 which will be carefully chosen for everything to work nice. We will denote this trick like this
 
-$$\check{\overline{expression}}$$
+$$\check{\overline{expr}}$$
 
 For instance,
 
