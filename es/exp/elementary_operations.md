@@ -1,31 +1,31 @@
-What can we do to get equivalent systems? There are small tricks. Of course swapping two rows leads to an equivalent system. The is another trick that is quite simple. If we have an equation, say
+¿Qué podemos hacer para obtener sistemas equivalentes? Hay pequeños trucos. Obviamente intercambiar dos filas siempre da pie a un sistema equivalente. También hay otro truco que es bastante simple. Si tenemos una ecuación, digamos
 
 $$2x-y+5z=8$$
 
-we may multiply it by some number, say $3$, and we get an equivalent equation
+la podemos multiplicar por otro número, por ejemplo $3$, y nos queda una ecuación equivalente
 
 $$6x-3y+15z=24$$
 
-Any choice of $x$, $y$ and $z$ that satisfies the first equation (that is, a solution) will satisfy the second equation too. But watch out! _We cannot multiply by $0$_. If we did, we would have
+Cualquier combinación de $x$, $y$ y $z$ que cumpla la primera ecuación (es decir, una solución) también cumplirá la segunda ecuación. ¡Pero cuidado! _No podemos multiplicar por $0$_. Si lo hiciéramos, tendríamos
 
 $$0x+0y+0z=0$$
 
-and _every_ choice of $x$, $y$ and $z$ satisfies that. The new equation has many more solutions than the original one, so they're not equivalent. In some sense, equivalency has to do with reversibility: multiplying by a number keeps an implication valid
+y _todas_ las combinaciones de $x$, $y$ y $z$ lo cumplirían. La nueva ecuación tiene muchas más soluciones que la original, por lo que no son equivalentes. En cierto sentido, la equivalencia tiene que ver con la reversibilidad: multiplicar por un número mantiene la implicación válida
 
 $$2x-y+5z=8\Longrightarrow 6x-3y+15z=24$$
 $$2x-y+5z=8\Longrightarrow 0x+0y+0z=0$$
 
-but whereas the first implication can be reverted by multiplying by $\frac{1}{3}$, the second one cannot be reverted
+pero mientras que la primera implicación se puede revertir al multiplicar por $\frac{1}{3}$, la segunda no se puede revertir
 
 $$6x-3y+15z=24\Longrightarrow 2x-y+5z=8$$
 $$0x+0y+0z=0\kern.4em\not\kern -.4em \Longrightarrow 2x-y+5z=8$$
 
-so
+así que
 
 $$2x-y+5z=8\Longleftrightarrow 6x-3y+15z=24$$
 $$2x-y+5z=8\kern.6em\not\kern -.6em \Longleftrightarrow 0x+0y+0z=0$$
 
-A final trick is to combine two equations in a suitable way... Suppose one has (among others) a pair of equations:
+Un último truco es combinar dos ecuaciones de modo adecuado... Supongamos que uno tiene un par de ecuaciones (entre otras cuantas):
 
 $$
 \left\{
@@ -35,12 +35,12 @@ $$
 \end{array}\right.
 $$
 
-If both equations have to be satisfied... the equation generated after summing both has to be satisfied too!
+Si las dos ecuaciones se tienen que cumplir... ¡la ecuación generada al sumar ambas también se tiene que satisfacer!
 
 $$(2x+3y+4z)+(7x+4y+4z)=24+11$$
 $$9x+7y+8z=35$$
 
-This equation alone is not as restrictive as the initial two together... but it is enough to include at least one of the original equations
+Esta ecuación sola no es tan restrictiva como las dos iniciales juntas... pero basta con incluir al menos alguna de las ecuaciones originales
 
 $$
 \left\{
@@ -56,7 +56,7 @@ $$
 \end{array}\right.
 $$
 
-simply because one can turn back with the same trick, but subtracting instead of adding. And this would work if we add any multiple of the first equation to the second equation
+justo porque uno puede volver atrás con el mismo truco, pero restando en vez de sumando. Y esto funciona si añadimos cualquier múltiplo de la primera ecuación a la segunda ecuación
 
 $$
 \left\{
@@ -72,6 +72,6 @@ $$
 \end{array}\right.
 $$
 
-Here $k$ could be any number, even zero! Only that for $k=0$ we're not doing essentially anything
+Aquí $k$ puede ser cualquier número, ¡incluso cero! Sólo que para  $k=0$ en realidad no estamos haciendo nada
 
-These tricks are so common that they have a special name: **elementary (row) operations**
+Estos trucos son tan habituales que tienen un nombre especial: **operaciones elementales (por filas)**

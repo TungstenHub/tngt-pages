@@ -1,6 +1,6 @@
-Our study of [Gaussian elimination]( thm | gaussian_elimination ) and the [row canonical form]( thm | row_canonical_form ) gives us a method to solve systems of linear equations 
+Nuestro estudio de la [eliminación gaussiana]( thm | gaussian_elimination ) y la [forma canónica por filas]( thm | row_canonical_form ) nos da un método para resolver sistemas de ecuaciones lineales
 
-First of all, it is more comfortable to work with the associated matrix of the system
+En primer lugar, es más cómodo trabajar con la matriz asociada al sistema
 
 $$
 \left\{
@@ -19,7 +19,7 @@ a_{m1} & a_{m2} & \cdots  & a_{mn} & b_m \\
 \end{array}\right)
 $$
 
-To this matrix we perform elementary operations until we reach its row reduced form. We know that elementary operations don't modify the set of solutions, that's the crucial point!
+En esta matriz efectuamos operaciones elementales hasta que llegamos a su forma reducida por filas. Sabemos que las operaciones elementales no modifican el conjunto de soluciones, ¡esto es lo importante!
 
 $$
 \left(
@@ -34,11 +34,11 @@ $$
 \right)
 $$
 
-The last rows are the simpler ones: that's why we have to analyze the new system from the last row upwards
+Las últimas filas son las más simples: por eso tenemos que analizar el sistema desde las últimas filas hacia arriba
 
 <ol>
   <li>
-  A row full with zeros
+  Una fila llena de ceros
 
   $$
   \left(
@@ -48,14 +48,14 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   \right)
   $$
 
-  represents the equation
+  representa la ecuación
 
   $$0\cdot x_1 + 0\cdot x_2 + \cdots + 0\cdot x_n = 0$$
 
-  which essentially does nothing. So we simply skip such rows
+  que esencialmente no dice nada. Ignoramos tales filas
   </li>
   <li>
-  A row with a pivot at the very end
+  Una fila con un pivote justo al final
 
   $$
   \left(
@@ -65,14 +65,14 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   \right)
   $$
 
-  represents the equation
+  representa la ecuación
 
   $$0\cdot x_1 + 0\cdot x_2 + \cdots + 0\cdot x_n = 1$$
 
-  which is impossible! If we ever encounter such a row, our system is **incompatible**
+  que ¡es imposible! Si nos encontramos con una fila así, nuestro sistema es **incompatible**
   </li>
   <li>
-  If we don't encounter such impossible rows, our system will be **compatible**. To find out why, keep in mind that every other row above has a pivot. If there are as many pivots as unknowns, then our reduced canonical form (after removing zero rows) will be something like
+  Si no nos encontramos estas filas imposibles, nuestro sistema será **compatible**. Para entender por qué, ten en cuenta que cada una de las otras filas encima tiene un pivote. Si hay tantos pivotes como incógnitas, entonces la forma canónica reducida (después de quitar filas de ceros) será algo como
 
   $$
   \left(\begin{array}{cccc|c}
@@ -83,7 +83,7 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   \end{array}\right)
   $$
 
-  for some altered coefficients $b_i'$, which represents the system
+  para algunos coeficientes alterados $b_i'$, que representa el sistema
 
   $$
   \left\{
@@ -95,7 +95,7 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   \end{array}\right.
   $$
 
-  that obviously has just one solution
+  que obviamente sólo tiene una solución
 
   $$
   \begin{array}{rcl}
@@ -106,9 +106,9 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   \end{array}
   $$
 
-  and thus is **determinate**
+  y que por ello es **determinado**
 
-  If there are more unknowns than pivots, the unknowns whose column has no pivot will be *free*: we may choose the value we want for them. Once these values are fixed, the unknowns associated to a pivot may be solved in terms of the free ones. Since we can *choose*, there are many solutions, and the system is **indeterminate**. For instance, the matrix
+  Si hay más incógnitas que pivotes, las incógnitas cuya columna no tiene pivote serán _libres_: podemos elegir para ellas el valor que queramos. Una vez que estos valores están fijos, las incógnitas asociadas a un pivote se pueden resolver en términos de las libres. Puesto que podemos _elegir_, hay muchas soluciones, y el sistema es **indeterminado**. Por ejemplo, la matriz
 
   $$
   \left(
@@ -122,7 +122,7 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   \right)
   $$
 
-  would represent the system
+  representaría el sistema
 
   $$
   \left\{
@@ -135,7 +135,7 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   \end{array}\right.
   $$
 
-  $x_2$, $x_5$ and $x_6$ are free and they may be assigned any value in $\K$; the other variables are solved in terms of these
+  $x_2$, $x_5$ y $x_6$ son libres y se les puede dar cualquier valor de $\K$; las otras variables se resuelven en términos de las primeras
 
   $$
   \begin{array}{rcl}
@@ -152,4 +152,4 @@ The last rows are the simpler ones: that's why we have to analyze the new system
   </li>
 </ol>
 
-The compatibility and determination of a system $(A|b)$ are found via the number of nonzero rows in the row canonical form of $A$ and $(A|b)$ - this number has a special name, the _rank_, and the discussion has a special name too, the _Rouché-Capelli Theorem_
+La compatibilidad y determinación del sistema $(A|b)$ se encuentra según el número de filas no nulas de la forma canónica por filas de $A$ y $(A|b)$ - este número tiene un nombre especial, el _rango_, y esta discusión también tiene un nombre especial, el _Teorema de Rouché-Frobenius_

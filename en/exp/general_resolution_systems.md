@@ -108,7 +108,7 @@ The last rows are the simpler ones: that's why we have to analyze the new system
 
   and thus is **determinate**
 
-  If there are more unknowns than pivots, the unknowns whose column has no pivot will be *free*: we may choose the value we want for them. Once these values are fixed, the unknowns associated to a pivot may be solved in terms of the free ones. Since we can *choose*, there are many solutions, and the system is **indeterminate**. For instance, the matrix
+  If there are more unknowns than pivots, the unknowns whose column has no pivot will be _free_: we may choose the value we want for them. Once these values are fixed, the unknowns associated to a pivot may be solved in terms of the free ones. Since we can _choose_, there are many solutions, and the system is **indeterminate**. For instance, the matrix
 
   $$
   \left(

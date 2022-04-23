@@ -1,4 +1,4 @@
-What can we do to get equivalent systems? There are small tricks. Of course swapping two rows leads to an equivalent system. The is another trick that is quite simple. If we have an equation, say
+What can we do to get equivalent systems? There are small tricks. Of course swapping two rows leads to an equivalent system. There is another trick that is quite simple. If we have an equation, say
 
 $$2x-y+5z=8$$
 
