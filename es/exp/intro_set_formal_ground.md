@@ -1,39 +1,39 @@
-Ok, our setting is: some elements and a binary relation
+Ok, las reglas del juego son: unos elementos y una relación binaria
 
 <ul>
-<li>A collection of elements</li>
-<li>A binary relation $\in$</li>
+<li>Una colección de elementos</li>
+<li>Una relación binaria $\in$</li>
 </ul>
 
 {{ image | set_theory_universe width = 480 }}
 
-But what's a binary relation? In logic, a binary relation is some sort of entity that given any two elements $a$ and $b$, says whether $a\in b$ (read _$a$ in $b$_). We may imagine it as a ethereal machine with two slots, in such a way that when two elements are placed in the slot, the machine dictates 
+¿Pero qué es una relación binaria? En lógica, una relación binaria es cierta entidad que dados dos elementos $a$ y $b$, dice si $a\in b$ (_$a$ in $b$_). Lo podemos ver como una máquina etérea con dos huecoss, de tal modo que cuando dos elementos se colocan en los huecoss, la máquina dicta
 
 >>>
-_Yes, the first element is in the second element: $a\in b$_ 
+_Sí, el primer elemento está en el segundo elemento: $a\in b$_ 
 <<<
 
-or 
+o
 
 >>>
-_No, the first element is not in the second element: $a\notin b$_
+_No, el primer elemento no está en el segundo elemento: $a\notin b$_
 <<<
 
 {{ image | set_theory_universe_comp width = 480 }}
 
-Beware!! From the logic perspective, the two "slots" of the binary relation may be occupied by the same element, and the machine is responsible to say whether an element is in itself which, for now, is not forbidden
+¡Cuidado! Desde el punto de vista de la lógica, los dos "huecoss" de la relación binaria pueden ser ocupados por el mismo elemento, y la máquina debe encargarse de decir si un elemento está en sí mismo, lo que, por ahora, no está prohibido
 
 {{ image | set_theory_universe_comp_self width = 480 }}
 
-The machine, or the binary relation, is unrestricted at this moment. The concept _$a$ is in $b$_ does not have any _belonging_ meaning, it simply states that the machine has declared this with a green light. So all sort of funny things may happen. For instance, it could happen that our machine always declares _true_ for any two elements, and this would be perfectly valid!
+La máquina, o la relación binaria, no tiene ninguna restricción en este momento. El concepto _$a$ está en $b$_ no tiene ningún sentido de _pertenencia_, simplemente afirma que la máquina lo ha determinado así con una luz verde. Por lo que podrían ocurrir un montón de casos raros. Por ejemplo, puede ser que nuestra máquina siempre declare _cierto_ para cualesquiera dos elementos, ¡y esto sería perfectamente válido!
 
 {{ image | set_theory_universe_true width = 480 }}
 
-Or imagine that we have no elements at all. It is perfectly valid as well! We only required some elements and a machine with slots. No elements, nothing to check, everything ok
+O imagina que no tenemos ningún elemento. ¡También es perfectamente válido! Sólo necesitábamos unos elementos y una máquina con dos huecos. No hay elementos, nada que comprobar, todo bien
 
 {{ image | set_theory_universe_empty width = 480 }}
 
-Strictly speaking, one only has to "fill a table"
+En sentido estricto, uno sólo tiene que "rellenar una tabla"
 
 {{ image | set_theory_full_comp }}
 
@@ -41,4 +41,4 @@ Strictly speaking, one only has to "fill a table"
 
 {{ image | set_theory_meaning width = 480 }}
 
-We have to regulate this with axioms
+Tenemos que regular todo esto con axiomas

@@ -1,4 +1,4 @@
-Imagine we tweak a little bit the [representation of $\Z_n$ as plane rotations]( exa | representation_finite_group # zn_plane_rotations ) so that it becomes a representation _as space rotations_:
+Imagina que variamos un poquito la [representación de $\Z_n$ como rotaciones en el plano]( exa | representation_finite_group # zn_plane_rotations ) para que pase a ser una representación _como rotaciones en el espacio_:
 
 $$
 \rho': \Z_n \ll \GL(\C^3)\qquad
@@ -10,9 +10,9 @@ $$
 \end{pmatrix}
 $$
 
-Well, it certainly _is_ a valid representation... but one could argue whether it adds something new. It's essentially $\rho$ on the $xy$-plane and nothing (better said: the trivial representation) on the $z$-axis
+Bueno, ciertamente _es_ una representación válida... pero uno se podría preguntar si añade algo nuevo. Es esencialmente $\rho$ en el plano $xy$ y nada (mejor dicho: la representación trivial) en el eje $z$
 
-Of course it could have been presented in a more obscure way:
+Por supuesto se podría haber presentado de un modo más intrincado:
 
 $$
 \rho'': \Z_n \ll \GL(\C^3)
@@ -32,10 +32,10 @@ $$
 \end{pmatrix}
 $$
 
-Make the computations, it works!! In the sense that, well, $\rho''([0])=\id_{\C^3}$ and the matrices multiply like $\Z_n$ and so on. Isn't that marvelous?
+Haz las cuentas, ¡funciona! En el sentido de que, bueno, $\rho''([0])=\id_{\C^3}$ y las matrices se multiplican como $\Z_n$ y todo eso. ¿No es maravilloso?
 
-Well, it's not - careful inspection shows that this is a rotation around the $(1,0,1)$-axis. That's nothing new! It behaves as a rotation on one plane and as a trivial representation on an axis, just like before
+Pues no - si miras bien se trata de una rotación alrededor del eje $(1,0,1)$. ¡No hay nada nuevo! Es una rotación en un plano y una representación trivial en un eje, justo como antes
 
-So we would like to define when a representation is genuine, _irreducible_, i.e. not a clumsy mix of other representations. And even more, given some representation, be able to know whether it is a mix of smaller pieces
+Así que nos gustaría saber cuándo una representación es genuina, _irreducible_, es decir, no un revuelto de otras representaciones. Y mejor, dada una representación, ser capaz de saber si es unión de piezas más pequeñas
 
-On the other hand, can we find a representation of $\Z_n$ that is not "some kind of rotation"?
+Por otra parte, ¿podemos encontrar una representación de $\Z_n$ que no sea "una especie de rotación"?
