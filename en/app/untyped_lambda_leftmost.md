@@ -1,0 +1,3 @@
+For some lambda terms, $\beta$-reductions may lead to a normal form, but for some other terms, the process may go on forever...
+
+{{ dynamic | lambda/leftmost }}
